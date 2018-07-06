@@ -1,0 +1,20 @@
+.remove_field_itinerary_bt {
+    width: 100px;
+    margin: auto;
+}
+.remove_field_itinerary_a {
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background: #f22d27;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.remove_field_itinerary_a:hover{
+    color: #000;
+}
+.form-control-admin{
+    width: 100%;
+    line-height: 25px;
+}
