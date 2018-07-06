@@ -76,67 +76,20 @@ function add_img_responsive($content) {
 add_filter('the_content', 'add_img_responsive');
 
 /*
- * get related post
+ * get category post by id
  */
-if ( ! function_exists( 'bds_get_related_posts' ) ) {
-    function bds_get_related_posts($post_id, $limit = -1) {
-        $query = new WP_Query();
-        $args = '';
-        $args = wp_parse_args($args, array(
-            'posts_per_page' => $limit,
-            'post__not_in' => array($post_id),
-            'ignore_sticky_posts' => 0,
-            'category__in' => wp_get_post_categories($post_id)
-        ));
-        $query = new WP_Query($args);
-        return $query;
-    }
-}
-/***
- * Check has sub menu
- * @param int $menu_id
- * @return bool
- */
-function hassubMenu($menu_id = 0)
-{
-    $menu_name = 'header-menu'; //menu slug
-    $locations = get_nav_menu_locations();
-    $menu = wp_get_nav_menu_object($locations[ $menu_name ]);
-    $menuitems = wp_get_nav_menu_items($menu->term_id, array('order' => 'DESC'));
-    if (empty($menuitems)) {
-        return false;
-    }
-    if ($menu_id == 0) {
-        return false;
-    }
-    foreach ($menuitems as $item) {
-        if ($item->menu_item_parent == $menu_id) {
-            return true;
+if (!function_exists('getImageCategoryById')) {
+    function getImageCategoryById($cat_id)
+    {
+        // get the current taxonomy term
+        $term  = get_term_by('id', $cat_id, 'category');
+        $image = get_field('image', $term);
+        if ($image) {
+            return $image;
         }
-    }
-    return false;
-}
-
-/*
- * get related post
- */
-if ( ! function_exists( 'get_related_posts' ) ) {
-    function get_related_posts($post_id, $limit = -1) {
-        $query = new WP_Query();
-        $args = '';
-        $args = wp_parse_args($args, array(
-            'posts_per_page' => $limit,
-            'post__not_in' => array($post_id),
-            'ignore_sticky_posts' => 0,
-            'category__in' => wp_get_post_categories($post_id),
-
-        ));
-        $query = new WP_Query($args);
-        return $query;
+        return false;
     }
 }
-
-
 /**
  * Filter the categories archive widget to add a span around post count
  */
@@ -184,16 +137,3 @@ ini_set('zlib.output_compression', '1');
 if (!is_admin()) ob_start('ob_gzhandler');     //because, in admin pages, it causes plugin installation freezing
 
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
-
-// LIMIT 15 for category
-function main_query_mods( $query ) {
-    if(!$query->is_main_query()) {
-        return;
-    }
-    // show 15 posts per page if category has id 7
-    // check http://codex.wordpress.org/Conditional_Tags#A_Category_Page
-    if ( is_category(CO_SO_VAT_CHAT_ID)) {
-        $query->set('posts_per_page',15);
-    }
-}
-add_action( 'pre_get_posts', 'main_query_mods' );
