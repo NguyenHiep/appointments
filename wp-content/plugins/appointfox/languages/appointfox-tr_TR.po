@@ -1,0 +1,1211 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: AppointFox\n"
+"Language: tr\n"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:72
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:126
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:106
+msgid "Are you sure"
+msgstr "Emin misiniz"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:73
+msgid "Record"
+msgstr "Kayıt"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:74
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:101
+msgid "Yes, delete it"
+msgstr "Evet, sil"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:75
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:127
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:98
+msgid "You won't be able to revert this"
+msgstr "Bunu geri alamayacaksınız"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:76
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:102
+msgid "Deleted"
+msgstr "silindi"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:77
+msgid "Record has been deleted"
+msgstr "Kayıt silindi"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:78
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:148
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:200
+msgid "Create a new Category"
+msgstr "Yeni bir kategori oluştur"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:79
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:125
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:104
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:49
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:143
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:30
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:32
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:17
+msgid "Service"
+msgstr "Hizmet"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:80
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:99
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:142
+msgid "Category"
+msgstr "Kategori"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:81
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:137
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:111
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:117
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:123
+msgid "Success"
+msgstr "başarı"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:82
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:100
+msgid "and all it's services will be deleted"
+msgstr "ve tüm bu hizmetler silinecek"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:83
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:96
+msgid "Service successfully saved"
+msgstr "Hizmet başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:84
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:103
+msgid "The category has been deleted"
+msgstr "Kategori silindi"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:85
+msgid "Oops"
+msgstr "Hata"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:86
+msgid "Record(s) has been deleted"
+msgstr "Kayıtlar silindi"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:87
+msgid "No record(s) selected"
+msgstr "Kayıt seçilmedi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:8
+msgid "Appointments Calendar"
+msgstr "Randevular Takvimi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:4
+msgid "Appointments"
+msgstr "randevular"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:121
+msgid "Choose service first"
+msgstr "İlk önce servis seç"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:122
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:75
+msgid "Choose time"
+msgstr "Zaman seç"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:123
+msgid "Choose staff"
+msgstr "Personel seç"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:124
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:76
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:68
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:82
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:75
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:125
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:175
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:87
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:73
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:89
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:124
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:125
+msgid "Appointment successfully saved"
+msgstr "Randevu başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:128
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:124
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:69
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:188
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:11
+msgid "Customer"
+msgstr "Müşteri"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:129
+msgid "Yes, cancel it"
+msgstr "Evet, iptal et"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:130
+msgid "No, keep it"
+msgstr "Hayır, devam et"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:131
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:132
+msgid "The appointment has been cancelled"
+msgstr "Randevu iptal edildi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:133
+msgid "Customer successfully saved"
+msgstr "Müşteri başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:134
+msgid "Appointment's note successfully saved"
+msgstr "Randevunun notu başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:135
+msgid "Appointment's payment paid"
+msgstr "Randevunun ödeme ödendi"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:136
+msgid "Today"
+msgstr "Bugün"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:137
+msgid "Month"
+msgstr "Ay"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:138
+msgid "Week"
+msgstr "Hafta"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:139
+msgid "Day"
+msgstr "Gün"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:138
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:112
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:118
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:124
+msgid "Record successfully saved"
+msgstr "Kayıt başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:7
+msgid "Availability Calendars"
+msgstr "Kullanılabilirlik Takvimleri"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+msgid "Availability"
+msgstr "Kullanılabilirlik"
+
+#: ../../../../../projects/appointfox/master/admin/CategoriesController.php:52
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:90
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:114
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:6
+msgid "Customers"
+msgstr "Müşteriler"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:113
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:119
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:125
+msgid "No record(s) found"
+msgstr "Kayıt bulunamadı"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:115
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:121
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:130
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:118
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:47
+msgid "Edit"
+msgstr "Düzenle"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:116
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:122
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:131
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:48
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:180
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:49
+msgid "Delete"
+msgstr "silmek"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:94
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:120
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:6
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:123
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:37
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:59
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:169
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:123
+msgid "Date"
+msgstr "tarih"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:126
+msgid "Appointment Date"
+msgstr "Randevu tarihi"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:36
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:48
+msgid "Amount"
+msgstr "Miktar"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:56
+msgid "Method"
+msgstr "Yöntem"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:42
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:64
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:35
+msgid "Status"
+msgstr "durum"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:130
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:45
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:37
+msgid "Action"
+msgstr "Aksiyon"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:7
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:47
+msgid "Services"
+msgstr "Hizmetler"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:97
+msgid "Category successfully saved"
+msgstr "Kategori başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:105
+msgid "The service has been deleted"
+msgstr "Servis silindi"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:9
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:96
+msgid "Settings successfully saved"
+msgstr "Ayarlar başarıyla kaydedildi"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:97
+msgid "Copied"
+msgstr "Kopyalanan"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:97
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:126
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:7
+msgid "Staffs"
+msgstr "Değnek"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:31
+msgid "Fullname"
+msgstr "Ad Soyad"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:58
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:74
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:245
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:246
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:21
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:31
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:165
+msgid "Email"
+msgstr "E-posta"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:77
+msgid "Not available, please choose other date"
+msgstr "Mevcut değil, lütfen başka bir tarih seçin"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:78
+msgid "Please choose your date"
+msgstr "Lütfen tarihinizi seçin"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:79
+msgid "Please choose your time"
+msgstr "Lütfen zamanınızı seçin"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:80
+msgid "Please enter your name"
+msgstr "Lütfen adınızı giriniz"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:81
+msgid "Please enter your email"
+msgstr "Lütfen E-postanızı girin"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:82
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:196
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:37
+msgid "Payment Paid"
+msgstr "Ödeme Ödenen"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:83
+msgid "Thank you"
+msgstr "teşekkür ederim"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:8
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:13
+msgid "Add New Appointment"
+msgstr "Yeni Randevu Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:18
+msgid "Select service"
+msgstr "Servis seç"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:26
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:53
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:159
+msgid "Staff"
+msgstr "Personel"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:28
+msgid "Select staff"
+msgstr "Personel seç"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:43
+msgid "Start Time"
+msgstr "Başlama zamanı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:49
+msgid "End Time"
+msgstr "Bitiş zamanı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:72
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:249
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:250
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:161
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:65
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:66
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:253
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:39
+msgid "Info"
+msgstr "Bilgi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:70
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:42
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:284
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:49
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:92
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:182
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:66
+msgid "Close"
+msgstr "Kapat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:72
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:106
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:157
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:280
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:316
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:176
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:63
+msgid "Save"
+msgstr "Kayıt etmek"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:5
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:137
+msgid "Edit Appointment"
+msgstr "Randevuyu Düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:16
+msgid "Full name"
+msgstr "Ad Soyad"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:24
+msgid "Date/Time"
+msgstr "Tarih / Saat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:5
+msgid "View Appointment Details"
+msgstr "Randevu Ayrıntılarını Görüntüle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:15
+msgid "Id"
+msgstr "İD"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:240
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:135
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:137
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:142
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:23
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:157
+msgid "Name"
+msgstr "isim"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:25
+msgid "Add Appointment"
+msgstr "Randevu Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:44
+msgid "View Appointment"
+msgstr "Randevuyu Görüntüle"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:63
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:176
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:129
+msgid "Time"
+msgstr "Zaman"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:77
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:199
+msgid "Note"
+msgstr "Not"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:79
+msgid "Edit note"
+msgstr "Notu düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:259
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:110
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:161
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:318
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:213
+msgid "Cancel"
+msgstr "İptal etmek"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:99
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:204
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:122
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:29
+msgid "Price"
+msgstr "Fiyat"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:100
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:210
+msgid "Paid"
+msgstr "ödenmiş"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:101
+msgid "Pending"
+msgstr "kadar"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:112
+msgid "Cancel this appointment"
+msgstr "Bu randevuyu iptal et"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:115
+msgid "Mark payment paid"
+msgstr "Ödemeyi işaretle işaretle"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:136
+msgid "Create a new Appointment"
+msgstr "Yeni bir randevu oluştur"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:146
+msgid "Choose service"
+msgstr "Servis seç"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:191
+msgid "Choose customer"
+msgstr "Müşteri seçin"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:195
+msgid "Create new customer"
+msgstr "Yeni müşteri oluştur"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:209
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:36
+msgid "Payment"
+msgstr "Ödeme"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:236
+msgid "Create a new Customer"
+msgstr "Yeni bir müşteri oluştur"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:242
+msgid "Full Name"
+msgstr "Ad Soyad"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:261
+msgid "Create"
+msgstr "yaratmak"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:30
+msgid "Search"
+msgstr "Arama"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:79
+msgid "Add New Availability Calendar"
+msgstr "Yeni Kullanılabilirlik Takvimi Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:91
+msgid "Assign to Staff(s)"
+msgstr "Kadro (lar) atama"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:129
+msgid "Edit Availability Calendar"
+msgstr "Uygunluk Takvimini Düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+msgid "Availability Calendar"
+msgstr "Uygunluk Takvimi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:185
+msgid "Calendar Name"
+msgstr "Takvim Adı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:191
+msgid "Regular Weekly Hours"
+msgstr "Düzenli Haftalık Saatler"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:193
+msgid "Use this schedule if you have similar hours week-to-week"
+msgstr "Hafta içi haftaya benzer saatleriniz varsa bu programı kullanın."
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:194
+msgid "Enter window(s) of time (9:00am-1:00pm, 2:00pm-6:00pm) or exact start times: (9:00am, 10:30am, 2:00pm)"
+msgstr "Saat dilimlerini girin (9:00 - 13:00 pm, 14:00 - 06:00) veya tam başlangıç ​​saatleri: (09:00, 10:30, 14:00)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:202
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:84
+msgid "Sunday"
+msgstr "Pazar"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:205
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:87
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:208
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:65
+msgid "Tuesday"
+msgstr "Salı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:211
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:66
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:214
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:67
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:217
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:68
+msgid "Friday"
+msgstr "Cuma"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:69
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:233
+msgid "Invalid character"
+msgstr "Geçersiz karakter"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:291
+msgid "Availability for Specific Days"
+msgstr "Belirli Günlerin Kullanılabilirliği"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "This shows your monthly availability"
+msgstr "Bu, aylık kullanılabilirliğinizi gösterir"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "Select a specific date to set, change or override your hours"
+msgstr "Saatlerinizi ayarlamak, değiştirmek veya geçersiz kılmak için belirli bir tarih seçin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "Enter window(s) of time\n"
+"\t\t\t\t\t\t(9:00am-1:00pm, 2:00pm-5:00pm) or exact start times: (9:00am, 10:30am, 2:00pm)"
+msgstr "Zamanın pencerelerini girin\n"
+"(09: 00-21: 00, 14: 00-15: 00) veya tam başlangıç ​​saatleri: (09:00, 10:30, 14:00)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:307
+msgid "Hour for"
+msgstr "Için saat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:311
+msgid "Closed - Enter availability like: 9.00am-12.30pm, 1.30pm-6pm"
+msgstr "Kapalı - Müsaitlik girin şu gibi: 9.00 - 12.30, 13.30 - 18.00"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:44
+msgid "Back to"
+msgstr "Geri"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:5
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:17
+msgid "Add New Customer"
+msgstr "Yeni müşteri ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:5
+msgid "Edit Customer"
+msgstr "Müşteriyi Düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:5
+msgid "View Customer Details"
+msgstr "Müşteri Ayrıntılarını Görüntüle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:5
+msgid "Add New Payment"
+msgstr "Yeni Ödeme Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:5
+msgid "Edit Payment"
+msgstr "Ödeme Düzenleme"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:33
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:40
+msgid "Appointment Date/Time"
+msgstr "Randevu Tarihi / Saati"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:8
+msgid "View Payment Details"
+msgstr "Ödeme Ayrıntılarını Görüntüle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:16
+msgid "Payment Date/Time"
+msgstr "Ödeme Tarihi / Saati"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:82
+msgid "Payment ID"
+msgstr "Ödeme numarası"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid "Add New Service"
+msgstr "Yeni Hizmet Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid "Add New Category"
+msgstr "Yeni Kategori Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Nothing left in the list"
+msgstr "Listede hiç bir şey kalmadı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Add a new category or service via button above"
+msgstr "Yukarıdaki düğmeyi kullanarak yeni bir kategori veya hizmet ekleyin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:75
+msgid "Click"
+msgstr "Click"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid "to create new Service or Click on Service's Item to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Service"
+msgstr "Yeni Hizmet oluşturmak veya düzenlemek veya silmek için Servisin Öğesini Tıklamak\n"
+"servis"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid "to create new Category or hover on Category name to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Category"
+msgstr "Yeni Kategori oluşturmak veya düzenlemek veya silmek için Kategori adı üzerine gelmek\n"
+"Kategori"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:80
+msgid "Don't forget to assign a staff after new service created"
+msgstr "Yeni hizmet oluşturulduktan sonra bir personel atamayı unutmayın"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:88
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:89
+msgid "Title"
+msgstr "Başlık"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:94
+msgid "Access"
+msgstr "Erişim"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:96
+msgid "Public"
+msgstr "halka açık"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:97
+msgid "Private"
+msgstr "Özel"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:105
+msgid "Duration"
+msgstr "süre"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:131
+msgid "Color"
+msgstr "Renk"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:144
+msgid "none"
+msgstr "Yok"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:154
+msgid "Assigned Staffs"
+msgstr "Atanan Kadrolar"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:201
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:207
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:208
+msgid "Category Name"
+msgstr "Kategori adı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:31
+msgid "General"
+msgstr "Genel"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:41
+msgid "Email Templates"
+msgstr "E-posta Şablonları"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:46
+msgid "Client's Page"
+msgstr "Müşteri Sayfası"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:51
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:63
+msgid "Business Name"
+msgstr "iş adı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:66
+msgid "Enter your business name"
+msgstr "İşletmenizin adını girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:71
+msgid "Instructions"
+msgstr "Talimatlar"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:74
+msgid "Write any instructions here to show to clients (optional)"
+msgstr "Müşterilere göstermek için herhangi bir talimat yazınız (isteğe bağlı)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:79
+msgid "Week Start On"
+msgstr "Hafta Başlama"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:94
+msgid "Time Format"
+msgstr "Zaman formatı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:272
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:317
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:398
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:122
+msgid "Currency"
+msgstr "Para birimi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:198
+msgid "Accept Payment"
+msgstr "Ödeme kabul"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:203
+msgid "None"
+msgstr "Yok"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:216
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:249
+msgid "Sandbox"
+msgstr "Kum havuzu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:230
+msgid "Live"
+msgstr "Canlı"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:237
+msgid "Enter your PayPal production clientID"
+msgstr "PayPal üretim müşteri kimliğinizi girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:243
+msgid "Enter your PayPal production secret"
+msgstr "PayPal üretim sırrınızı girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:257
+msgid "Enter your PayPal sandbox clientID"
+msgstr "PayPal sandbox istemci kimliğinizi girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:264
+msgid "Enter your PayPal sandbox secret"
+msgstr "PayPal sanal alan gizli şifrenizi girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:284
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:295
+msgid "Font Color"
+msgstr "Yazı rengi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:306
+msgid "Font Size"
+msgstr "Yazı Boyutu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:331
+msgid "Select Template"
+msgstr "Şablon Seç"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:336
+msgid "Choose template"
+msgstr "Şablon seç"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:345
+msgid "To send scheduled notifications please execute the following command hourly with your cron"
+msgstr "Zamanlanmış bildirimleri göndermek için lütfen cronunuz ile aşağıdaki komutu saatlik olarak çalıştırın"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:353
+msgid "Send This Reminder"
+msgstr "Bu Hatırlatmayı Gönder"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:359
+msgid "hour(s) before their appointment"
+msgstr "Randevu alınmadan saat (ler)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:369
+msgid "Subject"
+msgstr "konu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:372
+msgid "Enter email subject"
+msgstr "E-posta konusunu girin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:377
+msgid "Message"
+msgstr "Mesaj"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:408
+msgid "Some tokens you can use"
+msgstr "Kullanabileceğiniz bazı simgeler"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:412
+msgid "To display the event's title"
+msgstr "Etkinliğin başlığını görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:415
+msgid "To display the person's name"
+msgstr "Kişinin adını görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:418
+msgid "To display the person's email address"
+msgstr "Kişinin e-posta adresini görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:421
+msgid "To display the selected service"
+msgstr "Seçilen servisi görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:424
+msgid "To display the calendar name (if one is used) for this appointment"
+msgstr "Bu randevu için takvim adını (eğer kullanılıyorsa) görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:427
+msgid "To display the appointment date and time"
+msgstr "Randevu tarihini ve saatini görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:430
+msgid "To display the business's name"
+msgstr "İşletmenin adını görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:433
+msgid "To display the payment's method"
+msgstr "Ödeme yöntemini görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:436
+msgid "To display the payment's amount"
+msgstr "Ödeme tutarını görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:439
+msgid "To display the payment's status"
+msgstr "Ödeme durumunu görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:442
+msgid "To display the payment's id"
+msgstr "Ödeme kimliğini görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:445
+msgid "To display the appointment's price"
+msgstr "Randevunun fiyatını görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:448
+msgid "To display link to the appointment details page"
+msgstr "Bağlantıyı randevu ayrıntıları sayfasına görüntülemek için"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:462
+msgid "Display the Appointment Booking Form"
+msgstr "Randevu Rezervasyon Formunu Görüntüleyin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:465
+msgid "You can use this shortcode to display the front-end appointment booking form"
+msgstr "Ön uç randevu rezervasyon formunu görüntülemek için bu kısa kodu kullanabilirsiniz."
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:473
+msgid "Copy"
+msgstr "kopya"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:9
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:19
+msgid "Add New Staff"
+msgstr "Yeni Kadro Ekle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:31
+msgid "This staff can provide the following service(s)"
+msgstr "Bu personel aşağıdaki hizmetleri sağlayabilir"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:8
+msgid "Edit Staff"
+msgstr "Personeli Düzenle"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:8
+msgid "View Staff Details"
+msgstr "Personel Ayrıntılarını Görüntüle"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Choose"
+msgstr "Seçmek"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Appointment"
+msgstr "Randevu"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:22
+msgid "Your Details"
+msgstr "Detayların"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:27
+msgid "Confirm"
+msgstr "Onaylamak"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:68
+msgid "Choose Appointment"
+msgstr "Randevu Al"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:72
+msgid "I would like to schedule"
+msgstr "Programlamak istiyorum"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:103
+msgid "Nothing left in the list. We'll let you know when it's ready."
+msgstr "Listede hiç bir şey kalmadı. Hazır olduğunda sizi bilgilendireceğiz."
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:112
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:147
+msgid "Change"
+msgstr "Değişiklik"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:138
+msgid "Confirm Date & Time"
+msgstr "Tarih ve Saati Onayla"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:154
+msgid "Your Info"
+msgstr "Bilgileriniz"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:158
+msgid "Enter your name"
+msgstr "Adınızı giriniz"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:162
+msgid "Enter your phone number"
+msgstr "Telefon numaranızı girin"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:166
+msgid "Enter your email"
+msgstr "E-postanızı giriniz"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:171
+msgid "Complete Appointment"
+msgstr "Komple Randevu"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Checking payment"
+msgstr "Ödeme kontrol"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Please wait"
+msgstr "Lütfen bekle"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:210
+msgid "Book another appointment"
+msgstr "Başka bir randevu al"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:3
+msgid "Appointment Details"
+msgstr "Randevu Detayları"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:23
+msgid "When"
+msgstr "Ne zaman"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:38
+msgid "Pending Payment"
+msgstr "bekleyen ödeme"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:56
+msgid "Book another apppointment"
+msgstr "Başka bir bakış açısı ayırtın"
+
+#. Name of the plugin
+#: 
+msgid "AppointFox - The Best WordPress Booking Plugin"
+msgstr "AppointFox - En İyi WordPress Rezervasyon Eklentisi"
+
+#. Description of the plugin
+#: 
+msgid "An easy-to-use and user friendly appointment booking tool for your WordPress website."
+msgstr "WordPress web siteniz için kullanımı kolay ve kullanıcı dostu bir randevu rezervasyon aracı."
+
+#. URI of the plugin
+#: 
+msgid "http://wpbooking-plugin.com"
+msgstr "http://wpbooking-plugin.com"
+
+#. Author of the plugin
+#: 
+msgid "Neptune Plugins"
+msgstr "Neptün Eklentiler"
+
+#. Author URI of the plugin
+#: 
+msgid "http://neptuneplugins.com"
+msgstr "http://neptuneplugins.com"
+

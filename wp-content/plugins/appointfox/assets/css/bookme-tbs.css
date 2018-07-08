@@ -1,0 +1,1545 @@
+#bookme-tbs html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+#bookme-tbs body{margin:0}
+#bookme-tbs article, #bookme-tbs aside, #bookme-tbs details, #bookme-tbs figcaption, #bookme-tbs figure, #bookme-tbs footer, #bookme-tbs header, #bookme-tbs hgroup, #bookme-tbs main, #bookme-tbs menu, #bookme-tbs nav, #bookme-tbs section, #bookme-tbs summary{display:block}
+#bookme-tbs audio, #bookme-tbs canvas, #bookme-tbs progress, #bookme-tbs video{display:inline-block;vertical-align:baseline}
+#bookme-tbs audio:not([controls]){display:none;height:0}
+#bookme-tbs [hidden], #bookme-tbs template{display:none}
+#bookme-tbs a{background-color:transparent}
+#bookme-tbs a:active, #bookme-tbs a:hover{outline:0}
+#bookme-tbs abbr[title]{border-bottom:1px dotted}
+#bookme-tbs b, #bookme-tbs strong{font-weight:700}
+#bookme-tbs dfn{font-style:italic}
+#bookme-tbs h1{margin:.67em 0;font-size:2em}
+#bookme-tbs mark{color:#000;background:#ff0}
+#bookme-tbs small{font-size:80%}
+#bookme-tbs sub, #bookme-tbs sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}
+#bookme-tbs sup{top:-.5em}
+#bookme-tbs sub{bottom:-.25em}
+#bookme-tbs img{border:0}
+#bookme-tbs svg:not(:root){overflow:hidden}
+#bookme-tbs figure{margin:1em 40px}
+#bookme-tbs hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+#bookme-tbs pre{overflow:auto}
+#bookme-tbs code, #bookme-tbs kbd, #bookme-tbs pre, #bookme-tbs samp{font-family:monospace, monospace;font-size:1em}
+#bookme-tbs button, #bookme-tbs input, #bookme-tbs optgroup, #bookme-tbs select, #bookme-tbs textarea{margin:0;font:inherit;color:inherit}
+#bookme-tbs button{overflow:visible}
+#bookme-tbs button, #bookme-tbs select{text-transform:none}
+#bookme-tbs button, #bookme-tbs html input[type=button], #bookme-tbs input[type=reset], #bookme-tbs input[type=submit]{-webkit-appearance:button;cursor:pointer}
+#bookme-tbs button[disabled], #bookme-tbs html input[disabled]{cursor:default}
+#bookme-tbs button::-moz-focus-inner, #bookme-tbs input::-moz-focus-inner{padding:0;border:0}
+#bookme-tbs input{line-height:normal}
+#bookme-tbs input[type=checkbox], #bookme-tbs input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}
+#bookme-tbs input[type=number]::-webkit-inner-spin-button, #bookme-tbs input[type=number]::-webkit-outer-spin-button{height:auto}
+#bookme-tbs input[type=search]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}
+#bookme-tbs input[type=search]::-webkit-search-cancel-button, #bookme-tbs input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+#bookme-tbs fieldset{padding:.35em .625em .75em;margin:0 2px;border:1px solid silver}
+#bookme-tbs legend{padding:0;border:0}
+#bookme-tbs textarea{overflow:auto}
+#bookme-tbs optgroup{font-weight:700}
+#bookme-tbs table{border-spacing:0;border-collapse:collapse}
+#bookme-tbs td, #bookme-tbs th{padding:0}
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print{#bookme-tbs *, #bookme-tbs :after, #bookme-tbs :before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}
+             #bookme-tbs a, #bookme-tbs a:visited{text-decoration:underline}
+             #bookme-tbs a[href]:after{content:" (" attr(href) ")"}
+             #bookme-tbs abbr[title]:after{content:" (" attr(title) ")"}
+             #bookme-tbs a[href^="javascript:"]:after, #bookme-tbs a[href^="#"]:after{content:""}
+             #bookme-tbs blockquote, #bookme-tbs pre{border:1px solid #999;page-break-inside:avoid}
+             #bookme-tbs thead{display:table-header-group}
+             #bookme-tbs img, #bookme-tbs tr{page-break-inside:avoid}
+             #bookme-tbs img{max-width:100%!important}
+             #bookme-tbs h2, #bookme-tbs h3, #bookme-tbs p{orphans:3;widows:3}
+             #bookme-tbs h2, #bookme-tbs h3{page-break-after:avoid}
+             #bookme-tbs .navbar{display:none}
+             #bookme-tbs .btn>.caret, #bookme-tbs .dropup>.btn>.caret{border-top-color:#000!important}
+             #bookme-tbs .label{border:1px solid #000}
+             #bookme-tbs .table{border-collapse:collapse!important}
+             #bookme-tbs .table td, #bookme-tbs .table th{background-color:#fff!important}
+             #bookme-tbs .table-bordered td, #bookme-tbs .table-bordered th{border:1px solid #ddd!important}
+}
+@font-face{font-family:'Glyphicons Halflings';
+           src:url(../fonts/glyphicons-halflings-regular.eot);
+           src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}
+#bookme-tbs .glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+#bookme-tbs .glyphicon-asterisk:before{content:"\002a"}
+#bookme-tbs .glyphicon-plus:before{content:"\002b"}
+#bookme-tbs .glyphicon-eur:before, #bookme-tbs .glyphicon-euro:before{content:"\20ac"}
+#bookme-tbs .glyphicon-minus:before{content:"\2212"}
+#bookme-tbs .glyphicon-cloud:before{content:"\2601"}
+#bookme-tbs .glyphicon-envelope:before{content:"\2709"}
+#bookme-tbs .glyphicon-pencil:before{content:"\270f"}
+#bookme-tbs .glyphicon-glass:before{content:"\e001"}
+#bookme-tbs .glyphicon-music:before{content:"\e002"}
+#bookme-tbs .glyphicon-search:before{content:"\e003"}
+#bookme-tbs .glyphicon-heart:before{content:"\e005"}
+#bookme-tbs .glyphicon-star:before{content:"\e006"}
+#bookme-tbs .glyphicon-star-empty:before{content:"\e007"}
+#bookme-tbs .glyphicon-user:before{content:"\e008"}
+#bookme-tbs .glyphicon-film:before{content:"\e009"}
+#bookme-tbs .glyphicon-th-large:before{content:"\e010"}
+#bookme-tbs .glyphicon-th:before{content:"\e011"}
+#bookme-tbs .glyphicon-th-list:before{content:"\e012"}
+#bookme-tbs .glyphicon-ok:before{content:"\e013"}
+#bookme-tbs .glyphicon-remove:before{content:"\e014"}
+#bookme-tbs .glyphicon-zoom-in:before{content:"\e015"}
+#bookme-tbs .glyphicon-zoom-out:before{content:"\e016"}
+#bookme-tbs .glyphicon-off:before{content:"\e017"}
+#bookme-tbs .glyphicon-signal:before{content:"\e018"}
+#bookme-tbs .glyphicon-cog:before{content:"\e019"}
+#bookme-tbs .glyphicon-trash:before{content:"\e020"}
+#bookme-tbs .glyphicon-home:before{content:"\e021"}
+#bookme-tbs .glyphicon-file:before{content:"\e022"}
+#bookme-tbs .glyphicon-time:before{content:"\e023"}
+#bookme-tbs .glyphicon-road:before{content:"\e024"}
+#bookme-tbs .glyphicon-download-alt:before{content:"\e025"}
+#bookme-tbs .glyphicon-download:before{content:"\e026"}
+#bookme-tbs .glyphicon-upload:before{content:"\e027"}
+#bookme-tbs .glyphicon-inbox:before{content:"\e028"}
+#bookme-tbs .glyphicon-play-circle:before{content:"\e029"}
+#bookme-tbs .glyphicon-repeat:before{content:"\e030"}
+#bookme-tbs .glyphicon-refresh:before{content:"\e031"}
+#bookme-tbs .glyphicon-list-alt:before{content:"\e032"}
+#bookme-tbs .glyphicon-lock:before{content:"\e033"}
+#bookme-tbs .glyphicon-flag:before{content:"\e034"}
+#bookme-tbs .glyphicon-headphones:before{content:"\e035"}
+#bookme-tbs .glyphicon-volume-off:before{content:"\e036"}
+#bookme-tbs .glyphicon-volume-down:before{content:"\e037"}
+#bookme-tbs .glyphicon-volume-up:before{content:"\e038"}
+#bookme-tbs .glyphicon-qrcode:before{content:"\e039"}
+#bookme-tbs .glyphicon-barcode:before{content:"\e040"}
+#bookme-tbs .glyphicon-tag:before{content:"\e041"}
+#bookme-tbs .glyphicon-tags:before{content:"\e042"}
+#bookme-tbs .glyphicon-book:before{content:"\e043"}
+#bookme-tbs .glyphicon-bookmark:before{content:"\e044"}
+#bookme-tbs .glyphicon-print:before{content:"\e045"}
+#bookme-tbs .glyphicon-camera:before{content:"\e046"}
+#bookme-tbs .glyphicon-font:before{content:"\e047"}
+#bookme-tbs .glyphicon-bold:before{content:"\e048"}
+#bookme-tbs .glyphicon-italic:before{content:"\e049"}
+#bookme-tbs .glyphicon-text-height:before{content:"\e050"}
+#bookme-tbs .glyphicon-text-width:before{content:"\e051"}
+#bookme-tbs .glyphicon-align-left:before{content:"\e052"}
+#bookme-tbs .glyphicon-align-center:before{content:"\e053"}
+#bookme-tbs .glyphicon-align-right:before{content:"\e054"}
+#bookme-tbs .glyphicon-align-justify:before{content:"\e055"}
+#bookme-tbs .glyphicon-list:before{content:"\e056"}
+#bookme-tbs .glyphicon-indent-left:before{content:"\e057"}
+#bookme-tbs .glyphicon-indent-right:before{content:"\e058"}
+#bookme-tbs .glyphicon-facetime-video:before{content:"\e059"}
+#bookme-tbs .glyphicon-picture:before{content:"\e060"}
+#bookme-tbs .glyphicon-map-marker:before{content:"\e062"}
+#bookme-tbs .glyphicon-adjust:before{content:"\e063"}
+#bookme-tbs .glyphicon-tint:before{content:"\e064"}
+#bookme-tbs .glyphicon-edit:before{content:"\e065"}
+#bookme-tbs .glyphicon-share:before{content:"\e066"}
+#bookme-tbs .glyphicon-check:before{content:"\e067"}
+#bookme-tbs .glyphicon-move:before{content:"\e068"}
+#bookme-tbs .glyphicon-step-backward:before{content:"\e069"}
+#bookme-tbs .glyphicon-fast-backward:before{content:"\e070"}
+#bookme-tbs .glyphicon-backward:before{content:"\e071"}
+#bookme-tbs .glyphicon-play:before{content:"\e072"}
+#bookme-tbs .glyphicon-pause:before{content:"\e073"}
+#bookme-tbs .glyphicon-stop:before{content:"\e074"}
+#bookme-tbs .glyphicon-forward:before{content:"\e075"}
+#bookme-tbs .glyphicon-fast-forward:before{content:"\e076"}
+#bookme-tbs .glyphicon-step-forward:before{content:"\e077"}
+#bookme-tbs .glyphicon-eject:before{content:"\e078"}
+#bookme-tbs .glyphicon-chevron-left:before{content:"\e079"}
+#bookme-tbs .glyphicon-chevron-right:before{content:"\e080"}
+#bookme-tbs .glyphicon-plus-sign:before{content:"\e081"}
+#bookme-tbs .glyphicon-minus-sign:before{content:"\e082"}
+#bookme-tbs .glyphicon-remove-sign:before{content:"\e083"}
+#bookme-tbs .glyphicon-ok-sign:before{content:"\e084"}
+#bookme-tbs .glyphicon-question-sign:before{content:"\e085"}
+#bookme-tbs .glyphicon-info-sign:before{content:"\e086"}
+#bookme-tbs .glyphicon-screenshot:before{content:"\e087"}
+#bookme-tbs .glyphicon-remove-circle:before{content:"\e088"}
+#bookme-tbs .glyphicon-ok-circle:before{content:"\e089"}
+#bookme-tbs .glyphicon-ban-circle:before{content:"\e090"}
+#bookme-tbs .glyphicon-arrow-left:before{content:"\e091"}
+#bookme-tbs .glyphicon-arrow-right:before{content:"\e092"}
+#bookme-tbs .glyphicon-arrow-up:before{content:"\e093"}
+#bookme-tbs .glyphicon-arrow-down:before{content:"\e094"}
+#bookme-tbs .glyphicon-share-alt:before{content:"\e095"}
+#bookme-tbs .glyphicon-resize-full:before{content:"\e096"}
+#bookme-tbs .glyphicon-resize-small:before{content:"\e097"}
+#bookme-tbs .glyphicon-exclamation-sign:before{content:"\e101"}
+#bookme-tbs .glyphicon-gift:before{content:"\e102"}
+#bookme-tbs .glyphicon-leaf:before{content:"\e103"}
+#bookme-tbs .glyphicon-fire:before{content:"\e104"}
+#bookme-tbs .glyphicon-eye-open:before{content:"\e105"}
+#bookme-tbs .glyphicon-eye-close:before{content:"\e106"}
+#bookme-tbs .glyphicon-warning-sign:before{content:"\e107"}
+#bookme-tbs .glyphicon-plane:before{content:"\e108"}
+#bookme-tbs .glyphicon-calendar:before{content:"\e109"}
+#bookme-tbs .glyphicon-random:before{content:"\e110"}
+#bookme-tbs .glyphicon-comment:before{content:"\e111"}
+#bookme-tbs .glyphicon-magnet:before{content:"\e112"}
+#bookme-tbs .glyphicon-chevron-up:before{content:"\e113"}
+#bookme-tbs .glyphicon-chevron-down:before{content:"\e114"}
+#bookme-tbs .glyphicon-retweet:before{content:"\e115"}
+#bookme-tbs .glyphicon-shopping-cart:before{content:"\e116"}
+#bookme-tbs .glyphicon-folder-close:before{content:"\e117"}
+#bookme-tbs .glyphicon-folder-open:before{content:"\e118"}
+#bookme-tbs .glyphicon-resize-vertical:before{content:"\e119"}
+#bookme-tbs .glyphicon-resize-horizontal:before{content:"\e120"}
+#bookme-tbs .glyphicon-hdd:before{content:"\e121"}
+#bookme-tbs .glyphicon-bullhorn:before{content:"\e122"}
+#bookme-tbs .glyphicon-bell:before{content:"\e123"}
+#bookme-tbs .glyphicon-certificate:before{content:"\e124"}
+#bookme-tbs .glyphicon-thumbs-up:before{content:"\e125"}
+#bookme-tbs .glyphicon-thumbs-down:before{content:"\e126"}
+#bookme-tbs .glyphicon-hand-right:before{content:"\e127"}
+#bookme-tbs .glyphicon-hand-left:before{content:"\e128"}
+#bookme-tbs .glyphicon-hand-up:before{content:"\e129"}
+#bookme-tbs .glyphicon-hand-down:before{content:"\e130"}
+#bookme-tbs .glyphicon-circle-arrow-right:before{content:"\e131"}
+#bookme-tbs .glyphicon-circle-arrow-left:before{content:"\e132"}
+#bookme-tbs .glyphicon-circle-arrow-up:before{content:"\e133"}
+#bookme-tbs .glyphicon-circle-arrow-down:before{content:"\e134"}
+#bookme-tbs .glyphicon-globe:before{content:"\e135"}
+#bookme-tbs .glyphicon-wrench:before{content:"\e136"}
+#bookme-tbs .glyphicon-tasks:before{content:"\e137"}
+#bookme-tbs .glyphicon-filter:before{content:"\e138"}
+#bookme-tbs .glyphicon-briefcase:before{content:"\e139"}
+#bookme-tbs .glyphicon-fullscreen:before{content:"\e140"}
+#bookme-tbs .glyphicon-dashboard:before{content:"\e141"}
+#bookme-tbs .glyphicon-paperclip:before{content:"\e142"}
+#bookme-tbs .glyphicon-heart-empty:before{content:"\e143"}
+#bookme-tbs .glyphicon-link:before{content:"\e144"}
+#bookme-tbs .glyphicon-phone:before{content:"\e145"}
+#bookme-tbs .glyphicon-pushpin:before{content:"\e146"}
+#bookme-tbs .glyphicon-usd:before{content:"\e148"}
+#bookme-tbs .glyphicon-gbp:before{content:"\e149"}
+#bookme-tbs .glyphicon-sort:before{content:"\e150"}
+#bookme-tbs .glyphicon-sort-by-alphabet:before{content:"\e151"}
+#bookme-tbs .glyphicon-sort-by-alphabet-alt:before{content:"\e152"}
+#bookme-tbs .glyphicon-sort-by-order:before{content:"\e153"}
+#bookme-tbs .glyphicon-sort-by-order-alt:before{content:"\e154"}
+#bookme-tbs .glyphicon-sort-by-attributes:before{content:"\e155"}
+#bookme-tbs .glyphicon-sort-by-attributes-alt:before{content:"\e156"}
+#bookme-tbs .glyphicon-unchecked:before{content:"\e157"}
+#bookme-tbs .glyphicon-expand:before{content:"\e158"}
+#bookme-tbs .glyphicon-collapse-down:before{content:"\e159"}
+#bookme-tbs .glyphicon-collapse-up:before{content:"\e160"}
+#bookme-tbs .glyphicon-log-in:before{content:"\e161"}
+#bookme-tbs .glyphicon-flash:before{content:"\e162"}
+#bookme-tbs .glyphicon-log-out:before{content:"\e163"}
+#bookme-tbs .glyphicon-new-window:before{content:"\e164"}
+#bookme-tbs .glyphicon-record:before{content:"\e165"}
+#bookme-tbs .glyphicon-save:before{content:"\e166"}
+#bookme-tbs .glyphicon-open:before{content:"\e167"}
+#bookme-tbs .glyphicon-saved:before{content:"\e168"}
+#bookme-tbs .glyphicon-import:before{content:"\e169"}
+#bookme-tbs .glyphicon-export:before{content:"\e170"}
+#bookme-tbs .glyphicon-send:before{content:"\e171"}
+#bookme-tbs .glyphicon-floppy-disk:before{content:"\e172"}
+#bookme-tbs .glyphicon-floppy-saved:before{content:"\e173"}
+#bookme-tbs .glyphicon-floppy-remove:before{content:"\e174"}
+#bookme-tbs .glyphicon-floppy-save:before{content:"\e175"}
+#bookme-tbs .glyphicon-floppy-open:before{content:"\e176"}
+#bookme-tbs .glyphicon-credit-card:before{content:"\e177"}
+#bookme-tbs .glyphicon-transfer:before{content:"\e178"}
+#bookme-tbs .glyphicon-cutlery:before{content:"\e179"}
+#bookme-tbs .glyphicon-header:before{content:"\e180"}
+#bookme-tbs .glyphicon-compressed:before{content:"\e181"}
+#bookme-tbs .glyphicon-earphone:before{content:"\e182"}
+#bookme-tbs .glyphicon-phone-alt:before{content:"\e183"}
+#bookme-tbs .glyphicon-tower:before{content:"\e184"}
+#bookme-tbs .glyphicon-stats:before{content:"\e185"}
+#bookme-tbs .glyphicon-sd-video:before{content:"\e186"}
+#bookme-tbs .glyphicon-hd-video:before{content:"\e187"}
+#bookme-tbs .glyphicon-subtitles:before{content:"\e188"}
+#bookme-tbs .glyphicon-sound-stereo:before{content:"\e189"}
+#bookme-tbs .glyphicon-sound-dolby:before{content:"\e190"}
+#bookme-tbs .glyphicon-sound-5-1:before{content:"\e191"}
+#bookme-tbs .glyphicon-sound-6-1:before{content:"\e192"}
+#bookme-tbs .glyphicon-sound-7-1:before{content:"\e193"}
+#bookme-tbs .glyphicon-copyright-mark:before{content:"\e194"}
+#bookme-tbs .glyphicon-registration-mark:before{content:"\e195"}
+#bookme-tbs .glyphicon-cloud-download:before{content:"\e197"}
+#bookme-tbs .glyphicon-cloud-upload:before{content:"\e198"}
+#bookme-tbs .glyphicon-tree-conifer:before{content:"\e199"}
+#bookme-tbs .glyphicon-tree-deciduous:before{content:"\e200"}
+#bookme-tbs .glyphicon-cd:before{content:"\e201"}
+#bookme-tbs .glyphicon-save-file:before{content:"\e202"}
+#bookme-tbs .glyphicon-open-file:before{content:"\e203"}
+#bookme-tbs .glyphicon-level-up:before{content:"\e204"}
+#bookme-tbs .glyphicon-copy:before{content:"\e205"}
+#bookme-tbs .glyphicon-paste:before{content:"\e206"}
+#bookme-tbs .glyphicon-alert:before{content:"\e209"}
+#bookme-tbs .glyphicon-equalizer:before{content:"\e210"}
+#bookme-tbs .glyphicon-king:before{content:"\e211"}
+#bookme-tbs .glyphicon-queen:before{content:"\e212"}
+#bookme-tbs .glyphicon-pawn:before{content:"\e213"}
+#bookme-tbs .glyphicon-bishop:before{content:"\e214"}
+#bookme-tbs .glyphicon-knight:before{content:"\e215"}
+#bookme-tbs .glyphicon-baby-formula:before{content:"\e216"}
+#bookme-tbs .glyphicon-tent:before{content:"\26fa"}
+#bookme-tbs .glyphicon-blackboard:before{content:"\e218"}
+#bookme-tbs .glyphicon-bed:before{content:"\e219"}
+#bookme-tbs .glyphicon-apple:before{content:"\f8ff"}
+#bookme-tbs .glyphicon-erase:before{content:"\e221"}
+#bookme-tbs .glyphicon-hourglass:before{content:"\231b"}
+#bookme-tbs .glyphicon-lamp:before{content:"\e223"}
+#bookme-tbs .glyphicon-duplicate:before{content:"\e224"}
+#bookme-tbs .glyphicon-piggy-bank:before{content:"\e225"}
+#bookme-tbs .glyphicon-scissors:before{content:"\e226"}
+#bookme-tbs .glyphicon-bitcoin:before{content:"\e227"}
+#bookme-tbs .glyphicon-btc:before{content:"\e227"}
+#bookme-tbs .glyphicon-xbt:before{content:"\e227"}
+#bookme-tbs .glyphicon-yen:before{content:"\00a5"}
+#bookme-tbs .glyphicon-jpy:before{content:"\00a5"}
+#bookme-tbs .glyphicon-ruble:before{content:"\20bd"}
+#bookme-tbs .glyphicon-rub:before{content:"\20bd"}
+#bookme-tbs .glyphicon-scale:before{content:"\e230"}
+#bookme-tbs .glyphicon-ice-lolly:before{content:"\e231"}
+#bookme-tbs .glyphicon-ice-lolly-tasted:before{content:"\e232"}
+#bookme-tbs .glyphicon-education:before{content:"\e233"}
+#bookme-tbs .glyphicon-option-horizontal:before{content:"\e234"}
+#bookme-tbs .glyphicon-option-vertical:before{content:"\e235"}
+#bookme-tbs .glyphicon-menu-hamburger:before{content:"\e236"}
+#bookme-tbs .glyphicon-modal-window:before{content:"\e237"}
+#bookme-tbs .glyphicon-oil:before{content:"\e238"}
+#bookme-tbs .glyphicon-grain:before{content:"\e239"}
+#bookme-tbs .glyphicon-sunglasses:before{content:"\e240"}
+#bookme-tbs .glyphicon-text-size:before{content:"\e241"}
+#bookme-tbs .glyphicon-text-color:before{content:"\e242"}
+#bookme-tbs .glyphicon-text-background:before{content:"\e243"}
+#bookme-tbs .glyphicon-object-align-top:before{content:"\e244"}
+#bookme-tbs .glyphicon-object-align-bottom:before{content:"\e245"}
+#bookme-tbs .glyphicon-object-align-horizontal:before{content:"\e246"}
+#bookme-tbs .glyphicon-object-align-left:before{content:"\e247"}
+#bookme-tbs .glyphicon-object-align-vertical:before{content:"\e248"}
+#bookme-tbs .glyphicon-object-align-right:before{content:"\e249"}
+#bookme-tbs .glyphicon-triangle-right:before{content:"\e250"}
+#bookme-tbs .glyphicon-triangle-left:before{content:"\e251"}
+#bookme-tbs .glyphicon-triangle-bottom:before{content:"\e252"}
+#bookme-tbs .glyphicon-triangle-top:before{content:"\e253"}
+#bookme-tbs .glyphicon-console:before{content:"\e254"}
+#bookme-tbs .glyphicon-superscript:before{content:"\e255"}
+#bookme-tbs .glyphicon-subscript:before{content:"\e256"}
+#bookme-tbs .glyphicon-menu-left:before{content:"\e257"}
+#bookme-tbs .glyphicon-menu-right:before{content:"\e258"}
+#bookme-tbs .glyphicon-menu-down:before{content:"\e259"}
+#bookme-tbs .glyphicon-menu-up:before{content:"\e260"}
+#bookme-tbs *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#bookme-tbs :after, #bookme-tbs :before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#bookme-tbs html{font-size:10px;-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}
+#bookme-tbs body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}
+#bookme-tbs button, #bookme-tbs input, #bookme-tbs select, #bookme-tbs textarea{font-family:inherit;font-size:inherit;line-height:inherit}
+#bookme-tbs a{color:#337ab7;text-decoration:none}
+#bookme-tbs a:focus, #bookme-tbs a:hover{color:#23527c;text-decoration:underline}
+#bookme-tbs a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+#bookme-tbs figure{margin:0}
+#bookme-tbs img{vertical-align:middle}
+#bookme-tbs .carousel-inner>.item>a>img, #bookme-tbs .carousel-inner>.item>img, #bookme-tbs .img-responsive, #bookme-tbs .thumbnail a>img, #bookme-tbs .thumbnail>img{display:block;max-width:100%;height:auto}
+#bookme-tbs .img-rounded{border-radius:6px}
+#bookme-tbs .img-thumbnail{display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+#bookme-tbs .img-circle{border-radius:50%}
+#bookme-tbs hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}
+#bookme-tbs .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
+#bookme-tbs .sr-only-focusable:active, #bookme-tbs .sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
+#bookme-tbs [role=button]{cursor:pointer}
+#bookme-tbs .h1, #bookme-tbs .h2, #bookme-tbs .h3, #bookme-tbs .h4, #bookme-tbs .h5, #bookme-tbs .h6, #bookme-tbs h1, #bookme-tbs h2, #bookme-tbs h3, #bookme-tbs h4, #bookme-tbs h5, #bookme-tbs h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}
+#bookme-tbs .h1 .small, #bookme-tbs .h1 small, #bookme-tbs .h2 .small, #bookme-tbs .h2 small, #bookme-tbs .h3 .small, #bookme-tbs .h3 small, #bookme-tbs .h4 .small, #bookme-tbs .h4 small, #bookme-tbs .h5 .small, #bookme-tbs .h5 small, #bookme-tbs .h6 .small, #bookme-tbs .h6 small, #bookme-tbs h1 .small, #bookme-tbs h1 small, #bookme-tbs h2 .small, #bookme-tbs h2 small, #bookme-tbs h3 .small, #bookme-tbs h3 small, #bookme-tbs h4 .small, #bookme-tbs h4 small, #bookme-tbs h5 .small, #bookme-tbs h5 small, #bookme-tbs h6 .small, #bookme-tbs h6 small{font-weight:400;line-height:1;color:#777}
+#bookme-tbs .h1, #bookme-tbs .h2, #bookme-tbs .h3, #bookme-tbs h1, #bookme-tbs h2, #bookme-tbs h3{margin-top:20px;margin-bottom:10px}
+#bookme-tbs .h1 .small, #bookme-tbs .h1 small, #bookme-tbs .h2 .small, #bookme-tbs .h2 small, #bookme-tbs .h3 .small, #bookme-tbs .h3 small, #bookme-tbs h1 .small, #bookme-tbs h1 small, #bookme-tbs h2 .small, #bookme-tbs h2 small, #bookme-tbs h3 .small, #bookme-tbs h3 small{font-size:65%}
+#bookme-tbs .h4, #bookme-tbs .h5, #bookme-tbs .h6, #bookme-tbs h4, #bookme-tbs h5, #bookme-tbs h6{margin-top:10px;margin-bottom:10px}
+#bookme-tbs .h4 .small, #bookme-tbs .h4 small, #bookme-tbs .h5 .small, #bookme-tbs .h5 small, #bookme-tbs .h6 .small, #bookme-tbs .h6 small, #bookme-tbs h4 .small, #bookme-tbs h4 small, #bookme-tbs h5 .small, #bookme-tbs h5 small, #bookme-tbs h6 .small, #bookme-tbs h6 small{font-size:75%}
+#bookme-tbs .h1, #bookme-tbs h1{font-size:36px}
+#bookme-tbs .h2, #bookme-tbs h2{font-size:30px}
+#bookme-tbs .h3, #bookme-tbs h3{font-size:24px}
+#bookme-tbs .h4, #bookme-tbs h4{font-size:18px}
+#bookme-tbs .h5, #bookme-tbs h5{font-size:14px}
+#bookme-tbs .h6, #bookme-tbs h6{font-size:12px}
+#bookme-tbs p{margin:0 0 10px}
+#bookme-tbs .lead{margin-bottom:20px;font-size:16px;font-weight:300;line-height:1.4}
+@media (min-width:768px){
+    #bookme-tbs .lead{font-size:21px}
+}
+#bookme-tbs .small, #bookme-tbs small{font-size:85%}
+#bookme-tbs .mark, #bookme-tbs mark{padding:.2em;background-color:#fcf8e3}
+#bookme-tbs .text-left{text-align:left}
+#bookme-tbs .text-right{text-align:right}
+#bookme-tbs .text-center{text-align:center}
+#bookme-tbs .text-justify{text-align:justify}
+#bookme-tbs .text-nowrap{white-space:nowrap}
+#bookme-tbs .text-lowercase{text-transform:lowercase}
+#bookme-tbs .text-uppercase{text-transform:uppercase}
+#bookme-tbs .text-capitalize{text-transform:capitalize}
+#bookme-tbs .text-muted{color:#777}
+#bookme-tbs .text-primary{color:#337ab7}
+#bookme-tbs a.text-primary:focus, #bookme-tbs a.text-primary:hover{color:#286090}
+#bookme-tbs .text-success{color:#3c763d}
+#bookme-tbs a.text-success:focus, #bookme-tbs a.text-success:hover{color:#2b542c}
+#bookme-tbs .text-info{color:#31708f}
+#bookme-tbs a.text-info:focus, #bookme-tbs a.text-info:hover{color:#245269}
+#bookme-tbs .text-warning{color:#8a6d3b}
+#bookme-tbs a.text-warning:focus, #bookme-tbs a.text-warning:hover{color:#66512c}
+#bookme-tbs .text-danger{color:#a94442}
+#bookme-tbs a.text-danger:focus, #bookme-tbs a.text-danger:hover{color:#843534}
+#bookme-tbs .bg-primary{color:#fff;background-color:#337ab7}
+#bookme-tbs a.bg-primary:focus, #bookme-tbs a.bg-primary:hover{background-color:#286090}
+#bookme-tbs .bg-success{background-color:#dff0d8}
+#bookme-tbs a.bg-success:focus, #bookme-tbs a.bg-success:hover{background-color:#c1e2b3}
+#bookme-tbs .bg-info{background-color:#d9edf7}
+#bookme-tbs a.bg-info:focus, #bookme-tbs a.bg-info:hover{background-color:#afd9ee}
+#bookme-tbs .bg-warning{background-color:#fcf8e3}
+#bookme-tbs a.bg-warning:focus, #bookme-tbs a.bg-warning:hover{background-color:#f7ecb5}
+#bookme-tbs .bg-danger{background-color:#f2dede}
+#bookme-tbs a.bg-danger:focus, #bookme-tbs a.bg-danger:hover{background-color:#e4b9b9}
+#bookme-tbs .page-header{padding-bottom:9px;margin:40px 0 20px;border-bottom:1px solid #eee}
+#bookme-tbs ol, #bookme-tbs ul{margin-top:0;margin-bottom:10px}
+#bookme-tbs ol ol, #bookme-tbs ol ul, #bookme-tbs ul ol, #bookme-tbs ul ul{margin-bottom:0}
+#bookme-tbs .list-unstyled{padding-left:0;list-style:none}
+#bookme-tbs .list-inline{padding-left:0;margin-left:-5px;list-style:none}
+#bookme-tbs .list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}
+#bookme-tbs dl{margin-top:0;margin-bottom:20px}
+#bookme-tbs dd, #bookme-tbs dt{line-height:1.42857143}
+#bookme-tbs dt{font-weight:700}
+#bookme-tbs dd{margin-left:0}
+@media (min-width:768px){
+    #bookme-tbs .dl-horizontal dt{float:left;width:160px;overflow:hidden;clear:left;text-align:right;text-overflow:ellipsis;white-space:nowrap}
+    #bookme-tbs .dl-horizontal dd{margin-left:180px}
+}
+#bookme-tbs abbr[data-original-title], #bookme-tbs abbr[title]{cursor:help;border-bottom:1px dotted #777}
+#bookme-tbs .initialism{font-size:90%;text-transform:uppercase}
+#bookme-tbs blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px solid #eee}
+#bookme-tbs blockquote ol:last-child, #bookme-tbs blockquote p:last-child, #bookme-tbs blockquote ul:last-child{margin-bottom:0}
+#bookme-tbs blockquote .small, #bookme-tbs blockquote footer, #bookme-tbs blockquote small{display:block;font-size:80%;line-height:1.42857143;color:#777}
+#bookme-tbs blockquote .small:before, #bookme-tbs blockquote footer:before, #bookme-tbs blockquote small:before{content:'\2014 \00A0'}
+#bookme-tbs .blockquote-reverse, #bookme-tbs blockquote.pull-right{padding-right:15px;padding-left:0;text-align:right;border-right:5px solid #eee;border-left:0}
+#bookme-tbs .blockquote-reverse .small:before, #bookme-tbs .blockquote-reverse footer:before, #bookme-tbs .blockquote-reverse small:before, #bookme-tbs blockquote.pull-right .small:before, #bookme-tbs blockquote.pull-right footer:before, #bookme-tbs blockquote.pull-right small:before{content:''}
+#bookme-tbs .blockquote-reverse .small:after, #bookme-tbs .blockquote-reverse footer:after, #bookme-tbs .blockquote-reverse small:after, #bookme-tbs blockquote.pull-right .small:after, #bookme-tbs blockquote.pull-right footer:after, #bookme-tbs blockquote.pull-right small:after{content:'\00A0 \2014'}
+#bookme-tbs address{margin-bottom:20px;font-style:normal;line-height:1.42857143}
+#bookme-tbs code, #bookme-tbs kbd, #bookme-tbs pre, #bookme-tbs samp{font-family:Menlo, Monaco, Consolas, "Courier New", monospace}
+#bookme-tbs code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:4px}
+#bookme-tbs kbd{padding:2px 4px;font-size:90%;color:#fff;background-color:#333;border-radius:3px;-webkit-box-shadow:inset 0 -1px 0 rgba(0, 0, 0, .25);box-shadow:inset 0 -1px 0 rgba(0, 0, 0, .25)}
+#bookme-tbs kbd kbd{padding:0;font-size:100%;font-weight:700;-webkit-box-shadow:none;box-shadow:none}
+#bookme-tbs pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}
+#bookme-tbs pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}
+#bookme-tbs .pre-scrollable{max-height:340px;overflow-y:scroll}
+#bookme-tbs .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width:768px){
+    #bookme-tbs .container{width:750px}
+}
+@media (min-width:992px){
+    #bookme-tbs .container{width:970px}
+}
+@media (min-width:1200px){
+    #bookme-tbs .container{width:1170px}
+}
+#bookme-tbs .container-fluid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+#bookme-tbs .row{margin-right:-15px;margin-left:-15px}
+#bookme-tbs .col-lg-1, #bookme-tbs .col-lg-10, #bookme-tbs .col-lg-11, #bookme-tbs .col-lg-12, #bookme-tbs .col-lg-2, #bookme-tbs .col-lg-3, #bookme-tbs .col-lg-4, #bookme-tbs .col-lg-5, #bookme-tbs .col-lg-6, #bookme-tbs .col-lg-7, #bookme-tbs .col-lg-8, #bookme-tbs .col-lg-9, #bookme-tbs .col-md-1, #bookme-tbs .col-md-10, #bookme-tbs .col-md-11, #bookme-tbs .col-md-12, #bookme-tbs .col-md-2, #bookme-tbs .col-md-3, #bookme-tbs .col-md-4, #bookme-tbs .col-md-5, #bookme-tbs .col-md-6, #bookme-tbs .col-md-7, #bookme-tbs .col-md-8, #bookme-tbs .col-md-9, #bookme-tbs .col-sm-1, #bookme-tbs .col-sm-10, #bookme-tbs .col-sm-11, #bookme-tbs .col-sm-12, #bookme-tbs .col-sm-2, #bookme-tbs .col-sm-3, #bookme-tbs .col-sm-4, #bookme-tbs .col-sm-5, #bookme-tbs .col-sm-6, #bookme-tbs .col-sm-7, #bookme-tbs .col-sm-8, #bookme-tbs .col-sm-9, #bookme-tbs .col-xs-1, #bookme-tbs .col-xs-10, #bookme-tbs .col-xs-11, #bookme-tbs .col-xs-12, #bookme-tbs .col-xs-2, #bookme-tbs .col-xs-3, #bookme-tbs .col-xs-4, #bookme-tbs .col-xs-5, #bookme-tbs .col-xs-6, #bookme-tbs .col-xs-7, #bookme-tbs .col-xs-8, #bookme-tbs .col-xs-9{position:relative;min-height:1px;padding-right:15px;padding-left:15px}
+#bookme-tbs .col-xs-1, #bookme-tbs .col-xs-10, #bookme-tbs .col-xs-11, #bookme-tbs .col-xs-12, #bookme-tbs .col-xs-2, #bookme-tbs .col-xs-3, #bookme-tbs .col-xs-4, #bookme-tbs .col-xs-5, #bookme-tbs .col-xs-6, #bookme-tbs .col-xs-7, #bookme-tbs .col-xs-8, #bookme-tbs .col-xs-9{float:left}
+#bookme-tbs .col-xs-12{width:100%}
+#bookme-tbs .col-xs-11{width:91.66666667%}
+#bookme-tbs .col-xs-10{width:83.33333333%}
+#bookme-tbs .col-xs-9{width:75%}
+#bookme-tbs .col-xs-8{width:66.66666667%}
+#bookme-tbs .col-xs-7{width:58.33333333%}
+#bookme-tbs .col-xs-6{width:50%}
+#bookme-tbs .col-xs-5{width:41.66666667%}
+#bookme-tbs .col-xs-4{width:33.33333333%}
+#bookme-tbs .col-xs-3{width:25%}
+#bookme-tbs .col-xs-2{width:16.66666667%}
+#bookme-tbs .col-xs-1{width:8.33333333%}
+#bookme-tbs .col-xs-pull-12{right:100%}
+#bookme-tbs .col-xs-pull-11{right:91.66666667%}
+#bookme-tbs .col-xs-pull-10{right:83.33333333%}
+#bookme-tbs .col-xs-pull-9{right:75%}
+#bookme-tbs .col-xs-pull-8{right:66.66666667%}
+#bookme-tbs .col-xs-pull-7{right:58.33333333%}
+#bookme-tbs .col-xs-pull-6{right:50%}
+#bookme-tbs .col-xs-pull-5{right:41.66666667%}
+#bookme-tbs .col-xs-pull-4{right:33.33333333%}
+#bookme-tbs .col-xs-pull-3{right:25%}
+#bookme-tbs .col-xs-pull-2{right:16.66666667%}
+#bookme-tbs .col-xs-pull-1{right:8.33333333%}
+#bookme-tbs .col-xs-pull-0{right:auto}
+#bookme-tbs .col-xs-push-12{left:100%}
+#bookme-tbs .col-xs-push-11{left:91.66666667%}
+#bookme-tbs .col-xs-push-10{left:83.33333333%}
+#bookme-tbs .col-xs-push-9{left:75%}
+#bookme-tbs .col-xs-push-8{left:66.66666667%}
+#bookme-tbs .col-xs-push-7{left:58.33333333%}
+#bookme-tbs .col-xs-push-6{left:50%}
+#bookme-tbs .col-xs-push-5{left:41.66666667%}
+#bookme-tbs .col-xs-push-4{left:33.33333333%}
+#bookme-tbs .col-xs-push-3{left:25%}
+#bookme-tbs .col-xs-push-2{left:16.66666667%}
+#bookme-tbs .col-xs-push-1{left:8.33333333%}
+#bookme-tbs .col-xs-push-0{left:auto}
+#bookme-tbs .col-xs-offset-12{margin-left:100%}
+#bookme-tbs .col-xs-offset-11{margin-left:91.66666667%}
+#bookme-tbs .col-xs-offset-10{margin-left:83.33333333%}
+#bookme-tbs .col-xs-offset-9{margin-left:75%}
+#bookme-tbs .col-xs-offset-8{margin-left:66.66666667%}
+#bookme-tbs .col-xs-offset-7{margin-left:58.33333333%}
+#bookme-tbs .col-xs-offset-6{margin-left:50%}
+#bookme-tbs .col-xs-offset-5{margin-left:41.66666667%}
+#bookme-tbs .col-xs-offset-4{margin-left:33.33333333%}
+#bookme-tbs .col-xs-offset-3{margin-left:25%}
+#bookme-tbs .col-xs-offset-2{margin-left:16.66666667%}
+#bookme-tbs .col-xs-offset-1{margin-left:8.33333333%}
+#bookme-tbs .col-xs-offset-0{margin-left:0}
+@media (min-width:768px){
+    #bookme-tbs .col-sm-1, #bookme-tbs .col-sm-10, #bookme-tbs .col-sm-11, #bookme-tbs .col-sm-12, #bookme-tbs .col-sm-2, #bookme-tbs .col-sm-3, #bookme-tbs .col-sm-4, #bookme-tbs .col-sm-5, #bookme-tbs .col-sm-6, #bookme-tbs .col-sm-7, #bookme-tbs .col-sm-8, #bookme-tbs .col-sm-9{float:left}
+    #bookme-tbs .col-sm-12{width:100%}
+    #bookme-tbs .col-sm-11{width:91.66666667%}
+    #bookme-tbs .col-sm-10{width:83.33333333%}
+    #bookme-tbs .col-sm-9{width:75%}
+    #bookme-tbs .col-sm-8{width:66.66666667%}
+    #bookme-tbs .col-sm-7{width:58.33333333%}
+    #bookme-tbs .col-sm-6{width:50%}
+    #bookme-tbs .col-sm-5{width:41.66666667%}
+    #bookme-tbs .col-sm-4{width:33.33333333%}
+    #bookme-tbs .col-sm-3{width:25%}
+    #bookme-tbs .col-sm-2{width:16.66666667%}
+    #bookme-tbs .col-sm-1{width:8.33333333%}
+    #bookme-tbs .col-sm-pull-12{right:100%}
+    #bookme-tbs .col-sm-pull-11{right:91.66666667%}
+    #bookme-tbs .col-sm-pull-10{right:83.33333333%}
+    #bookme-tbs .col-sm-pull-9{right:75%}
+    #bookme-tbs .col-sm-pull-8{right:66.66666667%}
+    #bookme-tbs .col-sm-pull-7{right:58.33333333%}
+    #bookme-tbs .col-sm-pull-6{right:50%}
+    #bookme-tbs .col-sm-pull-5{right:41.66666667%}
+    #bookme-tbs .col-sm-pull-4{right:33.33333333%}
+    #bookme-tbs .col-sm-pull-3{right:25%}
+    #bookme-tbs .col-sm-pull-2{right:16.66666667%}
+    #bookme-tbs .col-sm-pull-1{right:8.33333333%}
+    #bookme-tbs .col-sm-pull-0{right:auto}
+    #bookme-tbs .col-sm-push-12{left:100%}
+    #bookme-tbs .col-sm-push-11{left:91.66666667%}
+    #bookme-tbs .col-sm-push-10{left:83.33333333%}
+    #bookme-tbs .col-sm-push-9{left:75%}
+    #bookme-tbs .col-sm-push-8{left:66.66666667%}
+    #bookme-tbs .col-sm-push-7{left:58.33333333%}
+    #bookme-tbs .col-sm-push-6{left:50%}
+    #bookme-tbs .col-sm-push-5{left:41.66666667%}
+    #bookme-tbs .col-sm-push-4{left:33.33333333%}
+    #bookme-tbs .col-sm-push-3{left:25%}
+    #bookme-tbs .col-sm-push-2{left:16.66666667%}
+    #bookme-tbs .col-sm-push-1{left:8.33333333%}
+    #bookme-tbs .col-sm-push-0{left:auto}
+    #bookme-tbs .col-sm-offset-12{margin-left:100%}
+    #bookme-tbs .col-sm-offset-11{margin-left:91.66666667%}
+    #bookme-tbs .col-sm-offset-10{margin-left:83.33333333%}
+    #bookme-tbs .col-sm-offset-9{margin-left:75%}
+    #bookme-tbs .col-sm-offset-8{margin-left:66.66666667%}
+    #bookme-tbs .col-sm-offset-7{margin-left:58.33333333%}
+    #bookme-tbs .col-sm-offset-6{margin-left:50%}
+    #bookme-tbs .col-sm-offset-5{margin-left:41.66666667%}
+    #bookme-tbs .col-sm-offset-4{margin-left:33.33333333%}
+    #bookme-tbs .col-sm-offset-3{margin-left:25%}
+    #bookme-tbs .col-sm-offset-2{margin-left:16.66666667%}
+    #bookme-tbs .col-sm-offset-1{margin-left:8.33333333%}
+    #bookme-tbs .col-sm-offset-0{margin-left:0}
+}
+@media (min-width:992px){
+    #bookme-tbs .col-md-1, #bookme-tbs .col-md-10, #bookme-tbs .col-md-11, #bookme-tbs .col-md-12, #bookme-tbs .col-md-2, #bookme-tbs .col-md-3, #bookme-tbs .col-md-4, #bookme-tbs .col-md-5, #bookme-tbs .col-md-6, #bookme-tbs .col-md-7, #bookme-tbs .col-md-8, #bookme-tbs .col-md-9{float:left}
+    #bookme-tbs .col-md-12{width:100%}
+    #bookme-tbs .col-md-11{width:91.66666667%}
+    #bookme-tbs .col-md-10{width:83.33333333%}
+    #bookme-tbs .col-md-9{width:75%}
+    #bookme-tbs .col-md-8{width:66.66666667%}
+    #bookme-tbs .col-md-7{width:58.33333333%}
+    #bookme-tbs .col-md-6{width:50%}
+    #bookme-tbs .col-md-5{width:41.66666667%}
+    #bookme-tbs .col-md-4{width:33.33333333%}
+    #bookme-tbs .col-md-3{width:25%}
+    #bookme-tbs .col-md-2{width:16.66666667%}
+    #bookme-tbs .col-md-1{width:8.33333333%}
+    #bookme-tbs .col-md-pull-12{right:100%}
+    #bookme-tbs .col-md-pull-11{right:91.66666667%}
+    #bookme-tbs .col-md-pull-10{right:83.33333333%}
+    #bookme-tbs .col-md-pull-9{right:75%}
+    #bookme-tbs .col-md-pull-8{right:66.66666667%}
+    #bookme-tbs .col-md-pull-7{right:58.33333333%}
+    #bookme-tbs .col-md-pull-6{right:50%}
+    #bookme-tbs .col-md-pull-5{right:41.66666667%}
+    #bookme-tbs .col-md-pull-4{right:33.33333333%}
+    #bookme-tbs .col-md-pull-3{right:25%}
+    #bookme-tbs .col-md-pull-2{right:16.66666667%}
+    #bookme-tbs .col-md-pull-1{right:8.33333333%}
+    #bookme-tbs .col-md-pull-0{right:auto}
+    #bookme-tbs .col-md-push-12{left:100%}
+    #bookme-tbs .col-md-push-11{left:91.66666667%}
+    #bookme-tbs .col-md-push-10{left:83.33333333%}
+    #bookme-tbs .col-md-push-9{left:75%}
+    #bookme-tbs .col-md-push-8{left:66.66666667%}
+    #bookme-tbs .col-md-push-7{left:58.33333333%}
+    #bookme-tbs .col-md-push-6{left:50%}
+    #bookme-tbs .col-md-push-5{left:41.66666667%}
+    #bookme-tbs .col-md-push-4{left:33.33333333%}
+    #bookme-tbs .col-md-push-3{left:25%}
+    #bookme-tbs .col-md-push-2{left:16.66666667%}
+    #bookme-tbs .col-md-push-1{left:8.33333333%}
+    #bookme-tbs .col-md-push-0{left:auto}
+    #bookme-tbs .col-md-offset-12{margin-left:100%}
+    #bookme-tbs .col-md-offset-11{margin-left:91.66666667%}
+    #bookme-tbs .col-md-offset-10{margin-left:83.33333333%}
+    #bookme-tbs .col-md-offset-9{margin-left:75%}
+    #bookme-tbs .col-md-offset-8{margin-left:66.66666667%}
+    #bookme-tbs .col-md-offset-7{margin-left:58.33333333%}
+    #bookme-tbs .col-md-offset-6{margin-left:50%}
+    #bookme-tbs .col-md-offset-5{margin-left:41.66666667%}
+    #bookme-tbs .col-md-offset-4{margin-left:33.33333333%}
+    #bookme-tbs .col-md-offset-3{margin-left:25%}
+    #bookme-tbs .col-md-offset-2{margin-left:16.66666667%}
+    #bookme-tbs .col-md-offset-1{margin-left:8.33333333%}
+    #bookme-tbs .col-md-offset-0{margin-left:0}
+}
+@media (min-width:1200px){
+    #bookme-tbs .col-lg-1, #bookme-tbs .col-lg-10, #bookme-tbs .col-lg-11, #bookme-tbs .col-lg-12, #bookme-tbs .col-lg-2, #bookme-tbs .col-lg-3, #bookme-tbs .col-lg-4, #bookme-tbs .col-lg-5, #bookme-tbs .col-lg-6, #bookme-tbs .col-lg-7, #bookme-tbs .col-lg-8, #bookme-tbs .col-lg-9{float:left}
+    #bookme-tbs .col-lg-12{width:100%}
+    #bookme-tbs .col-lg-11{width:91.66666667%}
+    #bookme-tbs .col-lg-10{width:83.33333333%}
+    #bookme-tbs .col-lg-9{width:75%}
+    #bookme-tbs .col-lg-8{width:66.66666667%}
+    #bookme-tbs .col-lg-7{width:58.33333333%}
+    #bookme-tbs .col-lg-6{width:50%}
+    #bookme-tbs .col-lg-5{width:41.66666667%}
+    #bookme-tbs .col-lg-4{width:33.33333333%}
+    #bookme-tbs .col-lg-3{width:25%}
+    #bookme-tbs .col-lg-2{width:16.66666667%}
+    #bookme-tbs .col-lg-1{width:8.33333333%}
+    #bookme-tbs .col-lg-pull-12{right:100%}
+    #bookme-tbs .col-lg-pull-11{right:91.66666667%}
+    #bookme-tbs .col-lg-pull-10{right:83.33333333%}
+    #bookme-tbs .col-lg-pull-9{right:75%}
+    #bookme-tbs .col-lg-pull-8{right:66.66666667%}
+    #bookme-tbs .col-lg-pull-7{right:58.33333333%}
+    #bookme-tbs .col-lg-pull-6{right:50%}
+    #bookme-tbs .col-lg-pull-5{right:41.66666667%}
+    #bookme-tbs .col-lg-pull-4{right:33.33333333%}
+    #bookme-tbs .col-lg-pull-3{right:25%}
+    #bookme-tbs .col-lg-pull-2{right:16.66666667%}
+    #bookme-tbs .col-lg-pull-1{right:8.33333333%}
+    #bookme-tbs .col-lg-pull-0{right:auto}
+    #bookme-tbs .col-lg-push-12{left:100%}
+    #bookme-tbs .col-lg-push-11{left:91.66666667%}
+    #bookme-tbs .col-lg-push-10{left:83.33333333%}
+    #bookme-tbs .col-lg-push-9{left:75%}
+    #bookme-tbs .col-lg-push-8{left:66.66666667%}
+    #bookme-tbs .col-lg-push-7{left:58.33333333%}
+    #bookme-tbs .col-lg-push-6{left:50%}
+    #bookme-tbs .col-lg-push-5{left:41.66666667%}
+    #bookme-tbs .col-lg-push-4{left:33.33333333%}
+    #bookme-tbs .col-lg-push-3{left:25%}
+    #bookme-tbs .col-lg-push-2{left:16.66666667%}
+    #bookme-tbs .col-lg-push-1{left:8.33333333%}
+    #bookme-tbs .col-lg-push-0{left:auto}
+    #bookme-tbs .col-lg-offset-12{margin-left:100%}
+    #bookme-tbs .col-lg-offset-11{margin-left:91.66666667%}
+    #bookme-tbs .col-lg-offset-10{margin-left:83.33333333%}
+    #bookme-tbs .col-lg-offset-9{margin-left:75%}
+    #bookme-tbs .col-lg-offset-8{margin-left:66.66666667%}
+    #bookme-tbs .col-lg-offset-7{margin-left:58.33333333%}
+    #bookme-tbs .col-lg-offset-6{margin-left:50%}
+    #bookme-tbs .col-lg-offset-5{margin-left:41.66666667%}
+    #bookme-tbs .col-lg-offset-4{margin-left:33.33333333%}
+    #bookme-tbs .col-lg-offset-3{margin-left:25%}
+    #bookme-tbs .col-lg-offset-2{margin-left:16.66666667%}
+    #bookme-tbs .col-lg-offset-1{margin-left:8.33333333%}
+    #bookme-tbs .col-lg-offset-0{margin-left:0}
+}
+#bookme-tbs table{background-color:transparent}
+#bookme-tbs caption{padding-top:8px;padding-bottom:8px;color:#777;text-align:left}
+#bookme-tbs th{text-align:left}
+#bookme-tbs .table{width:100%;max-width:100%;margin-bottom:20px}
+#bookme-tbs .table>tbody>tr>td, #bookme-tbs .table>tbody>tr>th, #bookme-tbs .table>tfoot>tr>td, #bookme-tbs .table>tfoot>tr>th, #bookme-tbs .table>thead>tr>td, #bookme-tbs .table>thead>tr>th{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #ddd}
+#bookme-tbs .table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}
+#bookme-tbs .table>caption+thead>tr:first-child>td, #bookme-tbs .table>caption+thead>tr:first-child>th, #bookme-tbs .table>colgroup+thead>tr:first-child>td, #bookme-tbs .table>colgroup+thead>tr:first-child>th, #bookme-tbs .table>thead:first-child>tr:first-child>td, #bookme-tbs .table>thead:first-child>tr:first-child>th{border-top:0}
+#bookme-tbs .table>tbody+tbody{border-top:2px solid #ddd}
+#bookme-tbs .table .table{background-color:#fff}
+#bookme-tbs .table-condensed>tbody>tr>td, #bookme-tbs .table-condensed>tbody>tr>th, #bookme-tbs .table-condensed>tfoot>tr>td, #bookme-tbs .table-condensed>tfoot>tr>th, #bookme-tbs .table-condensed>thead>tr>td, #bookme-tbs .table-condensed>thead>tr>th{padding:5px}
+#bookme-tbs .table-bordered{border:1px solid #ddd}
+#bookme-tbs .table-bordered>tbody>tr>td, #bookme-tbs .table-bordered>tbody>tr>th, #bookme-tbs .table-bordered>tfoot>tr>td, #bookme-tbs .table-bordered>tfoot>tr>th, #bookme-tbs .table-bordered>thead>tr>td, #bookme-tbs .table-bordered>thead>tr>th{border:1px solid #ddd}
+#bookme-tbs .table-bordered>thead>tr>td, #bookme-tbs .table-bordered>thead>tr>th{border-bottom-width:2px}
+#bookme-tbs .table-striped>tbody>tr:nth-of-type(odd){background-color:#f9f9f9}
+#bookme-tbs .table-hover>tbody>tr:hover{background-color:#f5f5f5}
+#bookme-tbs table col[class*=col-]{position:static;display:table-column;float:none}
+#bookme-tbs table td[class*=col-], #bookme-tbs table th[class*=col-]{position:static;display:table-cell;float:none}
+#bookme-tbs .table>tbody>tr.active>td, #bookme-tbs .table>tbody>tr.active>th, #bookme-tbs .table>tbody>tr>td.active, #bookme-tbs .table>tbody>tr>th.active, #bookme-tbs .table>tfoot>tr.active>td, #bookme-tbs .table>tfoot>tr.active>th, #bookme-tbs .table>tfoot>tr>td.active, #bookme-tbs .table>tfoot>tr>th.active, #bookme-tbs .table>thead>tr.active>td, #bookme-tbs .table>thead>tr.active>th, #bookme-tbs .table>thead>tr>td.active, #bookme-tbs .table>thead>tr>th.active{background-color:#f5f5f5}
+#bookme-tbs .table-hover>tbody>tr.active:hover>td, #bookme-tbs .table-hover>tbody>tr.active:hover>th, #bookme-tbs .table-hover>tbody>tr:hover>.active, #bookme-tbs .table-hover>tbody>tr>td.active:hover, #bookme-tbs .table-hover>tbody>tr>th.active:hover{background-color:#e8e8e8}
+#bookme-tbs .table>tbody>tr.success>td, #bookme-tbs .table>tbody>tr.success>th, #bookme-tbs .table>tbody>tr>td.success, #bookme-tbs .table>tbody>tr>th.success, #bookme-tbs .table>tfoot>tr.success>td, #bookme-tbs .table>tfoot>tr.success>th, #bookme-tbs .table>tfoot>tr>td.success, #bookme-tbs .table>tfoot>tr>th.success, #bookme-tbs .table>thead>tr.success>td, #bookme-tbs .table>thead>tr.success>th, #bookme-tbs .table>thead>tr>td.success, #bookme-tbs .table>thead>tr>th.success{background-color:#dff0d8}
+#bookme-tbs .table-hover>tbody>tr.success:hover>td, #bookme-tbs .table-hover>tbody>tr.success:hover>th, #bookme-tbs .table-hover>tbody>tr:hover>.success, #bookme-tbs .table-hover>tbody>tr>td.success:hover, #bookme-tbs .table-hover>tbody>tr>th.success:hover{background-color:#d0e9c6}
+#bookme-tbs .table>tbody>tr.info>td, #bookme-tbs .table>tbody>tr.info>th, #bookme-tbs .table>tbody>tr>td.info, #bookme-tbs .table>tbody>tr>th.info, #bookme-tbs .table>tfoot>tr.info>td, #bookme-tbs .table>tfoot>tr.info>th, #bookme-tbs .table>tfoot>tr>td.info, #bookme-tbs .table>tfoot>tr>th.info, #bookme-tbs .table>thead>tr.info>td, #bookme-tbs .table>thead>tr.info>th, #bookme-tbs .table>thead>tr>td.info, #bookme-tbs .table>thead>tr>th.info{background-color:#d9edf7}
+#bookme-tbs .table-hover>tbody>tr.info:hover>td, #bookme-tbs .table-hover>tbody>tr.info:hover>th, #bookme-tbs .table-hover>tbody>tr:hover>.info, #bookme-tbs .table-hover>tbody>tr>td.info:hover, #bookme-tbs .table-hover>tbody>tr>th.info:hover{background-color:#c4e3f3}
+#bookme-tbs .table>tbody>tr.warning>td, #bookme-tbs .table>tbody>tr.warning>th, #bookme-tbs .table>tbody>tr>td.warning, #bookme-tbs .table>tbody>tr>th.warning, #bookme-tbs .table>tfoot>tr.warning>td, #bookme-tbs .table>tfoot>tr.warning>th, #bookme-tbs .table>tfoot>tr>td.warning, #bookme-tbs .table>tfoot>tr>th.warning, #bookme-tbs .table>thead>tr.warning>td, #bookme-tbs .table>thead>tr.warning>th, #bookme-tbs .table>thead>tr>td.warning, #bookme-tbs .table>thead>tr>th.warning{background-color:#fcf8e3}
+#bookme-tbs .table-hover>tbody>tr.warning:hover>td, #bookme-tbs .table-hover>tbody>tr.warning:hover>th, #bookme-tbs .table-hover>tbody>tr:hover>.warning, #bookme-tbs .table-hover>tbody>tr>td.warning:hover, #bookme-tbs .table-hover>tbody>tr>th.warning:hover{background-color:#faf2cc}
+#bookme-tbs .table>tbody>tr.danger>td, #bookme-tbs .table>tbody>tr.danger>th, #bookme-tbs .table>tbody>tr>td.danger, #bookme-tbs .table>tbody>tr>th.danger, #bookme-tbs .table>tfoot>tr.danger>td, #bookme-tbs .table>tfoot>tr.danger>th, #bookme-tbs .table>tfoot>tr>td.danger, #bookme-tbs .table>tfoot>tr>th.danger, #bookme-tbs .table>thead>tr.danger>td, #bookme-tbs .table>thead>tr.danger>th, #bookme-tbs .table>thead>tr>td.danger, #bookme-tbs .table>thead>tr>th.danger{background-color:#f2dede}
+#bookme-tbs .table-hover>tbody>tr.danger:hover>td, #bookme-tbs .table-hover>tbody>tr.danger:hover>th, #bookme-tbs .table-hover>tbody>tr:hover>.danger, #bookme-tbs .table-hover>tbody>tr>td.danger:hover, #bookme-tbs .table-hover>tbody>tr>th.danger:hover{background-color:#ebcccc}
+#bookme-tbs .table-responsive{min-height:.01%;overflow-x:auto}
+@media screen and (max-width:767px){
+    #bookme-tbs .table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}
+    #bookme-tbs .table-responsive>.table{margin-bottom:0}
+    #bookme-tbs .table-responsive>.table>tbody>tr>td, #bookme-tbs .table-responsive>.table>tbody>tr>th, #bookme-tbs .table-responsive>.table>tfoot>tr>td, #bookme-tbs .table-responsive>.table>tfoot>tr>th, #bookme-tbs .table-responsive>.table>thead>tr>td, #bookme-tbs .table-responsive>.table>thead>tr>th{white-space:nowrap}
+    #bookme-tbs .table-responsive>.table-bordered{border:0}
+    #bookme-tbs .table-responsive>.table-bordered>tbody>tr>td:first-child, #bookme-tbs .table-responsive>.table-bordered>tbody>tr>th:first-child, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr>td:first-child, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr>th:first-child, #bookme-tbs .table-responsive>.table-bordered>thead>tr>td:first-child, #bookme-tbs .table-responsive>.table-bordered>thead>tr>th:first-child{border-left:0}
+    #bookme-tbs .table-responsive>.table-bordered>tbody>tr>td:last-child, #bookme-tbs .table-responsive>.table-bordered>tbody>tr>th:last-child, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr>td:last-child, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr>th:last-child, #bookme-tbs .table-responsive>.table-bordered>thead>tr>td:last-child, #bookme-tbs .table-responsive>.table-bordered>thead>tr>th:last-child{border-right:0}
+    #bookme-tbs .table-responsive>.table-bordered>tbody>tr:last-child>td, #bookme-tbs .table-responsive>.table-bordered>tbody>tr:last-child>th, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr:last-child>td, #bookme-tbs .table-responsive>.table-bordered>tfoot>tr:last-child>th{border-bottom:0}
+}
+#bookme-tbs fieldset{min-width:0;padding:0;margin:0;border:0}
+#bookme-tbs legend{display:block;width:100%;padding:0;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border:0;border-bottom:1px solid #e5e5e5}
+#bookme-tbs label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}
+#bookme-tbs input[type=search]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#bookme-tbs input[type=checkbox], #bookme-tbs input[type=radio]{margin:4px 0 0;margin-top:1px\9;line-height:normal}
+#bookme-tbs input[type=file]{display:block}
+#bookme-tbs input[type=range]{display:block;width:100%}
+#bookme-tbs select[multiple], #bookme-tbs select[size]{height:auto}
+#bookme-tbs input[type=file]:focus, #bookme-tbs input[type=checkbox]:focus, #bookme-tbs input[type=radio]:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+#bookme-tbs output{display:block;padding-top:7px;font-size:14px;line-height:1.42857143;color:#555}
+#bookme-tbs .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);-webkit-transition:border-color ease-in-out .15s, #bookme-tbs -webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s}
+#bookme-tbs .form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)}
+#bookme-tbs .form-control::-moz-placeholder{color:#999;opacity:1}
+#bookme-tbs .form-control:-ms-input-placeholder{color:#999}
+#bookme-tbs .form-control::-webkit-input-placeholder{color:#999}
+#bookme-tbs .form-control::-ms-expand{background-color:transparent;border:0}
+#bookme-tbs .form-control[disabled], #bookme-tbs .form-control[readonly], #bookme-tbs fieldset[disabled] .form-control{background-color:#eee;opacity:1}
+#bookme-tbs .form-control[disabled], #bookme-tbs fieldset[disabled] .form-control{cursor:not-allowed}
+#bookme-tbs textarea.form-control{height:auto}
+#bookme-tbs input[type=search]{-webkit-appearance:none}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    #bookme-tbs input[type=date].form-control, #bookme-tbs input[type=time].form-control, #bookme-tbs input[type=datetime-local].form-control, #bookme-tbs input[type=month].form-control{line-height:34px}
+    #bookme-tbs .input-group-sm input[type=date], #bookme-tbs .input-group-sm input[type=time], #bookme-tbs .input-group-sm input[type=datetime-local], #bookme-tbs .input-group-sm input[type=month], #bookme-tbs input[type=date].input-sm, #bookme-tbs input[type=time].input-sm, #bookme-tbs input[type=datetime-local].input-sm, #bookme-tbs input[type=month].input-sm{line-height:30px}
+    #bookme-tbs .input-group-lg input[type=date], #bookme-tbs .input-group-lg input[type=time], #bookme-tbs .input-group-lg input[type=datetime-local], #bookme-tbs .input-group-lg input[type=month], #bookme-tbs input[type=date].input-lg, #bookme-tbs input[type=time].input-lg, #bookme-tbs input[type=datetime-local].input-lg, #bookme-tbs input[type=month].input-lg{line-height:46px}
+}
+#bookme-tbs .form-group{margin-bottom:15px}
+#bookme-tbs .checkbox, #bookme-tbs .radio{position:relative;display:block;margin-top:10px;margin-bottom:10px}
+#bookme-tbs .checkbox label, #bookme-tbs .radio label{min-height:20px;padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}
+#bookme-tbs .checkbox input[type=checkbox], #bookme-tbs .checkbox-inline input[type=checkbox], #bookme-tbs .radio input[type=radio], #bookme-tbs .radio-inline input[type=radio]{position:absolute;margin-top:4px\9;margin-left:-20px}
+#bookme-tbs .checkbox+.checkbox, #bookme-tbs .radio+.radio{margin-top:-5px}
+#bookme-tbs .checkbox-inline, #bookme-tbs .radio-inline{position:relative;display:inline-block;padding-left:20px;margin-bottom:0;font-weight:400;vertical-align:middle;cursor:pointer}
+#bookme-tbs .checkbox-inline+.checkbox-inline, #bookme-tbs .radio-inline+.radio-inline{margin-top:0;margin-left:10px}
+#bookme-tbs fieldset[disabled] input[type=checkbox], #bookme-tbs fieldset[disabled] input[type=radio], #bookme-tbs input[type=checkbox].disabled, #bookme-tbs input[type=checkbox][disabled], #bookme-tbs input[type=radio].disabled, #bookme-tbs input[type=radio][disabled]{cursor:not-allowed}
+#bookme-tbs .checkbox-inline.disabled, #bookme-tbs .radio-inline.disabled, #bookme-tbs fieldset[disabled] .checkbox-inline, #bookme-tbs fieldset[disabled] .radio-inline{cursor:not-allowed}
+#bookme-tbs .checkbox.disabled label, #bookme-tbs .radio.disabled label, #bookme-tbs fieldset[disabled] .checkbox label, #bookme-tbs fieldset[disabled] .radio label{cursor:not-allowed}
+#bookme-tbs .form-control-static{min-height:34px;padding-top:7px;padding-bottom:7px;margin-bottom:0}
+#bookme-tbs .form-control-static.input-lg, #bookme-tbs .form-control-static.input-sm{padding-right:0;padding-left:0}
+#bookme-tbs .input-sm{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}
+#bookme-tbs select.input-sm{height:30px;line-height:30px}
+#bookme-tbs select[multiple].input-sm, #bookme-tbs textarea.input-sm{height:auto}
+#bookme-tbs .form-group-sm .form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}
+#bookme-tbs .form-group-sm select.form-control{height:30px;line-height:30px}
+#bookme-tbs .form-group-sm select[multiple].form-control, #bookme-tbs .form-group-sm textarea.form-control{height:auto}
+#bookme-tbs .form-group-sm .form-control-static{height:30px;min-height:32px;padding:6px 10px;font-size:12px;line-height:1.5}
+#bookme-tbs .input-lg{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}
+#bookme-tbs select.input-lg{height:46px;line-height:46px}
+#bookme-tbs select[multiple].input-lg, #bookme-tbs textarea.input-lg{height:auto}
+#bookme-tbs .form-group-lg .form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}
+#bookme-tbs .form-group-lg select.form-control{height:46px;line-height:46px}
+#bookme-tbs .form-group-lg select[multiple].form-control, #bookme-tbs .form-group-lg textarea.form-control{height:auto}
+#bookme-tbs .form-group-lg .form-control-static{height:46px;min-height:38px;padding:11px 16px;font-size:18px;line-height:1.3333333}
+#bookme-tbs .has-feedback{position:relative}
+#bookme-tbs .has-feedback .form-control{padding-right:42.5px}
+#bookme-tbs .form-control-feedback{position:absolute;top:0;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center;pointer-events:none}
+#bookme-tbs .form-group-lg .form-control+.form-control-feedback, #bookme-tbs .input-group-lg+.form-control-feedback, #bookme-tbs .input-lg+.form-control-feedback{width:46px;height:46px;line-height:46px}
+#bookme-tbs .form-group-sm .form-control+.form-control-feedback, #bookme-tbs .input-group-sm+.form-control-feedback, #bookme-tbs .input-sm+.form-control-feedback{width:30px;height:30px;line-height:30px}
+#bookme-tbs .has-success .checkbox, #bookme-tbs .has-success .checkbox-inline, #bookme-tbs .has-success .control-label, #bookme-tbs .has-success .help-block, #bookme-tbs .has-success .radio, #bookme-tbs .has-success .radio-inline, #bookme-tbs .has-success.checkbox label, #bookme-tbs .has-success.checkbox-inline label, #bookme-tbs .has-success.radio label, #bookme-tbs .has-success.radio-inline label{color:#3c763d}
+#bookme-tbs .has-success .form-control{border-color:#3c763d;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075)}
+#bookme-tbs .has-success .form-control:focus{border-color:#2b542c;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168}
+#bookme-tbs .has-success .input-group-addon{color:#3c763d;background-color:#dff0d8;border-color:#3c763d}
+#bookme-tbs .has-success .form-control-feedback{color:#3c763d}
+#bookme-tbs .has-warning .checkbox, #bookme-tbs .has-warning .checkbox-inline, #bookme-tbs .has-warning .control-label, #bookme-tbs .has-warning .help-block, #bookme-tbs .has-warning .radio, #bookme-tbs .has-warning .radio-inline, #bookme-tbs .has-warning.checkbox label, #bookme-tbs .has-warning.checkbox-inline label, #bookme-tbs .has-warning.radio label, #bookme-tbs .has-warning.radio-inline label{color:#8a6d3b}
+#bookme-tbs .has-warning .form-control{border-color:#8a6d3b;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075)}
+#bookme-tbs .has-warning .form-control:focus{border-color:#66512c;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b}
+#bookme-tbs .has-warning .input-group-addon{color:#8a6d3b;background-color:#fcf8e3;border-color:#8a6d3b}
+#bookme-tbs .has-warning .form-control-feedback{color:#8a6d3b}
+#bookme-tbs .has-error .checkbox, #bookme-tbs .has-error .checkbox-inline, #bookme-tbs .has-error .control-label, #bookme-tbs .has-error .help-block, #bookme-tbs .has-error .radio, #bookme-tbs .has-error .radio-inline, #bookme-tbs .has-error.checkbox label, #bookme-tbs .has-error.checkbox-inline label, #bookme-tbs .has-error.radio label, #bookme-tbs .has-error.radio-inline label{color:#a94442}
+#bookme-tbs .has-error .form-control{border-color:#a94442;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075)}
+#bookme-tbs .has-error .form-control:focus{border-color:#843534;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483}
+#bookme-tbs .has-error .input-group-addon{color:#a94442;background-color:#f2dede;border-color:#a94442}
+#bookme-tbs .has-error .form-control-feedback{color:#a94442}
+#bookme-tbs .has-feedback label~.form-control-feedback{top:25px}
+#bookme-tbs .has-feedback label.sr-only~.form-control-feedback{top:0}
+#bookme-tbs .help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}
+@media (min-width:768px){
+    #bookme-tbs .form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}
+    #bookme-tbs .form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}
+    #bookme-tbs .form-inline .form-control-static{display:inline-block}
+    #bookme-tbs .form-inline .input-group{display:inline-table;vertical-align:middle}
+    #bookme-tbs .form-inline .input-group .form-control, #bookme-tbs .form-inline .input-group .input-group-addon, #bookme-tbs .form-inline .input-group .input-group-btn{width:auto}
+    #bookme-tbs .form-inline .input-group>.form-control{width:100%}
+    #bookme-tbs .form-inline .control-label{margin-bottom:0;vertical-align:middle}
+    #bookme-tbs .form-inline .checkbox, #bookme-tbs .form-inline .radio{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}
+    #bookme-tbs .form-inline .checkbox label, #bookme-tbs .form-inline .radio label{padding-left:0}
+    #bookme-tbs .form-inline .checkbox input[type=checkbox], #bookme-tbs .form-inline .radio input[type=radio]{position:relative;margin-left:0}
+    #bookme-tbs .form-inline .has-feedback .form-control-feedback{top:0}
+}
+#bookme-tbs .form-horizontal .checkbox, #bookme-tbs .form-horizontal .checkbox-inline, #bookme-tbs .form-horizontal .radio, #bookme-tbs .form-horizontal .radio-inline{padding-top:7px;margin-top:0;margin-bottom:0}
+#bookme-tbs .form-horizontal .checkbox, #bookme-tbs .form-horizontal .radio{min-height:27px}
+#bookme-tbs .form-horizontal .form-group{margin-right:-15px;margin-left:-15px}
+@media (min-width:768px){
+    #bookme-tbs .form-horizontal .control-label{padding-top:7px;margin-bottom:0;text-align:right}
+}
+#bookme-tbs .form-horizontal .has-feedback .form-control-feedback{right:15px}
+@media (min-width:768px){
+    #bookme-tbs .form-horizontal .form-group-lg .control-label{padding-top:11px;font-size:18px}
+}
+@media (min-width:768px){
+    #bookme-tbs .form-horizontal .form-group-sm .control-label{padding-top:6px;font-size:12px}
+}
+#bookme-tbs .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+#bookme-tbs .btn.active.focus, #bookme-tbs .btn.active:focus, #bookme-tbs .btn.focus, #bookme-tbs .btn:active.focus, #bookme-tbs .btn:active:focus, #bookme-tbs .btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+#bookme-tbs .btn.focus, #bookme-tbs .btn:focus, #bookme-tbs .btn:hover{color:#333;text-decoration:none}
+#bookme-tbs .btn.active, #bookme-tbs .btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125)}
+#bookme-tbs .btn.disabled, #bookme-tbs .btn[disabled], #bookme-tbs fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65}
+#bookme-tbs a.btn.disabled, #bookme-tbs fieldset[disabled] a.btn{pointer-events:none}
+#bookme-tbs .btn-default{color:#333;background-color:#fff;border-color:#ccc}
+#bookme-tbs .btn-default.focus, #bookme-tbs .btn-default:focus{color:#333;background-color:#e6e6e6;border-color:#8c8c8c}
+#bookme-tbs .btn-default:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}
+#bookme-tbs .btn-default.active, #bookme-tbs .btn-default:active, #bookme-tbs .open>.dropdown-toggle.btn-default{color:#333;background-color:#e6e6e6;border-color:#adadad}
+#bookme-tbs .btn-default.active.focus, #bookme-tbs .btn-default.active:focus, #bookme-tbs .btn-default.active:hover, #bookme-tbs .btn-default:active.focus, #bookme-tbs .btn-default:active:focus, #bookme-tbs .btn-default:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-default.focus, #bookme-tbs .open>.dropdown-toggle.btn-default:focus, #bookme-tbs .open>.dropdown-toggle.btn-default:hover{color:#333;background-color:#d4d4d4;border-color:#8c8c8c}
+#bookme-tbs .btn-default.active, #bookme-tbs .btn-default:active, #bookme-tbs .open>.dropdown-toggle.btn-default{background-image:none}
+#bookme-tbs .btn-default.disabled.focus, #bookme-tbs .btn-default.disabled:focus, #bookme-tbs .btn-default.disabled:hover, #bookme-tbs .btn-default[disabled].focus, #bookme-tbs .btn-default[disabled]:focus, #bookme-tbs .btn-default[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-default.focus, #bookme-tbs fieldset[disabled] .btn-default:focus, #bookme-tbs fieldset[disabled] .btn-default:hover{background-color:#fff;border-color:#ccc}
+#bookme-tbs .btn-default .badge{color:#fff;background-color:#333}
+#bookme-tbs .btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
+#bookme-tbs .btn-primary.focus, #bookme-tbs .btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}
+#bookme-tbs .btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}
+#bookme-tbs .btn-primary.active, #bookme-tbs .btn-primary:active, #bookme-tbs .open>.dropdown-toggle.btn-primary{color:#fff;background-color:#286090;border-color:#204d74}
+#bookme-tbs .btn-primary.active.focus, #bookme-tbs .btn-primary.active:focus, #bookme-tbs .btn-primary.active:hover, #bookme-tbs .btn-primary:active.focus, #bookme-tbs .btn-primary:active:focus, #bookme-tbs .btn-primary:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-primary.focus, #bookme-tbs .open>.dropdown-toggle.btn-primary:focus, #bookme-tbs .open>.dropdown-toggle.btn-primary:hover{color:#fff;background-color:#204d74;border-color:#122b40}
+#bookme-tbs .btn-primary.active, #bookme-tbs .btn-primary:active, #bookme-tbs .open>.dropdown-toggle.btn-primary{background-image:none}
+#bookme-tbs .btn-primary.disabled.focus, #bookme-tbs .btn-primary.disabled:focus, #bookme-tbs .btn-primary.disabled:hover, #bookme-tbs .btn-primary[disabled].focus, #bookme-tbs .btn-primary[disabled]:focus, #bookme-tbs .btn-primary[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-primary.focus, #bookme-tbs fieldset[disabled] .btn-primary:focus, #bookme-tbs fieldset[disabled] .btn-primary:hover{background-color:#337ab7;border-color:#2e6da4}
+#bookme-tbs .btn-primary .badge{color:#337ab7;background-color:#fff}
+#bookme-tbs .btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}
+#bookme-tbs .btn-success.focus, #bookme-tbs .btn-success:focus{color:#fff;background-color:#449d44;border-color:#255625}
+#bookme-tbs .btn-success:hover{color:#fff;background-color:#449d44;border-color:#398439}
+#bookme-tbs .btn-success.active, #bookme-tbs .btn-success:active, #bookme-tbs .open>.dropdown-toggle.btn-success{color:#fff;background-color:#449d44;border-color:#398439}
+#bookme-tbs .btn-success.active.focus, #bookme-tbs .btn-success.active:focus, #bookme-tbs .btn-success.active:hover, #bookme-tbs .btn-success:active.focus, #bookme-tbs .btn-success:active:focus, #bookme-tbs .btn-success:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-success.focus, #bookme-tbs .open>.dropdown-toggle.btn-success:focus, #bookme-tbs .open>.dropdown-toggle.btn-success:hover{color:#fff;background-color:#398439;border-color:#255625}
+#bookme-tbs .btn-success.active, #bookme-tbs .btn-success:active, #bookme-tbs .open>.dropdown-toggle.btn-success{background-image:none}
+#bookme-tbs .btn-success.disabled.focus, #bookme-tbs .btn-success.disabled:focus, #bookme-tbs .btn-success.disabled:hover, #bookme-tbs .btn-success[disabled].focus, #bookme-tbs .btn-success[disabled]:focus, #bookme-tbs .btn-success[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-success.focus, #bookme-tbs fieldset[disabled] .btn-success:focus, #bookme-tbs fieldset[disabled] .btn-success:hover{background-color:#5cb85c;border-color:#4cae4c}
+#bookme-tbs .btn-success .badge{color:#5cb85c;background-color:#fff}
+#bookme-tbs .btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}
+#bookme-tbs .btn-info.focus, #bookme-tbs .btn-info:focus{color:#fff;background-color:#31b0d5;border-color:#1b6d85}
+#bookme-tbs .btn-info:hover{color:#fff;background-color:#31b0d5;border-color:#269abc}
+#bookme-tbs .btn-info.active, #bookme-tbs .btn-info:active, #bookme-tbs .open>.dropdown-toggle.btn-info{color:#fff;background-color:#31b0d5;border-color:#269abc}
+#bookme-tbs .btn-info.active.focus, #bookme-tbs .btn-info.active:focus, #bookme-tbs .btn-info.active:hover, #bookme-tbs .btn-info:active.focus, #bookme-tbs .btn-info:active:focus, #bookme-tbs .btn-info:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-info.focus, #bookme-tbs .open>.dropdown-toggle.btn-info:focus, #bookme-tbs .open>.dropdown-toggle.btn-info:hover{color:#fff;background-color:#269abc;border-color:#1b6d85}
+#bookme-tbs .btn-info.active, #bookme-tbs .btn-info:active, #bookme-tbs .open>.dropdown-toggle.btn-info{background-image:none}
+#bookme-tbs .btn-info.disabled.focus, #bookme-tbs .btn-info.disabled:focus, #bookme-tbs .btn-info.disabled:hover, #bookme-tbs .btn-info[disabled].focus, #bookme-tbs .btn-info[disabled]:focus, #bookme-tbs .btn-info[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-info.focus, #bookme-tbs fieldset[disabled] .btn-info:focus, #bookme-tbs fieldset[disabled] .btn-info:hover{background-color:#5bc0de;border-color:#46b8da}
+#bookme-tbs .btn-info .badge{color:#5bc0de;background-color:#fff}
+#bookme-tbs .btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}
+#bookme-tbs .btn-warning.focus, #bookme-tbs .btn-warning:focus{color:#fff;background-color:#ec971f;border-color:#985f0d}
+#bookme-tbs .btn-warning:hover{color:#fff;background-color:#ec971f;border-color:#d58512}
+#bookme-tbs .btn-warning.active, #bookme-tbs .btn-warning:active, #bookme-tbs .open>.dropdown-toggle.btn-warning{color:#fff;background-color:#ec971f;border-color:#d58512}
+#bookme-tbs .btn-warning.active.focus, #bookme-tbs .btn-warning.active:focus, #bookme-tbs .btn-warning.active:hover, #bookme-tbs .btn-warning:active.focus, #bookme-tbs .btn-warning:active:focus, #bookme-tbs .btn-warning:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-warning.focus, #bookme-tbs .open>.dropdown-toggle.btn-warning:focus, #bookme-tbs .open>.dropdown-toggle.btn-warning:hover{color:#fff;background-color:#d58512;border-color:#985f0d}
+#bookme-tbs .btn-warning.active, #bookme-tbs .btn-warning:active, #bookme-tbs .open>.dropdown-toggle.btn-warning{background-image:none}
+#bookme-tbs .btn-warning.disabled.focus, #bookme-tbs .btn-warning.disabled:focus, #bookme-tbs .btn-warning.disabled:hover, #bookme-tbs .btn-warning[disabled].focus, #bookme-tbs .btn-warning[disabled]:focus, #bookme-tbs .btn-warning[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-warning.focus, #bookme-tbs fieldset[disabled] .btn-warning:focus, #bookme-tbs fieldset[disabled] .btn-warning:hover{background-color:#f0ad4e;border-color:#eea236}
+#bookme-tbs .btn-warning .badge{color:#f0ad4e;background-color:#fff}
+#bookme-tbs .btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}
+#bookme-tbs .btn-danger.focus, #bookme-tbs .btn-danger:focus{color:#fff;background-color:#c9302c;border-color:#761c19}
+#bookme-tbs .btn-danger:hover{color:#fff;background-color:#c9302c;border-color:#ac2925}
+#bookme-tbs .btn-danger.active, #bookme-tbs .btn-danger:active, #bookme-tbs .open>.dropdown-toggle.btn-danger{color:#fff;background-color:#c9302c;border-color:#ac2925}
+#bookme-tbs .btn-danger.active.focus, #bookme-tbs .btn-danger.active:focus, #bookme-tbs .btn-danger.active:hover, #bookme-tbs .btn-danger:active.focus, #bookme-tbs .btn-danger:active:focus, #bookme-tbs .btn-danger:active:hover, #bookme-tbs .open>.dropdown-toggle.btn-danger.focus, #bookme-tbs .open>.dropdown-toggle.btn-danger:focus, #bookme-tbs .open>.dropdown-toggle.btn-danger:hover{color:#fff;background-color:#ac2925;border-color:#761c19}
+#bookme-tbs .btn-danger.active, #bookme-tbs .btn-danger:active, #bookme-tbs .open>.dropdown-toggle.btn-danger{background-image:none}
+#bookme-tbs .btn-danger.disabled.focus, #bookme-tbs .btn-danger.disabled:focus, #bookme-tbs .btn-danger.disabled:hover, #bookme-tbs .btn-danger[disabled].focus, #bookme-tbs .btn-danger[disabled]:focus, #bookme-tbs .btn-danger[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-danger.focus, #bookme-tbs fieldset[disabled] .btn-danger:focus, #bookme-tbs fieldset[disabled] .btn-danger:hover{background-color:#d9534f;border-color:#d43f3a}
+#bookme-tbs .btn-danger .badge{color:#d9534f;background-color:#fff}
+#bookme-tbs .btn-link{font-weight:400;color:#337ab7;border-radius:0}
+#bookme-tbs .btn-link, #bookme-tbs .btn-link.active, #bookme-tbs .btn-link:active, #bookme-tbs .btn-link[disabled], #bookme-tbs fieldset[disabled] .btn-link{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}
+#bookme-tbs .btn-link, #bookme-tbs .btn-link:active, #bookme-tbs .btn-link:focus, #bookme-tbs .btn-link:hover{border-color:transparent}
+#bookme-tbs .btn-link:focus, #bookme-tbs .btn-link:hover{color:#23527c;text-decoration:underline;background-color:transparent}
+#bookme-tbs .btn-link[disabled]:focus, #bookme-tbs .btn-link[disabled]:hover, #bookme-tbs fieldset[disabled] .btn-link:focus, #bookme-tbs fieldset[disabled] .btn-link:hover{color:#777;text-decoration:none}
+#bookme-tbs .btn-group-lg>.btn, #bookme-tbs .btn-lg{padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}
+#bookme-tbs .btn-group-sm>.btn, #bookme-tbs .btn-sm{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}
+#bookme-tbs .btn-group-xs>.btn, #bookme-tbs .btn-xs{padding:1px 5px;font-size:12px;line-height:1.5;border-radius:3px}
+#bookme-tbs .btn-block{display:block;width:100%}
+#bookme-tbs .btn-block+.btn-block{margin-top:5px}
+#bookme-tbs input[type=button].btn-block, #bookme-tbs input[type=reset].btn-block, #bookme-tbs input[type=submit].btn-block{width:100%}
+#bookme-tbs .fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}
+#bookme-tbs .fade.in{opacity:1}
+#bookme-tbs .collapse{display:none}
+#bookme-tbs .collapse.in{display:block}
+#bookme-tbs tr.collapse.in{display:table-row}
+#bookme-tbs tbody.collapse.in{display:table-row-group}
+#bookme-tbs .collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-property:height, #bookme-tbs visibility;-o-transition-property:height, visibility;transition-property:height, visibility}
+#bookme-tbs .caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:4px dashed;border-top:4px solid\9;border-right:4px solid transparent;border-left:4px solid transparent}
+#bookme-tbs .dropdown, #bookme-tbs .dropup{position:relative}
+#bookme-tbs .dropdown-toggle:focus{outline:0}
+#bookme-tbs .dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;font-size:14px;text-align:left;list-style:none;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, .15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0, 0, 0, .175);box-shadow:0 6px 12px rgba(0, 0, 0, .175)}
+#bookme-tbs .dropdown-menu.pull-right{right:0;left:auto}
+#bookme-tbs .dropdown-menu .divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}
+#bookme-tbs .dropdown-menu>li>a{display:block;padding:3px 20px;clear:both;font-weight:400;line-height:1.42857143;color:#333;white-space:nowrap}
+#bookme-tbs .dropdown-menu>li>a:focus, #bookme-tbs .dropdown-menu>li>a:hover{color:#262626;text-decoration:none;background-color:#f5f5f5}
+#bookme-tbs .dropdown-menu>.active>a, #bookme-tbs .dropdown-menu>.active>a:focus, #bookme-tbs .dropdown-menu>.active>a:hover{color:#fff;text-decoration:none;background-color:#337ab7;outline:0}
+#bookme-tbs .dropdown-menu>.disabled>a, #bookme-tbs .dropdown-menu>.disabled>a:focus, #bookme-tbs .dropdown-menu>.disabled>a:hover{color:#777}
+#bookme-tbs .dropdown-menu>.disabled>a:focus, #bookme-tbs .dropdown-menu>.disabled>a:hover{text-decoration:none;cursor:not-allowed;background-color:transparent;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+#bookme-tbs .open>.dropdown-menu{display:block}
+#bookme-tbs .open>a{outline:0}
+#bookme-tbs .dropdown-menu-right{right:0;left:auto}
+#bookme-tbs .dropdown-menu-left{right:auto;left:0}
+#bookme-tbs .dropdown-header{display:block;padding:3px 20px;font-size:12px;line-height:1.42857143;color:#777;white-space:nowrap}
+#bookme-tbs .dropdown-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:990}
+#bookme-tbs .pull-right>.dropdown-menu{right:0;left:auto}
+#bookme-tbs .dropup .caret, #bookme-tbs .navbar-fixed-bottom .dropdown .caret{content:"";border-top:0;border-bottom:4px dashed;border-bottom:4px solid\9}
+#bookme-tbs .dropup .dropdown-menu, #bookme-tbs .navbar-fixed-bottom .dropdown .dropdown-menu{top:auto;bottom:100%;margin-bottom:2px}
+@media (min-width:768px){
+    #bookme-tbs .navbar-right .dropdown-menu{right:0;left:auto}
+    #bookme-tbs .navbar-right .dropdown-menu-left{right:auto;left:0}
+}
+#bookme-tbs .btn-group, #bookme-tbs .btn-group-vertical{position:relative;display:inline-block;vertical-align:middle}
+#bookme-tbs .btn-group-vertical>.btn, #bookme-tbs .btn-group>.btn{position:relative;float:left}
+#bookme-tbs .btn-group-vertical>.btn.active, #bookme-tbs .btn-group-vertical>.btn:active, #bookme-tbs .btn-group-vertical>.btn:focus, #bookme-tbs .btn-group-vertical>.btn:hover, #bookme-tbs .btn-group>.btn.active, #bookme-tbs .btn-group>.btn:active, #bookme-tbs .btn-group>.btn:focus, #bookme-tbs .btn-group>.btn:hover{z-index:2}
+#bookme-tbs .btn-group .btn+.btn, #bookme-tbs .btn-group .btn+.btn-group, #bookme-tbs .btn-group .btn-group+.btn, #bookme-tbs .btn-group .btn-group+.btn-group{margin-left:-1px}
+#bookme-tbs .btn-toolbar{margin-left:-5px}
+#bookme-tbs .btn-toolbar .btn, #bookme-tbs .btn-toolbar .btn-group, #bookme-tbs .btn-toolbar .input-group{float:left}
+#bookme-tbs .btn-toolbar>.btn, #bookme-tbs .btn-toolbar>.btn-group, #bookme-tbs .btn-toolbar>.input-group{margin-left:5px}
+#bookme-tbs .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}
+#bookme-tbs .btn-group>.btn:first-child{margin-left:0}
+#bookme-tbs .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){border-top-right-radius:0;border-bottom-right-radius:0}
+#bookme-tbs .btn-group>.btn:last-child:not(:first-child), #bookme-tbs .btn-group>.dropdown-toggle:not(:first-child){border-top-left-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .btn-group>.btn-group{float:left}
+#bookme-tbs .btn-group>.btn-group:not(:first-child):not(:last-child)>.btn{border-radius:0}
+#bookme-tbs .btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child, #bookme-tbs .btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-top-right-radius:0;border-bottom-right-radius:0}
+#bookme-tbs .btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child{border-top-left-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .btn-group .dropdown-toggle:active, #bookme-tbs .btn-group.open .dropdown-toggle{outline:0}
+#bookme-tbs .btn-group>.btn+.dropdown-toggle{padding-right:8px;padding-left:8px}
+#bookme-tbs .btn-group>.btn-lg+.dropdown-toggle{padding-right:12px;padding-left:12px}
+#bookme-tbs .btn-group.open .dropdown-toggle{-webkit-box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125);box-shadow:inset 0 3px 5px rgba(0, 0, 0, .125)}
+#bookme-tbs .btn-group.open .dropdown-toggle.btn-link{-webkit-box-shadow:none;box-shadow:none}
+#bookme-tbs .btn .caret{margin-left:0}
+#bookme-tbs .btn-lg .caret{border-width:5px 5px 0;border-bottom-width:0}
+#bookme-tbs .dropup .btn-lg .caret{border-width:0 5px 5px}
+#bookme-tbs .btn-group-vertical>.btn, #bookme-tbs .btn-group-vertical>.btn-group, #bookme-tbs .btn-group-vertical>.btn-group>.btn{display:block;float:none;width:100%;max-width:100%}
+#bookme-tbs .btn-group-vertical>.btn-group>.btn{float:none}
+#bookme-tbs .btn-group-vertical>.btn+.btn, #bookme-tbs .btn-group-vertical>.btn+.btn-group, #bookme-tbs .btn-group-vertical>.btn-group+.btn, #bookme-tbs .btn-group-vertical>.btn-group+.btn-group{margin-top:-1px;margin-left:0}
+#bookme-tbs .btn-group-vertical>.btn:not(:first-child):not(:last-child){border-radius:0}
+#bookme-tbs .btn-group-vertical>.btn:first-child:not(:last-child){border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .btn-group-vertical>.btn:last-child:not(:first-child){border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#bookme-tbs .btn-group-vertical>.btn-group:not(:first-child):not(:last-child)>.btn{border-radius:0}
+#bookme-tbs .btn-group-vertical>.btn-group:first-child:not(:last-child)>.btn:last-child, #bookme-tbs .btn-group-vertical>.btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .btn-group-vertical>.btn-group:last-child:not(:first-child)>.btn:first-child{border-top-left-radius:0;border-top-right-radius:0}
+#bookme-tbs .btn-group-justified{display:table;width:100%;table-layout:fixed;border-collapse:separate}
+#bookme-tbs .btn-group-justified>.btn, #bookme-tbs .btn-group-justified>.btn-group{display:table-cell;float:none;width:1%}
+#bookme-tbs .btn-group-justified>.btn-group .btn{width:100%}
+#bookme-tbs .btn-group-justified>.btn-group .dropdown-menu{left:auto}
+#bookme-tbs [data-toggle=buttons]>.btn input[type=checkbox], #bookme-tbs [data-toggle=buttons]>.btn input[type=radio], #bookme-tbs [data-toggle=buttons]>.btn-group>.btn input[type=checkbox], #bookme-tbs [data-toggle=buttons]>.btn-group>.btn input[type=radio]{position:absolute;clip:rect(0, 0, 0, 0);pointer-events:none}
+#bookme-tbs .input-group{position:relative;display:table;border-collapse:separate}
+#bookme-tbs .input-group[class*=col-]{float:none;padding-right:0;padding-left:0}
+#bookme-tbs .input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}
+#bookme-tbs .input-group .form-control:focus{z-index:3}
+#bookme-tbs .input-group-lg>.form-control, #bookme-tbs .input-group-lg>.input-group-addon, #bookme-tbs .input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}
+#bookme-tbs select.input-group-lg>.form-control, #bookme-tbs select.input-group-lg>.input-group-addon, #bookme-tbs select.input-group-lg>.input-group-btn>.btn{height:46px;line-height:46px}
+#bookme-tbs select[multiple].input-group-lg>.form-control, #bookme-tbs select[multiple].input-group-lg>.input-group-addon, #bookme-tbs select[multiple].input-group-lg>.input-group-btn>.btn, #bookme-tbs textarea.input-group-lg>.form-control, #bookme-tbs textarea.input-group-lg>.input-group-addon, #bookme-tbs textarea.input-group-lg>.input-group-btn>.btn{height:auto}
+#bookme-tbs .input-group-sm>.form-control, #bookme-tbs .input-group-sm>.input-group-addon, #bookme-tbs .input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}
+#bookme-tbs select.input-group-sm>.form-control, #bookme-tbs select.input-group-sm>.input-group-addon, #bookme-tbs select.input-group-sm>.input-group-btn>.btn{height:30px;line-height:30px}
+#bookme-tbs select[multiple].input-group-sm>.form-control, #bookme-tbs select[multiple].input-group-sm>.input-group-addon, #bookme-tbs select[multiple].input-group-sm>.input-group-btn>.btn, #bookme-tbs textarea.input-group-sm>.form-control, #bookme-tbs textarea.input-group-sm>.input-group-addon, #bookme-tbs textarea.input-group-sm>.input-group-btn>.btn{height:auto}
+#bookme-tbs .input-group .form-control, #bookme-tbs .input-group-addon, #bookme-tbs .input-group-btn{display:table-cell}
+#bookme-tbs .input-group .form-control:not(:first-child):not(:last-child), #bookme-tbs .input-group-addon:not(:first-child):not(:last-child), #bookme-tbs .input-group-btn:not(:first-child):not(:last-child){border-radius:0}
+#bookme-tbs .input-group-addon, #bookme-tbs .input-group-btn{width:1%;white-space:nowrap;vertical-align:middle}
+#bookme-tbs .input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}
+#bookme-tbs .input-group-addon.input-sm{padding:5px 10px;font-size:12px;border-radius:3px}
+#bookme-tbs .input-group-addon.input-lg{padding:10px 16px;font-size:18px;border-radius:6px}
+#bookme-tbs .input-group-addon input[type=checkbox], #bookme-tbs .input-group-addon input[type=radio]{margin-top:0}
+#bookme-tbs .input-group .form-control:first-child, #bookme-tbs .input-group-addon:first-child, #bookme-tbs .input-group-btn:first-child>.btn, #bookme-tbs .input-group-btn:first-child>.btn-group>.btn, #bookme-tbs .input-group-btn:first-child>.dropdown-toggle, #bookme-tbs .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, #bookme-tbs .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle){border-top-right-radius:0;border-bottom-right-radius:0}
+#bookme-tbs .input-group-addon:first-child{border-right:0}
+#bookme-tbs .input-group .form-control:last-child, #bookme-tbs .input-group-addon:last-child, #bookme-tbs .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, #bookme-tbs .input-group-btn:first-child>.btn:not(:first-child), #bookme-tbs .input-group-btn:last-child>.btn, #bookme-tbs .input-group-btn:last-child>.btn-group>.btn, #bookme-tbs .input-group-btn:last-child>.dropdown-toggle{border-top-left-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .input-group-addon:last-child{border-left:0}
+#bookme-tbs .input-group-btn{position:relative;font-size:0;white-space:nowrap}
+#bookme-tbs .input-group-btn>.btn{position:relative}
+#bookme-tbs .input-group-btn>.btn+.btn{margin-left:-1px}
+#bookme-tbs .input-group-btn>.btn:active, #bookme-tbs .input-group-btn>.btn:focus, #bookme-tbs .input-group-btn>.btn:hover{z-index:2}
+#bookme-tbs .input-group-btn:first-child>.btn, #bookme-tbs .input-group-btn:first-child>.btn-group{margin-right:-1px}
+#bookme-tbs .input-group-btn:last-child>.btn, #bookme-tbs .input-group-btn:last-child>.btn-group{z-index:2;margin-left:-1px}
+#bookme-tbs .nav{padding-left:0;margin-bottom:0;list-style:none}
+#bookme-tbs .nav>li{position:relative;display:block}
+#bookme-tbs .nav>li>a{position:relative;display:block;padding:10px 15px}
+#bookme-tbs .nav>li>a:focus, #bookme-tbs .nav>li>a:hover{text-decoration:none;background-color:#eee}
+#bookme-tbs .nav>li.disabled>a{color:#777}
+#bookme-tbs .nav>li.disabled>a:focus, #bookme-tbs .nav>li.disabled>a:hover{color:#777;text-decoration:none;cursor:not-allowed;background-color:transparent}
+#bookme-tbs .nav .open>a, #bookme-tbs .nav .open>a:focus, #bookme-tbs .nav .open>a:hover{background-color:#eee;border-color:#337ab7}
+#bookme-tbs .nav .nav-divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}
+#bookme-tbs .nav>li>a>img{max-width:none}
+#bookme-tbs .nav-tabs{border-bottom:1px solid #ddd}
+#bookme-tbs .nav-tabs>li{float:left;margin-bottom:-1px}
+#bookme-tbs .nav-tabs>li>a{margin-right:2px;line-height:1.42857143;border:1px solid transparent;border-radius:4px 4px 0 0}
+#bookme-tbs .nav-tabs>li>a:hover{border-color:#eee #eee #ddd}
+#bookme-tbs .nav-tabs>li.active>a, #bookme-tbs .nav-tabs>li.active>a:focus, #bookme-tbs .nav-tabs>li.active>a:hover{color:#555;cursor:default;background-color:#fff;border:1px solid #ddd;border-bottom-color:transparent}
+#bookme-tbs .nav-tabs.nav-justified{width:100%;border-bottom:0}
+#bookme-tbs .nav-tabs.nav-justified>li{float:none}
+#bookme-tbs .nav-tabs.nav-justified>li>a{margin-bottom:5px;text-align:center}
+#bookme-tbs .nav-tabs.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}
+@media (min-width:768px){
+    #bookme-tbs .nav-tabs.nav-justified>li{display:table-cell;width:1%}
+    #bookme-tbs .nav-tabs.nav-justified>li>a{margin-bottom:0}
+}
+#bookme-tbs .nav-tabs.nav-justified>li>a{margin-right:0;border-radius:4px}
+#bookme-tbs .nav-tabs.nav-justified>.active>a, #bookme-tbs .nav-tabs.nav-justified>.active>a:focus, #bookme-tbs .nav-tabs.nav-justified>.active>a:hover{border:1px solid #ddd}
+@media (min-width:768px){
+    #bookme-tbs .nav-tabs.nav-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}
+    #bookme-tbs .nav-tabs.nav-justified>.active>a, #bookme-tbs .nav-tabs.nav-justified>.active>a:focus, #bookme-tbs .nav-tabs.nav-justified>.active>a:hover{border-bottom-color:#fff}
+}
+#bookme-tbs .nav-pills>li{float:left}
+#bookme-tbs .nav-pills>li>a{border-radius:4px}
+#bookme-tbs .nav-pills>li+li{margin-left:2px}
+#bookme-tbs .nav-pills>li.active>a, #bookme-tbs .nav-pills>li.active>a:focus, #bookme-tbs .nav-pills>li.active>a:hover{color:#fff;background-color:#337ab7}
+#bookme-tbs .nav-stacked>li{float:none}
+#bookme-tbs .nav-stacked>li+li{margin-top:2px;margin-left:0}
+#bookme-tbs .nav-justified{width:100%}
+#bookme-tbs .nav-justified>li{float:none}
+#bookme-tbs .nav-justified>li>a{margin-bottom:5px;text-align:center}
+#bookme-tbs .nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}
+@media (min-width:768px){
+    #bookme-tbs .nav-justified>li{display:table-cell;width:1%}
+    #bookme-tbs .nav-justified>li>a{margin-bottom:0}
+}
+#bookme-tbs .nav-tabs-justified{border-bottom:0}
+#bookme-tbs .nav-tabs-justified>li>a{margin-right:0;border-radius:4px}
+#bookme-tbs .nav-tabs-justified>.active>a, #bookme-tbs .nav-tabs-justified>.active>a:focus, #bookme-tbs .nav-tabs-justified>.active>a:hover{border:1px solid #ddd}
+@media (min-width:768px){
+    #bookme-tbs .nav-tabs-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}
+    #bookme-tbs .nav-tabs-justified>.active>a, #bookme-tbs .nav-tabs-justified>.active>a:focus, #bookme-tbs .nav-tabs-justified>.active>a:hover{border-bottom-color:#fff}
+}
+#bookme-tbs .tab-content>.tab-pane{display:none}
+#bookme-tbs .tab-content>.active{display:block}
+#bookme-tbs .nav-tabs .dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0}
+#bookme-tbs .navbar{position:relative;min-height:50px;margin-bottom:20px;border:1px solid transparent}
+@media (min-width:768px){
+    #bookme-tbs .navbar{border-radius:4px}
+}
+@media (min-width:768px){
+    #bookme-tbs .navbar-header{float:left}
+}
+#bookme-tbs .navbar-collapse{padding-right:15px;padding-left:15px;overflow-x:visible;-webkit-overflow-scrolling:touch;border-top:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .1);box-shadow:inset 0 1px 0 rgba(255, 255, 255, .1)}
+#bookme-tbs .navbar-collapse.in{overflow-y:auto}
+@media (min-width:768px){
+    #bookme-tbs .navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}
+    #bookme-tbs .navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}
+    #bookme-tbs .navbar-collapse.in{overflow-y:visible}
+    #bookme-tbs .navbar-fixed-bottom .navbar-collapse, #bookme-tbs .navbar-fixed-top .navbar-collapse, #bookme-tbs .navbar-static-top .navbar-collapse{padding-right:0;padding-left:0}
+}
+#bookme-tbs .navbar-fixed-bottom .navbar-collapse, #bookme-tbs .navbar-fixed-top .navbar-collapse{max-height:340px}
+@media (max-device-width:480px) and (orientation:landscape){#bookme-tbs .navbar-fixed-bottom .navbar-collapse, #bookme-tbs .navbar-fixed-top .navbar-collapse{max-height:200px}
+}
+#bookme-tbs .container-fluid>.navbar-collapse, #bookme-tbs .container-fluid>.navbar-header, #bookme-tbs .container>.navbar-collapse, #bookme-tbs .container>.navbar-header{margin-right:-15px;margin-left:-15px}
+@media (min-width:768px){#bookme-tbs .container-fluid>.navbar-collapse, #bookme-tbs .container-fluid>.navbar-header, #bookme-tbs .container>.navbar-collapse, #bookme-tbs .container>.navbar-header{margin-right:0;margin-left:0}
+}
+#bookme-tbs .navbar-static-top{z-index:1000;border-width:0 0 1px}
+@media (min-width:768px){#bookme-tbs .navbar-static-top{border-radius:0}
+}
+#bookme-tbs .navbar-fixed-bottom, #bookme-tbs .navbar-fixed-top{position:fixed;right:0;left:0;z-index:1030}
+@media (min-width:768px){#bookme-tbs .navbar-fixed-bottom, #bookme-tbs .navbar-fixed-top{border-radius:0}
+}
+#bookme-tbs .navbar-fixed-top{top:0;border-width:0 0 1px}
+#bookme-tbs .navbar-fixed-bottom{bottom:0;margin-bottom:0;border-width:1px 0 0}
+#bookme-tbs .navbar-brand{float:left;height:50px;padding:15px 15px;font-size:18px;line-height:20px}
+#bookme-tbs .navbar-brand:focus, #bookme-tbs .navbar-brand:hover{text-decoration:none}
+#bookme-tbs .navbar-brand>img{display:block}
+@media (min-width:768px){#bookme-tbs .navbar>.container .navbar-brand, #bookme-tbs .navbar>.container-fluid .navbar-brand{margin-left:-15px}
+}
+#bookme-tbs .navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px}
+#bookme-tbs .navbar-toggle:focus{outline:0}
+#bookme-tbs .navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px}
+#bookme-tbs .navbar-toggle .icon-bar+.icon-bar{margin-top:4px}
+@media (min-width:768px){#bookme-tbs .navbar-toggle{display:none}
+}
+#bookme-tbs .navbar-nav{margin:7.5px -15px}
+#bookme-tbs .navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:20px}
+@media (max-width:767px){#bookme-tbs .navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;-webkit-box-shadow:none;box-shadow:none}
+                         #bookme-tbs .navbar-nav .open .dropdown-menu .dropdown-header, #bookme-tbs .navbar-nav .open .dropdown-menu>li>a{padding:5px 15px 5px 25px}
+                         #bookme-tbs .navbar-nav .open .dropdown-menu>li>a{line-height:20px}
+                         #bookme-tbs .navbar-nav .open .dropdown-menu>li>a:focus, #bookme-tbs .navbar-nav .open .dropdown-menu>li>a:hover{background-image:none}
+}
+@media (min-width:768px){#bookme-tbs .navbar-nav{float:left;margin:0}
+                         #bookme-tbs .navbar-nav>li{float:left}
+                         #bookme-tbs .navbar-nav>li>a{padding-top:15px;padding-bottom:15px}
+}
+#bookme-tbs .navbar-form{padding:10px 15px;margin-top:8px;margin-right:-15px;margin-bottom:8px;margin-left:-15px;border-top:1px solid transparent;border-bottom:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);box-shadow:inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)}
+@media (min-width:768px){#bookme-tbs .navbar-form .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}
+                         #bookme-tbs .navbar-form .form-control{display:inline-block;width:auto;vertical-align:middle}
+                         #bookme-tbs .navbar-form .form-control-static{display:inline-block}
+                         #bookme-tbs .navbar-form .input-group{display:inline-table;vertical-align:middle}
+                         #bookme-tbs .navbar-form .input-group .form-control, #bookme-tbs .navbar-form .input-group .input-group-addon, #bookme-tbs .navbar-form .input-group .input-group-btn{width:auto}
+                         #bookme-tbs .navbar-form .input-group>.form-control{width:100%}
+                         #bookme-tbs .navbar-form .control-label{margin-bottom:0;vertical-align:middle}
+                         #bookme-tbs .navbar-form .checkbox, #bookme-tbs .navbar-form .radio{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}
+                         #bookme-tbs .navbar-form .checkbox label, #bookme-tbs .navbar-form .radio label{padding-left:0}
+                         #bookme-tbs .navbar-form .checkbox input[type=checkbox], #bookme-tbs .navbar-form .radio input[type=radio]{position:relative;margin-left:0}
+                         #bookme-tbs .navbar-form .has-feedback .form-control-feedback{top:0}
+}
+@media (max-width:767px){#bookme-tbs .navbar-form .form-group{margin-bottom:5px}
+                         #bookme-tbs .navbar-form .form-group:last-child{margin-bottom:0}
+}
+@media (min-width:768px){#bookme-tbs .navbar-form{width:auto;padding-top:0;padding-bottom:0;margin-right:0;margin-left:0;border:0;-webkit-box-shadow:none;box-shadow:none}
+}
+#bookme-tbs .navbar-nav>li>.dropdown-menu{margin-top:0;border-top-left-radius:0;border-top-right-radius:0}
+#bookme-tbs .navbar-fixed-bottom .navbar-nav>li>.dropdown-menu{margin-bottom:0;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:0;border-bottom-left-radius:0}
+#bookme-tbs .navbar-btn{margin-top:8px;margin-bottom:8px}
+#bookme-tbs .navbar-btn.btn-sm{margin-top:10px;margin-bottom:10px}
+#bookme-tbs .navbar-btn.btn-xs{margin-top:14px;margin-bottom:14px}
+#bookme-tbs .navbar-text{margin-top:15px;margin-bottom:15px}
+@media (min-width:768px){#bookme-tbs .navbar-text{float:left;margin-right:15px;margin-left:15px}
+}
+@media (min-width:768px){#bookme-tbs .navbar-left{float:left!important}
+                         #bookme-tbs .navbar-right{float:right!important;margin-right:-15px}
+                         #bookme-tbs .navbar-right~.navbar-right{margin-right:0}
+}
+#bookme-tbs .navbar-default{background-color:#f8f8f8;border-color:#e7e7e7}
+#bookme-tbs .navbar-default .navbar-brand{color:#777}
+#bookme-tbs .navbar-default .navbar-brand:focus, #bookme-tbs .navbar-default .navbar-brand:hover{color:#5e5e5e;background-color:transparent}
+#bookme-tbs .navbar-default .navbar-text{color:#777}
+#bookme-tbs .navbar-default .navbar-nav>li>a{color:#777}
+#bookme-tbs .navbar-default .navbar-nav>li>a:focus, #bookme-tbs .navbar-default .navbar-nav>li>a:hover{color:#333;background-color:transparent}
+#bookme-tbs .navbar-default .navbar-nav>.active>a, #bookme-tbs .navbar-default .navbar-nav>.active>a:focus, #bookme-tbs .navbar-default .navbar-nav>.active>a:hover{color:#555;background-color:#e7e7e7}
+#bookme-tbs .navbar-default .navbar-nav>.disabled>a, #bookme-tbs .navbar-default .navbar-nav>.disabled>a:focus, #bookme-tbs .navbar-default .navbar-nav>.disabled>a:hover{color:#ccc;background-color:transparent}
+#bookme-tbs .navbar-default .navbar-toggle{border-color:#ddd}
+#bookme-tbs .navbar-default .navbar-toggle:focus, #bookme-tbs .navbar-default .navbar-toggle:hover{background-color:#ddd}
+#bookme-tbs .navbar-default .navbar-toggle .icon-bar{background-color:#888}
+#bookme-tbs .navbar-default .navbar-collapse, #bookme-tbs .navbar-default .navbar-form{border-color:#e7e7e7}
+#bookme-tbs .navbar-default .navbar-nav>.open>a, #bookme-tbs .navbar-default .navbar-nav>.open>a:focus, #bookme-tbs .navbar-default .navbar-nav>.open>a:hover{color:#555;background-color:#e7e7e7}
+@media (max-width:767px){#bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#777}
+                         #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:#333;background-color:transparent}
+                         #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.active>a, #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover{color:#555;background-color:#e7e7e7}
+                         #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a, #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus, #bookme-tbs .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#ccc;background-color:transparent}
+}
+#bookme-tbs .navbar-default .navbar-link{color:#777}
+#bookme-tbs .navbar-default .navbar-link:hover{color:#333}
+#bookme-tbs .navbar-default .btn-link{color:#777}
+#bookme-tbs .navbar-default .btn-link:focus, #bookme-tbs .navbar-default .btn-link:hover{color:#333}
+#bookme-tbs .navbar-default .btn-link[disabled]:focus, #bookme-tbs .navbar-default .btn-link[disabled]:hover, #bookme-tbs fieldset[disabled] .navbar-default .btn-link:focus, #bookme-tbs fieldset[disabled] .navbar-default .btn-link:hover{color:#ccc}
+#bookme-tbs .navbar-inverse{background-color:#222;border-color:#080808}
+#bookme-tbs .navbar-inverse .navbar-brand{color:#9d9d9d}
+#bookme-tbs .navbar-inverse .navbar-brand:focus, #bookme-tbs .navbar-inverse .navbar-brand:hover{color:#fff;background-color:transparent}
+#bookme-tbs .navbar-inverse .navbar-text{color:#9d9d9d}
+#bookme-tbs .navbar-inverse .navbar-nav>li>a{color:#9d9d9d}
+#bookme-tbs .navbar-inverse .navbar-nav>li>a:focus, #bookme-tbs .navbar-inverse .navbar-nav>li>a:hover{color:#fff;background-color:transparent}
+#bookme-tbs .navbar-inverse .navbar-nav>.active>a, #bookme-tbs .navbar-inverse .navbar-nav>.active>a:focus, #bookme-tbs .navbar-inverse .navbar-nav>.active>a:hover{color:#fff;background-color:#080808}
+#bookme-tbs .navbar-inverse .navbar-nav>.disabled>a, #bookme-tbs .navbar-inverse .navbar-nav>.disabled>a:focus, #bookme-tbs .navbar-inverse .navbar-nav>.disabled>a:hover{color:#444;background-color:transparent}
+#bookme-tbs .navbar-inverse .navbar-toggle{border-color:#333}
+#bookme-tbs .navbar-inverse .navbar-toggle:focus, #bookme-tbs .navbar-inverse .navbar-toggle:hover{background-color:#333}
+#bookme-tbs .navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}
+#bookme-tbs .navbar-inverse .navbar-collapse, #bookme-tbs .navbar-inverse .navbar-form{border-color:#101010}
+#bookme-tbs .navbar-inverse .navbar-nav>.open>a, #bookme-tbs .navbar-inverse .navbar-nav>.open>a:focus, #bookme-tbs .navbar-inverse .navbar-nav>.open>a:hover{color:#fff;background-color:#080808}
+@media (max-width:767px){#bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header{border-color:#080808}
+                         #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu .divider{background-color:#080808}
+                         #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color:#9d9d9d}
+                         #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{color:#fff;background-color:transparent}
+                         #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover{color:#fff;background-color:#080808}
+                         #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a, #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:focus, #bookme-tbs .navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#444;background-color:transparent}
+}
+#bookme-tbs .navbar-inverse .navbar-link{color:#9d9d9d}
+#bookme-tbs .navbar-inverse .navbar-link:hover{color:#fff}
+#bookme-tbs .navbar-inverse .btn-link{color:#9d9d9d}
+#bookme-tbs .navbar-inverse .btn-link:focus, #bookme-tbs .navbar-inverse .btn-link:hover{color:#fff}
+#bookme-tbs .navbar-inverse .btn-link[disabled]:focus, #bookme-tbs .navbar-inverse .btn-link[disabled]:hover, #bookme-tbs fieldset[disabled] .navbar-inverse .btn-link:focus, #bookme-tbs fieldset[disabled] .navbar-inverse .btn-link:hover{color:#444}
+#bookme-tbs .breadcrumb{padding:8px 15px;margin-bottom:20px;list-style:none;background-color:#f5f5f5;border-radius:4px}
+#bookme-tbs .breadcrumb>li{display:inline-block}
+#bookme-tbs .breadcrumb>li+li:before{padding:0 5px;color:#ccc;content:"/\00a0"}
+#bookme-tbs .breadcrumb>.active{color:#777}
+#bookme-tbs .pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}
+#bookme-tbs .pagination>li{display:inline}
+#bookme-tbs .pagination>li>a, #bookme-tbs .pagination>li>span{position:relative;float:left;padding:6px 12px;margin-left:-1px;line-height:1.42857143;color:#337ab7;text-decoration:none;background-color:#fff;border:1px solid #ddd}
+#bookme-tbs .pagination>li:first-child>a, #bookme-tbs .pagination>li:first-child>span{margin-left:0;border-top-left-radius:4px;border-bottom-left-radius:4px}
+#bookme-tbs .pagination>li:last-child>a, #bookme-tbs .pagination>li:last-child>span{border-top-right-radius:4px;border-bottom-right-radius:4px}
+#bookme-tbs .pagination>li>a:focus, #bookme-tbs .pagination>li>a:hover, #bookme-tbs .pagination>li>span:focus, #bookme-tbs .pagination>li>span:hover{z-index:2;color:#23527c;background-color:#eee;border-color:#ddd}
+#bookme-tbs .pagination>.active>a, #bookme-tbs .pagination>.active>a:focus, #bookme-tbs .pagination>.active>a:hover, #bookme-tbs .pagination>.active>span, #bookme-tbs .pagination>.active>span:focus, #bookme-tbs .pagination>.active>span:hover{z-index:3;color:#fff;cursor:default;background-color:#337ab7;border-color:#337ab7}
+#bookme-tbs .pagination>.disabled>a, #bookme-tbs .pagination>.disabled>a:focus, #bookme-tbs .pagination>.disabled>a:hover, #bookme-tbs .pagination>.disabled>span, #bookme-tbs .pagination>.disabled>span:focus, #bookme-tbs .pagination>.disabled>span:hover{color:#777;cursor:not-allowed;background-color:#fff;border-color:#ddd}
+#bookme-tbs .pagination-lg>li>a, #bookme-tbs .pagination-lg>li>span{padding:10px 16px;font-size:18px;line-height:1.3333333}
+#bookme-tbs .pagination-lg>li:first-child>a, #bookme-tbs .pagination-lg>li:first-child>span{border-top-left-radius:6px;border-bottom-left-radius:6px}
+#bookme-tbs .pagination-lg>li:last-child>a, #bookme-tbs .pagination-lg>li:last-child>span{border-top-right-radius:6px;border-bottom-right-radius:6px}
+#bookme-tbs .pagination-sm>li>a, #bookme-tbs .pagination-sm>li>span{padding:5px 10px;font-size:12px;line-height:1.5}
+#bookme-tbs .pagination-sm>li:first-child>a, #bookme-tbs .pagination-sm>li:first-child>span{border-top-left-radius:3px;border-bottom-left-radius:3px}
+#bookme-tbs .pagination-sm>li:last-child>a, #bookme-tbs .pagination-sm>li:last-child>span{border-top-right-radius:3px;border-bottom-right-radius:3px}
+#bookme-tbs .pager{padding-left:0;margin:20px 0;text-align:center;list-style:none}
+#bookme-tbs .pager li{display:inline}
+#bookme-tbs .pager li>a, #bookme-tbs .pager li>span{display:inline-block;padding:5px 14px;background-color:#fff;border:1px solid #ddd;border-radius:15px}
+#bookme-tbs .pager li>a:focus, #bookme-tbs .pager li>a:hover{text-decoration:none;background-color:#eee}
+#bookme-tbs .pager .next>a, #bookme-tbs .pager .next>span{float:right}
+#bookme-tbs .pager .previous>a, #bookme-tbs .pager .previous>span{float:left}
+#bookme-tbs .pager .disabled>a, #bookme-tbs .pager .disabled>a:focus, #bookme-tbs .pager .disabled>a:hover, #bookme-tbs .pager .disabled>span{color:#777;cursor:not-allowed;background-color:#fff}
+#bookme-tbs .label{display:inline;padding:.2em .6em .3em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em}
+#bookme-tbs a.label:focus, #bookme-tbs a.label:hover{color:#fff;text-decoration:none;cursor:pointer}
+#bookme-tbs .label:empty{display:none}
+#bookme-tbs .btn .label{position:relative;top:-1px}
+#bookme-tbs .label-default{background-color:#777}
+#bookme-tbs .label-default[href]:focus, #bookme-tbs .label-default[href]:hover{background-color:#5e5e5e}
+#bookme-tbs .label-primary{background-color:#337ab7}
+#bookme-tbs .label-primary[href]:focus, #bookme-tbs .label-primary[href]:hover{background-color:#286090}
+#bookme-tbs .label-success{background-color:#5cb85c}
+#bookme-tbs .label-success[href]:focus, #bookme-tbs .label-success[href]:hover{background-color:#449d44}
+#bookme-tbs .label-info{background-color:#5bc0de}
+#bookme-tbs .label-info[href]:focus, #bookme-tbs .label-info[href]:hover{background-color:#31b0d5}
+#bookme-tbs .label-warning{background-color:#f0ad4e}
+#bookme-tbs .label-warning[href]:focus, #bookme-tbs .label-warning[href]:hover{background-color:#ec971f}
+#bookme-tbs .label-danger{background-color:#d9534f}
+#bookme-tbs .label-danger[href]:focus, #bookme-tbs .label-danger[href]:hover{background-color:#c9302c}
+#bookme-tbs .badge{display:inline-block;min-width:10px;padding:3px 7px;font-size:12px;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:middle;background-color:#777;border-radius:10px}
+#bookme-tbs .badge:empty{display:none}
+#bookme-tbs .btn .badge{position:relative;top:-1px}
+#bookme-tbs .btn-group-xs>.btn .badge, #bookme-tbs .btn-xs .badge{top:0;padding:1px 5px}
+#bookme-tbs a.badge:focus, #bookme-tbs a.badge:hover{color:#fff;text-decoration:none;cursor:pointer}
+#bookme-tbs .list-group-item.active>.badge, #bookme-tbs .nav-pills>.active>a>.badge{color:#337ab7;background-color:#fff}
+#bookme-tbs .list-group-item>.badge{float:right}
+#bookme-tbs .list-group-item>.badge+.badge{margin-right:5px}
+#bookme-tbs .nav-pills>li>a>.badge{margin-left:3px}
+#bookme-tbs .jumbotron{padding-top:30px;padding-bottom:30px;margin-bottom:30px;color:inherit;background-color:#eee}
+#bookme-tbs .jumbotron .h1, #bookme-tbs .jumbotron h1{color:inherit}
+#bookme-tbs .jumbotron p{margin-bottom:15px;font-size:21px;font-weight:200}
+#bookme-tbs .jumbotron>hr{border-top-color:#d5d5d5}
+#bookme-tbs .container .jumbotron, #bookme-tbs .container-fluid .jumbotron{padding-right:15px;padding-left:15px;border-radius:6px}
+#bookme-tbs .jumbotron .container{max-width:100%}
+@media screen and (min-width:768px){
+    #bookme-tbs .jumbotron{padding-top:48px;padding-bottom:48px}
+    #bookme-tbs .container .jumbotron, #bookme-tbs .container-fluid .jumbotron{padding-right:60px;padding-left:60px}
+    #bookme-tbs .jumbotron .h1, #bookme-tbs .jumbotron h1{font-size:63px}
+}
+#bookme-tbs .thumbnail{display:block;padding:4px;margin-bottom:20px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:border .2s ease-in-out;-o-transition:border .2s ease-in-out;transition:border .2s ease-in-out}
+#bookme-tbs .thumbnail a>img, #bookme-tbs .thumbnail>img{margin-right:auto;margin-left:auto}
+#bookme-tbs a.thumbnail.active, #bookme-tbs a.thumbnail:focus, #bookme-tbs a.thumbnail:hover{border-color:#337ab7}
+#bookme-tbs .thumbnail .caption{padding:9px;color:#333}
+#bookme-tbs .alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px}
+#bookme-tbs .alert h4{margin-top:0;color:inherit}
+#bookme-tbs .alert .alert-link{font-weight:700}
+#bookme-tbs .alert>p, #bookme-tbs .alert>ul{margin-bottom:0}
+#bookme-tbs .alert>p+p{margin-top:5px}
+#bookme-tbs .alert-dismissable, #bookme-tbs .alert-dismissible{padding-right:35px}
+#bookme-tbs .alert-dismissable .close, #bookme-tbs .alert-dismissible .close{position:relative;top:-2px;right:-21px;color:inherit}
+#bookme-tbs .alert-success{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}
+#bookme-tbs .alert-success hr{border-top-color:#c9e2b3}
+#bookme-tbs .alert-success .alert-link{color:#2b542c}
+#bookme-tbs .alert-info{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
+#bookme-tbs .alert-info hr{border-top-color:#a6e1ec}
+#bookme-tbs .alert-info .alert-link{color:#245269}
+#bookme-tbs .alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}
+#bookme-tbs .alert-warning hr{border-top-color:#f7e1b5}
+#bookme-tbs .alert-warning .alert-link{color:#66512c}
+#bookme-tbs .alert-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+#bookme-tbs .alert-danger hr{border-top-color:#e4b9c0}
+#bookme-tbs .alert-danger .alert-link{color:#843534}
+@-webkit-keyframes progress-bar-stripes{from{background-position:40px 0}
+                                        to{background-position:0 0}
+}
+@-o-keyframes progress-bar-stripes{from{background-position:40px 0}
+                                   to{background-position:0 0}
+}
+@keyframes progress-bar-stripes{from{background-position:40px 0}
+                                to{background-position:0 0}
+}
+#bookme-tbs .progress{height:20px;margin-bottom:20px;overflow:hidden;background-color:#f5f5f5;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, .1);box-shadow:inset 0 1px 2px rgba(0, 0, 0, .1)}
+#bookme-tbs .progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#337ab7;-webkit-box-shadow:inset 0 -1px 0 rgba(0, 0, 0, .15);box-shadow:inset 0 -1px 0 rgba(0, 0, 0, .15);-webkit-transition:width .6s ease;-o-transition:width .6s ease;transition:width .6s ease}
+#bookme-tbs .progress-bar-striped, #bookme-tbs .progress-striped .progress-bar{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);-webkit-background-size:40px 40px;background-size:40px 40px}
+#bookme-tbs .progress-bar.active, #bookme-tbs .progress.active .progress-bar{-webkit-animation:progress-bar-stripes 2s linear infinite;-o-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite}
+#bookme-tbs .progress-bar-success{background-color:#5cb85c}
+#bookme-tbs .progress-striped .progress-bar-success{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)}
+#bookme-tbs .progress-bar-info{background-color:#5bc0de}
+#bookme-tbs .progress-striped .progress-bar-info{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)}
+#bookme-tbs .progress-bar-warning{background-color:#f0ad4e}
+#bookme-tbs .progress-striped .progress-bar-warning{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)}
+#bookme-tbs .progress-bar-danger{background-color:#d9534f}
+#bookme-tbs .progress-striped .progress-bar-danger{background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)}
+#bookme-tbs .media{margin-top:15px}
+#bookme-tbs .media:first-child{margin-top:0}
+#bookme-tbs .media, #bookme-tbs .media-body{overflow:hidden;zoom:1}
+#bookme-tbs .media-body{width:10000px}
+#bookme-tbs .media-object{display:block}
+#bookme-tbs .media-object.img-thumbnail{max-width:none}
+#bookme-tbs .media-right, #bookme-tbs .media>.pull-right{padding-left:10px}
+#bookme-tbs .media-left, #bookme-tbs .media>.pull-left{padding-right:10px}
+#bookme-tbs .media-body, #bookme-tbs .media-left, #bookme-tbs .media-right{display:table-cell;vertical-align:top}
+#bookme-tbs .media-middle{vertical-align:middle}
+#bookme-tbs .media-bottom{vertical-align:bottom}
+#bookme-tbs .media-heading{margin-top:0;margin-bottom:5px}
+#bookme-tbs .media-list{padding-left:0;list-style:none}
+#bookme-tbs .list-group{padding-left:0;margin-bottom:20px}
+#bookme-tbs .list-group-item{position:relative;display:block;padding:10px 15px;margin-bottom:-1px;background-color:#fff;border:1px solid #ddd}
+#bookme-tbs .list-group-item:first-child{border-top-left-radius:4px;border-top-right-radius:4px}
+#bookme-tbs .list-group-item:last-child{margin-bottom:0;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#bookme-tbs a.list-group-item, #bookme-tbs button.list-group-item{color:#555}
+#bookme-tbs a.list-group-item .list-group-item-heading, #bookme-tbs button.list-group-item .list-group-item-heading{color:#333}
+#bookme-tbs a.list-group-item:focus, #bookme-tbs a.list-group-item:hover, #bookme-tbs button.list-group-item:focus, #bookme-tbs button.list-group-item:hover{color:#555;text-decoration:none;background-color:#f5f5f5}
+#bookme-tbs button.list-group-item{width:100%;text-align:left}
+#bookme-tbs .list-group-item.disabled, #bookme-tbs .list-group-item.disabled:focus, #bookme-tbs .list-group-item.disabled:hover{color:#777;cursor:not-allowed;background-color:#eee}
+#bookme-tbs .list-group-item.disabled .list-group-item-heading, #bookme-tbs .list-group-item.disabled:focus .list-group-item-heading, #bookme-tbs .list-group-item.disabled:hover .list-group-item-heading{color:inherit}
+#bookme-tbs .list-group-item.disabled .list-group-item-text, #bookme-tbs .list-group-item.disabled:focus .list-group-item-text, #bookme-tbs .list-group-item.disabled:hover .list-group-item-text{color:#777}
+#bookme-tbs .list-group-item.active, #bookme-tbs .list-group-item.active:focus, #bookme-tbs .list-group-item.active:hover{z-index:2;color:#fff;background-color:#337ab7;border-color:#337ab7}
+#bookme-tbs .list-group-item.active .list-group-item-heading, #bookme-tbs .list-group-item.active .list-group-item-heading>.small, #bookme-tbs .list-group-item.active .list-group-item-heading>small, #bookme-tbs .list-group-item.active:focus .list-group-item-heading, #bookme-tbs .list-group-item.active:focus .list-group-item-heading>.small, #bookme-tbs .list-group-item.active:focus .list-group-item-heading>small, #bookme-tbs .list-group-item.active:hover .list-group-item-heading, #bookme-tbs .list-group-item.active:hover .list-group-item-heading>.small, #bookme-tbs .list-group-item.active:hover .list-group-item-heading>small{color:inherit}
+#bookme-tbs .list-group-item.active .list-group-item-text, #bookme-tbs .list-group-item.active:focus .list-group-item-text, #bookme-tbs .list-group-item.active:hover .list-group-item-text{color:#c7ddef}
+#bookme-tbs .list-group-item-success{color:#3c763d;background-color:#dff0d8}
+#bookme-tbs a.list-group-item-success, #bookme-tbs button.list-group-item-success{color:#3c763d}
+#bookme-tbs a.list-group-item-success .list-group-item-heading, #bookme-tbs button.list-group-item-success .list-group-item-heading{color:inherit}
+#bookme-tbs a.list-group-item-success:focus, #bookme-tbs a.list-group-item-success:hover, #bookme-tbs button.list-group-item-success:focus, #bookme-tbs button.list-group-item-success:hover{color:#3c763d;background-color:#d0e9c6}
+#bookme-tbs a.list-group-item-success.active, #bookme-tbs a.list-group-item-success.active:focus, #bookme-tbs a.list-group-item-success.active:hover, #bookme-tbs button.list-group-item-success.active, #bookme-tbs button.list-group-item-success.active:focus, #bookme-tbs button.list-group-item-success.active:hover{color:#fff;background-color:#3c763d;border-color:#3c763d}
+#bookme-tbs .list-group-item-info{color:#31708f;background-color:#d9edf7}
+#bookme-tbs a.list-group-item-info, #bookme-tbs button.list-group-item-info{color:#31708f}
+#bookme-tbs a.list-group-item-info .list-group-item-heading, #bookme-tbs button.list-group-item-info .list-group-item-heading{color:inherit}
+#bookme-tbs a.list-group-item-info:focus, #bookme-tbs a.list-group-item-info:hover, #bookme-tbs button.list-group-item-info:focus, #bookme-tbs button.list-group-item-info:hover{color:#31708f;background-color:#c4e3f3}
+#bookme-tbs a.list-group-item-info.active, #bookme-tbs a.list-group-item-info.active:focus, #bookme-tbs a.list-group-item-info.active:hover, #bookme-tbs button.list-group-item-info.active, #bookme-tbs button.list-group-item-info.active:focus, #bookme-tbs button.list-group-item-info.active:hover{color:#fff;background-color:#31708f;border-color:#31708f}
+#bookme-tbs .list-group-item-warning{color:#8a6d3b;background-color:#fcf8e3}
+#bookme-tbs a.list-group-item-warning, #bookme-tbs button.list-group-item-warning{color:#8a6d3b}
+#bookme-tbs a.list-group-item-warning .list-group-item-heading, #bookme-tbs button.list-group-item-warning .list-group-item-heading{color:inherit}
+#bookme-tbs a.list-group-item-warning:focus, #bookme-tbs a.list-group-item-warning:hover, #bookme-tbs button.list-group-item-warning:focus, #bookme-tbs button.list-group-item-warning:hover{color:#8a6d3b;background-color:#faf2cc}
+#bookme-tbs a.list-group-item-warning.active, #bookme-tbs a.list-group-item-warning.active:focus, #bookme-tbs a.list-group-item-warning.active:hover, #bookme-tbs button.list-group-item-warning.active, #bookme-tbs button.list-group-item-warning.active:focus, #bookme-tbs button.list-group-item-warning.active:hover{color:#fff;background-color:#8a6d3b;border-color:#8a6d3b}
+#bookme-tbs .list-group-item-danger{color:#a94442;background-color:#f2dede}
+#bookme-tbs a.list-group-item-danger, #bookme-tbs button.list-group-item-danger{color:#a94442}
+#bookme-tbs a.list-group-item-danger .list-group-item-heading, #bookme-tbs button.list-group-item-danger .list-group-item-heading{color:inherit}
+#bookme-tbs a.list-group-item-danger:focus, #bookme-tbs a.list-group-item-danger:hover, #bookme-tbs button.list-group-item-danger:focus, #bookme-tbs button.list-group-item-danger:hover{color:#a94442;background-color:#ebcccc}
+#bookme-tbs a.list-group-item-danger.active, #bookme-tbs a.list-group-item-danger.active:focus, #bookme-tbs a.list-group-item-danger.active:hover, #bookme-tbs button.list-group-item-danger.active, #bookme-tbs button.list-group-item-danger.active:focus, #bookme-tbs button.list-group-item-danger.active:hover{color:#fff;background-color:#a94442;border-color:#a94442}
+#bookme-tbs .list-group-item-heading{margin-top:0;margin-bottom:5px}
+#bookme-tbs .list-group-item-text{margin-bottom:0;line-height:1.3}
+#bookme-tbs .panel{margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .05);box-shadow:0 1px 1px rgba(0, 0, 0, .05)}
+#bookme-tbs .panel-body{padding:15px}
+#bookme-tbs .panel-heading{padding:10px 15px;border-bottom:1px solid transparent;border-top-left-radius:3px;border-top-right-radius:3px}
+#bookme-tbs .panel-heading>.dropdown .dropdown-toggle{color:inherit}
+#bookme-tbs .panel-title{margin-top:0;margin-bottom:0;font-size:16px;color:inherit}
+#bookme-tbs .panel-title>.small, #bookme-tbs .panel-title>.small>a, #bookme-tbs .panel-title>a, #bookme-tbs .panel-title>small, #bookme-tbs .panel-title>small>a{color:inherit}
+#bookme-tbs .panel-footer{padding:10px 15px;background-color:#f5f5f5;border-top:1px solid #ddd;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+#bookme-tbs .panel>.list-group, #bookme-tbs .panel>.panel-collapse>.list-group{margin-bottom:0}
+#bookme-tbs .panel>.list-group .list-group-item, #bookme-tbs .panel>.panel-collapse>.list-group .list-group-item{border-width:1px 0;border-radius:0}
+#bookme-tbs .panel>.list-group:first-child .list-group-item:first-child, #bookme-tbs .panel>.panel-collapse>.list-group:first-child .list-group-item:first-child{border-top:0;border-top-left-radius:3px;border-top-right-radius:3px}
+#bookme-tbs .panel>.list-group:last-child .list-group-item:last-child, #bookme-tbs .panel>.panel-collapse>.list-group:last-child .list-group-item:last-child{border-bottom:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+#bookme-tbs .panel>.panel-heading+.panel-collapse>.list-group .list-group-item:first-child{border-top-left-radius:0;border-top-right-radius:0}
+#bookme-tbs .panel-heading+.list-group .list-group-item:first-child{border-top-width:0}
+#bookme-tbs .list-group+.panel-footer{border-top-width:0}
+#bookme-tbs .panel>.panel-collapse>.table, #bookme-tbs .panel>.table, #bookme-tbs .panel>.table-responsive>.table{margin-bottom:0}
+#bookme-tbs .panel>.panel-collapse>.table caption, #bookme-tbs .panel>.table caption, #bookme-tbs .panel>.table-responsive>.table caption{padding-right:15px;padding-left:15px}
+#bookme-tbs .panel>.table-responsive:first-child>.table:first-child, #bookme-tbs .panel>.table:first-child{border-top-left-radius:3px;border-top-right-radius:3px}
+#bookme-tbs .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child, #bookme-tbs .panel>.table:first-child>tbody:first-child>tr:first-child, #bookme-tbs .panel>.table:first-child>thead:first-child>tr:first-child{border-top-left-radius:3px;border-top-right-radius:3px}
+#bookme-tbs .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child td:first-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child th:first-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child td:first-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child th:first-child, #bookme-tbs .panel>.table:first-child>tbody:first-child>tr:first-child td:first-child, #bookme-tbs .panel>.table:first-child>tbody:first-child>tr:first-child th:first-child, #bookme-tbs .panel>.table:first-child>thead:first-child>tr:first-child td:first-child, #bookme-tbs .panel>.table:first-child>thead:first-child>tr:first-child th:first-child{border-top-left-radius:3px}
+#bookme-tbs .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child td:last-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child th:last-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child td:last-child, #bookme-tbs .panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child th:last-child, #bookme-tbs .panel>.table:first-child>tbody:first-child>tr:first-child td:last-child, #bookme-tbs .panel>.table:first-child>tbody:first-child>tr:first-child th:last-child, #bookme-tbs .panel>.table:first-child>thead:first-child>tr:first-child td:last-child, #bookme-tbs .panel>.table:first-child>thead:first-child>tr:first-child th:last-child{border-top-right-radius:3px}
+#bookme-tbs .panel>.table-responsive:last-child>.table:last-child, #bookme-tbs .panel>.table:last-child{border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+#bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child, #bookme-tbs .panel>.table:last-child>tbody:last-child>tr:last-child, #bookme-tbs .panel>.table:last-child>tfoot:last-child>tr:last-child{border-bottom-right-radius:3px;border-bottom-left-radius:3px}
+#bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:first-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:first-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:first-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:first-child, #bookme-tbs .panel>.table:last-child>tbody:last-child>tr:last-child td:first-child, #bookme-tbs .panel>.table:last-child>tbody:last-child>tr:last-child th:first-child, #bookme-tbs .panel>.table:last-child>tfoot:last-child>tr:last-child td:first-child, #bookme-tbs .panel>.table:last-child>tfoot:last-child>tr:last-child th:first-child{border-bottom-left-radius:3px}
+#bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:last-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:last-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:last-child, #bookme-tbs .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:last-child, #bookme-tbs .panel>.table:last-child>tbody:last-child>tr:last-child td:last-child, #bookme-tbs .panel>.table:last-child>tbody:last-child>tr:last-child th:last-child, #bookme-tbs .panel>.table:last-child>tfoot:last-child>tr:last-child td:last-child, #bookme-tbs .panel>.table:last-child>tfoot:last-child>tr:last-child th:last-child{border-bottom-right-radius:3px}
+#bookme-tbs .panel>.panel-body+.table, #bookme-tbs .panel>.panel-body+.table-responsive, #bookme-tbs .panel>.table+.panel-body, #bookme-tbs .panel>.table-responsive+.panel-body{border-top:1px solid #ddd}
+#bookme-tbs .panel>.table>tbody:first-child>tr:first-child td, #bookme-tbs .panel>.table>tbody:first-child>tr:first-child th{border-top:0}
+#bookme-tbs .panel>.table-bordered, #bookme-tbs .panel>.table-responsive>.table-bordered{border:0}
+#bookme-tbs .panel>.table-bordered>tbody>tr>td:first-child, #bookme-tbs .panel>.table-bordered>tbody>tr>th:first-child, #bookme-tbs .panel>.table-bordered>tfoot>tr>td:first-child, #bookme-tbs .panel>.table-bordered>tfoot>tr>th:first-child, #bookme-tbs .panel>.table-bordered>thead>tr>td:first-child, #bookme-tbs .panel>.table-bordered>thead>tr>th:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr>td:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr>th:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr>td:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr>th:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr>td:first-child, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr>th:first-child{border-left:0}
+#bookme-tbs .panel>.table-bordered>tbody>tr>td:last-child, #bookme-tbs .panel>.table-bordered>tbody>tr>th:last-child, #bookme-tbs .panel>.table-bordered>tfoot>tr>td:last-child, #bookme-tbs .panel>.table-bordered>tfoot>tr>th:last-child, #bookme-tbs .panel>.table-bordered>thead>tr>td:last-child, #bookme-tbs .panel>.table-bordered>thead>tr>th:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr>td:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr>th:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr>td:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr>th:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr>td:last-child, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr>th:last-child{border-right:0}
+#bookme-tbs .panel>.table-bordered>tbody>tr:first-child>td, #bookme-tbs .panel>.table-bordered>tbody>tr:first-child>th, #bookme-tbs .panel>.table-bordered>thead>tr:first-child>td, #bookme-tbs .panel>.table-bordered>thead>tr:first-child>th, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr:first-child>td, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr:first-child>th, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr:first-child>td, #bookme-tbs .panel>.table-responsive>.table-bordered>thead>tr:first-child>th{border-bottom:0}
+#bookme-tbs .panel>.table-bordered>tbody>tr:last-child>td, #bookme-tbs .panel>.table-bordered>tbody>tr:last-child>th, #bookme-tbs .panel>.table-bordered>tfoot>tr:last-child>td, #bookme-tbs .panel>.table-bordered>tfoot>tr:last-child>th, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr:last-child>td, #bookme-tbs .panel>.table-responsive>.table-bordered>tbody>tr:last-child>th, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr:last-child>td, #bookme-tbs .panel>.table-responsive>.table-bordered>tfoot>tr:last-child>th{border-bottom:0}
+#bookme-tbs .panel>.table-responsive{margin-bottom:0;border:0}
+#bookme-tbs .panel-group{margin-bottom:20px}
+#bookme-tbs .panel-group .panel{margin-bottom:0;border-radius:4px}
+#bookme-tbs .panel-group .panel+.panel{margin-top:5px}
+#bookme-tbs .panel-group .panel-heading{border-bottom:0}
+#bookme-tbs .panel-group .panel-heading+.panel-collapse>.list-group, #bookme-tbs .panel-group .panel-heading+.panel-collapse>.panel-body{border-top:1px solid #ddd}
+#bookme-tbs .panel-group .panel-footer{border-top:0}
+#bookme-tbs .panel-group .panel-footer+.panel-collapse .panel-body{border-bottom:1px solid #ddd}
+#bookme-tbs .panel-default{border-color:#ddd}
+#bookme-tbs .panel-default>.panel-heading{color:#333;background-color:#f5f5f5;border-color:#ddd}
+#bookme-tbs .panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ddd}
+#bookme-tbs .panel-default>.panel-heading .badge{color:#f5f5f5;background-color:#333}
+#bookme-tbs .panel-default>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ddd}
+#bookme-tbs .panel-primary{border-color:#337ab7}
+#bookme-tbs .panel-primary>.panel-heading{color:#fff;background-color:#337ab7;border-color:#337ab7}
+#bookme-tbs .panel-primary>.panel-heading+.panel-collapse>.panel-body{border-top-color:#337ab7}
+#bookme-tbs .panel-primary>.panel-heading .badge{color:#337ab7;background-color:#fff}
+#bookme-tbs .panel-primary>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#337ab7}
+#bookme-tbs .panel-success{border-color:#d6e9c6}
+#bookme-tbs .panel-success>.panel-heading{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}
+#bookme-tbs .panel-success>.panel-heading+.panel-collapse>.panel-body{border-top-color:#d6e9c6}
+#bookme-tbs .panel-success>.panel-heading .badge{color:#dff0d8;background-color:#3c763d}
+#bookme-tbs .panel-success>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#d6e9c6}
+#bookme-tbs .panel-info{border-color:#bce8f1}
+#bookme-tbs .panel-info>.panel-heading{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}
+#bookme-tbs .panel-info>.panel-heading+.panel-collapse>.panel-body{border-top-color:#bce8f1}
+#bookme-tbs .panel-info>.panel-heading .badge{color:#d9edf7;background-color:#31708f}
+#bookme-tbs .panel-info>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#bce8f1}
+#bookme-tbs .panel-warning{border-color:#faebcc}
+#bookme-tbs .panel-warning>.panel-heading{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}
+#bookme-tbs .panel-warning>.panel-heading+.panel-collapse>.panel-body{border-top-color:#faebcc}
+#bookme-tbs .panel-warning>.panel-heading .badge{color:#fcf8e3;background-color:#8a6d3b}
+#bookme-tbs .panel-warning>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#faebcc}
+#bookme-tbs .panel-danger{border-color:#ebccd1}
+#bookme-tbs .panel-danger>.panel-heading{color:#a94442;background-color:#f2dede;border-color:#ebccd1}
+#bookme-tbs .panel-danger>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ebccd1}
+#bookme-tbs .panel-danger>.panel-heading .badge{color:#f2dede;background-color:#a94442}
+#bookme-tbs .panel-danger>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ebccd1}
+#bookme-tbs .embed-responsive{position:relative;display:block;height:0;padding:0;overflow:hidden}
+#bookme-tbs .embed-responsive .embed-responsive-item, #bookme-tbs .embed-responsive embed, #bookme-tbs .embed-responsive iframe, #bookme-tbs .embed-responsive object, #bookme-tbs .embed-responsive video{position:absolute;top:0;bottom:0;left:0;width:100%;height:100%;border:0}
+#bookme-tbs .embed-responsive-16by9{padding-bottom:56.25%}
+#bookme-tbs .embed-responsive-4by3{padding-bottom:75%}
+#bookme-tbs .well{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #e3e3e3;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05)}
+#bookme-tbs .well blockquote{border-color:#ddd;border-color:rgba(0, 0, 0, .15)}
+#bookme-tbs .well-lg{padding:24px;border-radius:6px}
+#bookme-tbs .well-sm{padding:9px;border-radius:3px}
+#bookme-tbs .close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;filter:alpha(opacity=20);opacity:.2}
+#bookme-tbs .close:focus, #bookme-tbs .close:hover{color:#000;text-decoration:none;cursor:pointer;filter:alpha(opacity=50);opacity:.5}
+#bookme-tbs button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:0 0;border:0}
+#bookme-tbs .modal-open{overflow:hidden}
+#bookme-tbs .modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;overflow:hidden;-webkit-overflow-scrolling:touch;outline:0}
+#bookme-tbs .modal.fade .modal-dialog{-webkit-transition:-webkit-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out;-webkit-transform:translate(0, -25%);-ms-transform:translate(0, -25%);-o-transform:translate(0, -25%);transform:translate(0, -25%)}
+#bookme-tbs .modal.in .modal-dialog{-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);-o-transform:translate(0, 0);transform:translate(0, 0)}
+#bookme-tbs .modal-open .modal{overflow-x:hidden;overflow-y:auto}
+#bookme-tbs .modal-dialog{position:relative;width:auto;margin:10px}
+#bookme-tbs .modal-content{position:relative;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #999;border:1px solid rgba(0, 0, 0, .2);border-radius:6px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0, 0, 0, .5);box-shadow:0 3px 9px rgba(0, 0, 0, .5)}
+#bookme-tbs .modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}
+#bookme-tbs .modal-backdrop.fade{filter:alpha(opacity=0);opacity:0}
+#bookme-tbs .modal-backdrop.in{filter:alpha(opacity=50);opacity:.5}
+#bookme-tbs .modal-header{padding:15px;border-bottom:1px solid #e5e5e5}
+#bookme-tbs .modal-header .close{margin-top:-2px}
+#bookme-tbs .modal-title{margin:0;line-height:1.42857143}
+#bookme-tbs .modal-body{position:relative;padding:15px}
+#bookme-tbs .modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}
+#bookme-tbs .modal-footer .btn+.btn{margin-bottom:0;margin-left:5px}
+#bookme-tbs .modal-footer .btn-group .btn+.btn{margin-left:-1px}
+#bookme-tbs .modal-footer .btn-block+.btn-block{margin-left:0}
+#bookme-tbs .modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}
+@media (min-width:768px){#bookme-tbs .modal-dialog{width:600px;margin:30px auto}
+                         #bookme-tbs .modal-content{-webkit-box-shadow:0 5px 15px rgba(0, 0, 0, .5);box-shadow:0 5px 15px rgba(0, 0, 0, .5)}
+                         #bookme-tbs .modal-sm{width:300px}
+}
+@media (min-width:992px){#bookme-tbs .modal-lg{width:900px}
+}
+#bookme-tbs .tooltip{position:absolute;z-index:1070;display:block;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:1.42857143;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;filter:alpha(opacity=0);opacity:0;line-break:auto}
+#bookme-tbs .tooltip.in{filter:alpha(opacity=90);opacity:.9}
+#bookme-tbs .tooltip.top{padding:5px 0;margin-top:-3px}
+#bookme-tbs .tooltip.right{padding:0 5px;margin-left:3px}
+#bookme-tbs .tooltip.bottom{padding:5px 0;margin-top:3px}
+#bookme-tbs .tooltip.left{padding:0 5px;margin-left:-3px}
+#bookme-tbs .tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}
+#bookme-tbs .tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}
+#bookme-tbs .tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}
+#bookme-tbs .tooltip.top-left .tooltip-arrow{right:5px;bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}
+#bookme-tbs .tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}
+#bookme-tbs .tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}
+#bookme-tbs .tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}
+#bookme-tbs .tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}
+#bookme-tbs .tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}
+#bookme-tbs .tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}
+#bookme-tbs .popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:1.42857143;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, .2);border-radius:6px;-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, .2);box-shadow:0 5px 10px rgba(0, 0, 0, .2);line-break:auto}
+#bookme-tbs .popover.top{margin-top:-10px}
+#bookme-tbs .popover.right{margin-left:10px}
+#bookme-tbs .popover.bottom{margin-top:10px}
+#bookme-tbs .popover.left{margin-left:-10px}
+#bookme-tbs .popover-title{padding:8px 14px;margin:0;font-size:14px;background-color:#f7f7f7;border-bottom:1px solid #ebebeb;border-radius:5px 5px 0 0}
+#bookme-tbs .popover-content{padding:9px 14px}
+#bookme-tbs .popover>.arrow, #bookme-tbs .popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}
+#bookme-tbs .popover>.arrow{border-width:11px}
+#bookme-tbs .popover>.arrow:after{content:"";border-width:10px}
+#bookme-tbs .popover.top>.arrow{bottom:-11px;left:50%;margin-left:-11px;border-top-color:#999;border-top-color:rgba(0, 0, 0, .25);border-bottom-width:0}
+#bookme-tbs .popover.top>.arrow:after{bottom:1px;margin-left:-10px;content:" ";border-top-color:#fff;border-bottom-width:0}
+#bookme-tbs .popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-right-color:#999;border-right-color:rgba(0, 0, 0, .25);border-left-width:0}
+#bookme-tbs .popover.right>.arrow:after{bottom:-10px;left:1px;content:" ";border-right-color:#fff;border-left-width:0}
+#bookme-tbs .popover.bottom>.arrow{top:-11px;left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0, 0, 0, .25)}
+#bookme-tbs .popover.bottom>.arrow:after{top:1px;margin-left:-10px;content:" ";border-top-width:0;border-bottom-color:#fff}
+#bookme-tbs .popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0, 0, 0, .25)}
+#bookme-tbs .popover.left>.arrow:after{right:1px;bottom:-10px;content:" ";border-right-width:0;border-left-color:#fff}
+#bookme-tbs .carousel{position:relative}
+#bookme-tbs .carousel-inner{position:relative;width:100%;overflow:hidden}
+#bookme-tbs .carousel-inner>.item{position:relative;display:none;-webkit-transition:.6s ease-in-out left;-o-transition:.6s ease-in-out left;transition:.6s ease-in-out left}
+#bookme-tbs .carousel-inner>.item>a>img, #bookme-tbs .carousel-inner>.item>img{line-height:1}
+@media all and (transform-3d), (-webkit-transform-3d){
+    #bookme-tbs .carousel-inner>.item{-webkit-transition:-webkit-transform .6s ease-in-out;-o-transition:-o-transform .6s ease-in-out;transition:transform .6s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000px;perspective:1000px}
+    #bookme-tbs .carousel-inner>.item.active.right, #bookme-tbs .carousel-inner>.item.next{left:0;-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0)}
+    #bookme-tbs .carousel-inner>.item.active.left, #bookme-tbs .carousel-inner>.item.prev{left:0;-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0)}
+    #bookme-tbs .carousel-inner>.item.active, #bookme-tbs .carousel-inner>.item.next.left, #bookme-tbs .carousel-inner>.item.prev.right{left:0;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}
+}
+#bookme-tbs .carousel-inner>.active, #bookme-tbs .carousel-inner>.next, #bookme-tbs .carousel-inner>.prev{display:block}
+#bookme-tbs .carousel-inner>.active{left:0}
+#bookme-tbs .carousel-inner>.next, #bookme-tbs .carousel-inner>.prev{position:absolute;top:0;width:100%}
+#bookme-tbs .carousel-inner>.next{left:100%}
+#bookme-tbs .carousel-inner>.prev{left:-100%}
+#bookme-tbs .carousel-inner>.next.left, #bookme-tbs .carousel-inner>.prev.right{left:0}
+#bookme-tbs .carousel-inner>.active.left{left:-100%}
+#bookme-tbs .carousel-inner>.active.right{left:100%}
+#bookme-tbs .carousel-control{position:absolute;top:0;bottom:0;left:0;width:15%;font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0, 0, 0, .6);background-color:rgba(0, 0, 0, 0);filter:alpha(opacity=50);opacity:.5}
+#bookme-tbs .carousel-control.left{background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, #bookme-tbs .0001) 100%);background-image:-o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, #bookme-tbs .0001) 100%);background-image:-webkit-gradient(linear, #bookme-tbs left top, #bookme-tbs right top, #bookme-tbs from(rgba(0, 0, 0, .5)), #bookme-tbs to(rgba(0, 0, 0, #bookme-tbs .0001)));background-image:linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);background-repeat:repeat-x}
+#bookme-tbs .carousel-control.right{right:0;left:auto;background-image:-webkit-linear-gradient(left, rgba(0, 0, 0, #bookme-tbs .0001) 0, rgba(0, 0, 0, .5) 100%);background-image:-o-linear-gradient(left, rgba(0, 0, 0, #bookme-tbs .0001) 0, rgba(0, 0, 0, .5) 100%);background-image:-webkit-gradient(linear, #bookme-tbs left top, #bookme-tbs right top, #bookme-tbs from(rgba(0, 0, 0, #bookme-tbs .0001)), #bookme-tbs to(rgba(0, 0, 0, .5)));background-image:linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);background-repeat:repeat-x}
+#bookme-tbs .carousel-control:focus, #bookme-tbs .carousel-control:hover{color:#fff;text-decoration:none;filter:alpha(opacity=90);outline:0;opacity:.9}
+#bookme-tbs .carousel-control .glyphicon-chevron-left, #bookme-tbs .carousel-control .glyphicon-chevron-right, #bookme-tbs .carousel-control .icon-next, #bookme-tbs .carousel-control .icon-prev{position:absolute;top:50%;z-index:5;display:inline-block;margin-top:-10px}
+#bookme-tbs .carousel-control .glyphicon-chevron-left, #bookme-tbs .carousel-control .icon-prev{left:50%;margin-left:-10px}
+#bookme-tbs .carousel-control .glyphicon-chevron-right, #bookme-tbs .carousel-control .icon-next{right:50%;margin-right:-10px}
+#bookme-tbs .carousel-control .icon-next, #bookme-tbs .carousel-control .icon-prev{width:20px;height:20px;font-family:serif;line-height:1}
+#bookme-tbs .carousel-control .icon-prev:before{content:'\2039'}
+#bookme-tbs .carousel-control .icon-next:before{content:'\203a'}
+#bookme-tbs .carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;padding-left:0;margin-left:-30%;text-align:center;list-style:none}
+#bookme-tbs .carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;cursor:pointer;background-color:#000\9;background-color:rgba(0, 0, 0, 0);border:1px solid #fff;border-radius:10px}
+#bookme-tbs .carousel-indicators .active{width:12px;height:12px;margin:0;background-color:#fff}
+#bookme-tbs .carousel-caption{position:absolute;right:15%;bottom:20px;left:15%;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0, 0, 0, .6)}
+#bookme-tbs .carousel-caption .btn{text-shadow:none}
+@media screen and (min-width:768px){
+    #bookme-tbs .carousel-control .glyphicon-chevron-left, #bookme-tbs .carousel-control .glyphicon-chevron-right, #bookme-tbs .carousel-control .icon-next, #bookme-tbs .carousel-control .icon-prev{width:30px;height:30px;margin-top:-10px;font-size:30px}
+    #bookme-tbs .carousel-control .glyphicon-chevron-left, #bookme-tbs .carousel-control .icon-prev{margin-left:-10px}
+    #bookme-tbs .carousel-control .glyphicon-chevron-right, #bookme-tbs .carousel-control .icon-next{margin-right:-10px}
+    #bookme-tbs .carousel-caption{right:20%;left:20%;padding-bottom:30px}
+    #bookme-tbs .carousel-indicators{bottom:20px}
+}
+#bookme-tbs .btn-group-vertical>.btn-group:after, #bookme-tbs .btn-group-vertical>.btn-group:before, #bookme-tbs .btn-toolbar:after, #bookme-tbs .btn-toolbar:before, #bookme-tbs .clearfix:after, #bookme-tbs .clearfix:before, #bookme-tbs .container-fluid:after, #bookme-tbs .container-fluid:before, #bookme-tbs .container:after, #bookme-tbs .container:before, #bookme-tbs .dl-horizontal dd:after, #bookme-tbs .dl-horizontal dd:before, #bookme-tbs .form-horizontal .form-group:after, #bookme-tbs .form-horizontal .form-group:before, #bookme-tbs .modal-footer:after, #bookme-tbs .modal-footer:before, #bookme-tbs .modal-header:after, #bookme-tbs .modal-header:before, #bookme-tbs .nav:after, #bookme-tbs .nav:before, #bookme-tbs .navbar-collapse:after, #bookme-tbs .navbar-collapse:before, #bookme-tbs .navbar-header:after, #bookme-tbs .navbar-header:before, #bookme-tbs .navbar:after, #bookme-tbs .navbar:before, #bookme-tbs .pager:after, #bookme-tbs .pager:before, #bookme-tbs .panel-body:after, #bookme-tbs .panel-body:before, #bookme-tbs .row:after, #bookme-tbs .row:before{display:table;content:" "}
+#bookme-tbs .btn-group-vertical>.btn-group:after, #bookme-tbs .btn-toolbar:after, #bookme-tbs .clearfix:after, #bookme-tbs .container-fluid:after, #bookme-tbs .container:after, #bookme-tbs .dl-horizontal dd:after, #bookme-tbs .form-horizontal .form-group:after, #bookme-tbs .modal-footer:after, #bookme-tbs .modal-header:after, #bookme-tbs .nav:after, #bookme-tbs .navbar-collapse:after, #bookme-tbs .navbar-header:after, #bookme-tbs .navbar:after, #bookme-tbs .pager:after, #bookme-tbs .panel-body:after, #bookme-tbs .row:after{clear:both}
+#bookme-tbs .center-block{display:block;margin-right:auto;margin-left:auto}
+#bookme-tbs .pull-right{float:right!important}
+#bookme-tbs .pull-left{float:left!important}
+#bookme-tbs .hide{display:none!important}
+#bookme-tbs .show{display:block!important}
+#bookme-tbs .invisible{visibility:hidden}
+#bookme-tbs .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
+#bookme-tbs .hidden{display:none!important}
+#bookme-tbs .affix{position:fixed}
+@-ms-viewport{#bookme-tbs width:device-width}
+#bookme-tbs .visible-lg, #bookme-tbs .visible-md, #bookme-tbs .visible-sm, #bookme-tbs .visible-xs{display:none!important}
+#bookme-tbs .visible-lg-block, #bookme-tbs .visible-lg-inline, #bookme-tbs .visible-lg-inline-block, #bookme-tbs .visible-md-block, #bookme-tbs .visible-md-inline, #bookme-tbs .visible-md-inline-block, #bookme-tbs .visible-sm-block, #bookme-tbs .visible-sm-inline, #bookme-tbs .visible-sm-inline-block, #bookme-tbs .visible-xs-block, #bookme-tbs .visible-xs-inline, #bookme-tbs .visible-xs-inline-block{display:none!important}
+@media (max-width:767px){
+    #bookme-tbs .visible-xs{display:block!important}
+    #bookme-tbs table.visible-xs{display:table!important}
+    #bookme-tbs tr.visible-xs{display:table-row!important}
+    #bookme-tbs td.visible-xs, #bookme-tbs th.visible-xs{display:table-cell!important}
+}
+@media (max-width:767px){#bookme-tbs .visible-xs-block{display:block!important}
+}
+@media (max-width:767px){#bookme-tbs .visible-xs-inline{display:inline!important}
+}
+@media (max-width:767px){#bookme-tbs .visible-xs-inline-block{display:inline-block!important}
+}
+@media (min-width:768px) and (max-width:991px){
+    #bookme-tbs .visible-sm{display:block!important}
+    #bookme-tbs table.visible-sm{display:table!important}
+    #bookme-tbs tr.visible-sm{display:table-row!important}
+    #bookme-tbs td.visible-sm, #bookme-tbs th.visible-sm{display:table-cell!important}
+}
+@media (min-width:768px) and (max-width:991px){#bookme-tbs .visible-sm-block{display:block!important}
+}
+@media (min-width:768px) and (max-width:991px){#bookme-tbs .visible-sm-inline{display:inline!important}
+}
+@media (min-width:768px) and (max-width:991px){#bookme-tbs .visible-sm-inline-block{display:inline-block!important}
+}
+@media (min-width:992px) and (max-width:1199px){#bookme-tbs .visible-md{display:block!important}
+                                                #bookme-tbs table.visible-md{display:table!important}
+                                                #bookme-tbs tr.visible-md{display:table-row!important}
+                                                #bookme-tbs td.visible-md, #bookme-tbs th.visible-md{display:table-cell!important}
+}
+@media (min-width:992px) and (max-width:1199px){#bookme-tbs .visible-md-block{display:block!important}
+}
+@media (min-width:992px) and (max-width:1199px){#bookme-tbs .visible-md-inline{display:inline!important}
+}
+@media (min-width:992px) and (max-width:1199px){#bookme-tbs .visible-md-inline-block{display:inline-block!important}
+}
+@media (min-width:1200px){#bookme-tbs .visible-lg{display:block!important}
+                          #bookme-tbs table.visible-lg{display:table!important}
+                          #bookme-tbs tr.visible-lg{display:table-row!important}
+                          #bookme-tbs td.visible-lg, #bookme-tbs th.visible-lg{display:table-cell!important}
+}
+@media (min-width:1200px){#bookme-tbs .visible-lg-block{display:block!important}
+}
+@media (min-width:1200px){#bookme-tbs .visible-lg-inline{display:inline!important}
+}
+@media (min-width:1200px){#bookme-tbs .visible-lg-inline-block{display:inline-block!important}
+}
+@media (max-width:767px){#bookme-tbs .hidden-xs{display:none!important}
+}
+@media (min-width:768px) and (max-width:991px){#bookme-tbs .hidden-sm{display:none!important}
+}
+@media (min-width:992px) and (max-width:1199px){#bookme-tbs .hidden-md{display:none!important}
+}
+@media (min-width:1200px){#bookme-tbs .hidden-lg{display:none!important}
+}
+#bookme-tbs .visible-print{display:none!important}
+@media print{.visible-print{display:block!important}
+             #bookme-tbs table.visible-print{display:table!important}
+             #bookme-tbs tr.visible-print{display:table-row!important}
+             #bookme-tbs td.visible-print, #bookme-tbs th.visible-print{display:table-cell!important}
+}
+#bookme-tbs .visible-print-block{display:none!important}
+@media print{.visible-print-block{display:block!important}
+}
+#bookme-tbs .visible-print-inline{display:none!important}
+@media print{.visible-print-inline{display:inline!important}
+}
+#bookme-tbs .visible-print-inline-block{display:none!important}
+@media print{.visible-print-inline-block{display:inline-block!important}
+}
+@media print{.hidden-print{display:none!important}
+}

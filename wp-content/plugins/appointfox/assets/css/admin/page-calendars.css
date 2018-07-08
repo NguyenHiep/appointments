@@ -1,0 +1,79 @@
+#calendar {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+/*.fc-resourceAgendaDay-view {
+    overflow: auto;
+}
+
+.fc-resourceAgendaDay-view .fc-resource {
+    min-width: 50px;
+}*/
+
+
+/* Styles added to show Horizontal Scroll Bar */
+
+
+/*.fc-resourceAgendaDay-view {
+    width: auto;
+    overflow: scroll;
+}
+
+.fc-resourceAgendaDay-view .fc-view {
+    overflow-x: scroll;
+}
+
+.fc-resourceAgendaDay-view > table {
+    width: 2500px;
+}
+
+.fc td, .fc th {
+    padding: 0 10px
+}*/
+
+.fc-view-container {
+    overflow-x: scroll;
+}
+
+.fc-view.fc-agendaDay-view.fc-agenda-view {
+    width: 300%;
+}
+
+.fc-view>table {
+    min-width: 768px;
+}
+
+.fc-toolbar h2 {
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.fc-toolbar .fc-button-group {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fc-head {
+    background-color: #e8e6e6;
+}
+
+.fc-head th {
+    padding: 10px 0px;
+}
+
+@media (max-width: 767px) {
+    .fc-toolbar .fc-left,
+    .fc-toolbar .fc-right {
+        display: inline-block;
+        float: none;
+        margin: 0 12px 6px 12px;
+    }
+}

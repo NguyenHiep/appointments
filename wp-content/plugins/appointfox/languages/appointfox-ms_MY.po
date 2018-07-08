@@ -1,0 +1,1242 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: AppointFox\n"
+"Language: ms_MY\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:05+0000\n"
+"PO-Revision-Date: 2018-06-22 15:06+0000\n"
+"Last-Translator: zhaff <zhaff@yahoo.com>\n"
+"Language-Team: Malay\n"
+"Plural-Forms: nplurals=1; plural=0;"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:72
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:126
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:106
+msgid "Are you sure"
+msgstr "Adakah anda pasti"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:73
+msgid "Record"
+msgstr "Rekod"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:74
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:101
+msgid "Yes, delete it"
+msgstr "Ya, padamkan"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:75
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:127
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:98
+msgid "You won't be able to revert this"
+msgstr "Anda tidak dapat mengembalikannya"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:76
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:102
+msgid "Deleted"
+msgstr "Telah dipadam"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:77
+msgid "Record has been deleted"
+msgstr "Rekod berjaya dipadam"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:78
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:148
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:200
+msgid "Create a new Category"
+msgstr "Buat Kategori baru"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:79
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:125
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:104
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:49
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:143
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:30
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:32
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:17
+msgid "Service"
+msgstr "Perkhidmatan"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:80
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:99
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:142
+msgid "Category"
+msgstr "Kategori"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:81
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:137
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:111
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:117
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:123
+msgid "Success"
+msgstr "Kejayaan"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:82
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:100
+msgid "and all it's services will be deleted"
+msgstr "dan perkhidmatan berkaitan akan dipadam"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:83
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:96
+msgid "Service successfully saved"
+msgstr "Perkhidmatan telah berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:84
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:103
+msgid "The category has been deleted"
+msgstr "Kategori telah dipadamkan"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:85
+msgid "Oops"
+msgstr "Oops"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:86
+msgid "Record(s) has been deleted"
+msgstr "Rekod berjaya dipadam"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:87
+msgid "No record(s) selected"
+msgstr "Tiada rekod dipilih"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:8
+msgid "Appointments Calendar"
+msgstr "Kalendar Pelantikan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:4
+msgid "Appointments"
+msgstr "Pelantikan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:121
+msgid "Choose service first"
+msgstr "Pilih perkhidmatan terlebih dahulu"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:122
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:75
+msgid "Choose time"
+msgstr "Pilih masa"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:123
+msgid "Choose staff"
+msgstr "Pilih kakitangan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:124
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:76
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:68
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:82
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:75
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:125
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:175
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:87
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:73
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:89
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:124
+msgid "Loading"
+msgstr "Memuatkan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:125
+msgid "Appointment successfully saved"
+msgstr "Pelantikan berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:128
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:124
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:69
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:188
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:11
+msgid "Customer"
+msgstr "Pelanggan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:129
+msgid "Yes, cancel it"
+msgstr "Ya, batalkannya"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:130
+msgid "No, keep it"
+msgstr "Tidak, simpan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:131
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:132
+msgid "The appointment has been cancelled"
+msgstr "Pelantikan telah dibatalkan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:133
+msgid "Customer successfully saved"
+msgstr "Pelanggan berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:134
+msgid "Appointment's note successfully saved"
+msgstr "Nota pelantikan berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:135
+msgid "Appointment's payment paid"
+msgstr "Bayaran pelantikan dibayar"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:136
+msgid "Today"
+msgstr "Hari ini"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:137
+msgid "Month"
+msgstr "Bulanan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:138
+msgid "Week"
+msgstr "Mingguan"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:139
+msgid "Day"
+msgstr "Harian"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:138
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:112
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:118
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:124
+msgid "Record successfully saved"
+msgstr "Rekod berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:7
+msgid "Availability Calendars"
+msgstr "Kalendar Ketersediaan"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+msgid "Availability"
+msgstr "Ketersediaan"
+
+#: ../../../../../projects/appointfox/master/admin/CategoriesController.php:52
+msgid "Categories"
+msgstr "Kategori"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:90
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:114
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:6
+msgid "Customers"
+msgstr "Pelanggan"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:113
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:119
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:125
+msgid "No record(s) found"
+msgstr "Tiada rekod dijumpai"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:115
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:121
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:130
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:118
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:47
+msgid "Edit"
+msgstr "Edit"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:116
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:122
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:131
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:48
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:180
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:49
+msgid "Delete"
+msgstr "Padam"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:94
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:120
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:6
+msgid "Payments"
+msgstr "Pembayaran"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:123
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:37
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:59
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:169
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:123
+msgid "Date"
+msgstr "Tarikh"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:126
+msgid "Appointment Date"
+msgstr "Tarikh Pelantikan"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:36
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:48
+msgid "Amount"
+msgstr "Jumlah"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:56
+msgid "Method"
+msgstr "Kaedah"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:42
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:64
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:35
+msgid "Status"
+msgstr "Status"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:130
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:45
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:37
+msgid "Action"
+msgstr "Tindakan"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:7
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:47
+msgid "Services"
+msgstr "Perkhidmatan"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:97
+msgid "Category successfully saved"
+msgstr "Kategori berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:105
+msgid "The service has been deleted"
+msgstr "Perkhidmatan ini telah dipadam"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:9
+msgid "Settings"
+msgstr "Tetapan"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:96
+msgid "Settings successfully saved"
+msgstr "Tetapan berjaya disimpan"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:97
+msgid "Copied"
+msgstr "Telah disalin"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:97
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:126
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:7
+msgid "Staffs"
+msgstr "Kakitangan"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:31
+msgid "Fullname"
+msgstr "Nama penuh"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:58
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:74
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:245
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:246
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:21
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:31
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:165
+msgid "Email"
+msgstr "E-mel"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:77
+msgid "Not available, please choose other date"
+msgstr "Tidak tersedia, sila pilih tarikh lain"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:78
+msgid "Please choose your date"
+msgstr "Sila pilih tarikh anda"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:79
+msgid "Please choose your time"
+msgstr "Sila pilih masa anda"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:80
+msgid "Please enter your name"
+msgstr "Sila masukkan nama anda"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:81
+msgid "Please enter your email"
+msgstr "Sila masukkan e-mel anda"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:82
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:196
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:37
+msgid "Payment Paid"
+msgstr "Bayaran Dibayar"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:83
+msgid "Thank you"
+msgstr "Terima kasih"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:8
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:13
+msgid "Add New Appointment"
+msgstr "Tambah Pelantikan Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:18
+msgid "Select service"
+msgstr "Pilih perkhidmatan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:26
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:53
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:159
+msgid "Staff"
+msgstr "Kakitangan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:28
+msgid "Select staff"
+msgstr "Pilih kakitangan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:43
+msgid "Start Time"
+msgstr "Masa mula"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:49
+msgid "End Time"
+msgstr "Masa tamat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:72
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:249
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:250
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:161
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:65
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:66
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:253
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:39
+msgid "Info"
+msgstr "Maklumat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:70
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:42
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:284
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:49
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:92
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:182
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:66
+msgid "Close"
+msgstr "Tutup"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:72
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:106
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:157
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:280
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:316
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:176
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:63
+msgid "Save"
+msgstr "Simpan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:5
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:137
+msgid "Edit Appointment"
+msgstr "Edit Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:16
+msgid "Full name"
+msgstr "Nama penuh"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:24
+msgid "Date/Time"
+msgstr "Masa tarikh"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:5
+msgid "View Appointment Details"
+msgstr "Lihat Butiran Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:15
+msgid "Id"
+msgstr "ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:240
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:135
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:137
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:142
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:23
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:157
+msgid "Name"
+msgstr "Nama"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:25
+msgid "Add Appointment"
+msgstr "Tambah Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:44
+msgid "View Appointment"
+msgstr "Lihat Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:63
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:176
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:129
+msgid "Time"
+msgstr "Masa"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:77
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:199
+msgid "Note"
+msgstr "Nota"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:79
+msgid "Edit note"
+msgstr "Edit nota"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:259
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:110
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:161
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:318
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:213
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:99
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:204
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:122
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:29
+msgid "Price"
+msgstr "Harga"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:100
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:210
+msgid "Paid"
+msgstr "Dibayar"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:101
+msgid "Pending"
+msgstr "Yang belum selesai"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:112
+msgid "Cancel this appointment"
+msgstr "Batalkan pelantikan ini"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:115
+msgid "Mark payment paid"
+msgstr "Bayaran pembayaran yang dibayar"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:136
+msgid "Create a new Appointment"
+msgstr "Buat Pelantikan baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:146
+msgid "Choose service"
+msgstr "Pilih perkhidmatan"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:191
+msgid "Choose customer"
+msgstr "Pilih pelanggan"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:195
+msgid "Create new customer"
+msgstr "Buat pelanggan baharu"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:209
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:36
+msgid "Payment"
+msgstr "Pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:236
+msgid "Create a new Customer"
+msgstr "Buat Pelanggan baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:242
+msgid "Full Name"
+msgstr "Nama penuh"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:261
+msgid "Create"
+msgstr "Buat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:30
+msgid "Search"
+msgstr "Carian"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:79
+msgid "Add New Availability Calendar"
+msgstr "Tambah Kalendar Ketersediaan Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:91
+msgid "Assign to Staff(s)"
+msgstr "Berikan kepada Staf"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:129
+msgid "Edit Availability Calendar"
+msgstr "Edit Kalendar Ketersediaan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+msgid "Availability Calendar"
+msgstr "Kalendar Ketersediaan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:185
+msgid "Calendar Name"
+msgstr "Nama Kalendar"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:191
+msgid "Regular Weekly Hours"
+msgstr "Jam Mingguan Biasa"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:193
+msgid "Use this schedule if you have similar hours week-to-week"
+msgstr ""
+"Gunakan jadual ini jika anda mempunyai waktu yang sama minggu ke minggu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:194
+msgid ""
+"Enter window(s) of time (9:00am-1:00pm, 2:00pm-6:00pm) or exact start times: "
+"(9:00am, 10:30am, 2:00pm)"
+msgstr ""
+"Masukkan masa tingkap (9:00 pagi-1:00pm, 2:00 petang-6 petang) atau waktu "
+"mula yang tepat: (9:00 pagi, 10:30 pagi, 2:00 petang)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:202
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:84
+msgid "Sunday"
+msgstr "Ahad"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:205
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:87
+msgid "Monday"
+msgstr "Isnin"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:208
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:65
+msgid "Tuesday"
+msgstr "Selasa"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:211
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:66
+msgid "Wednesday"
+msgstr "Rabu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:214
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:67
+msgid "Thursday"
+msgstr "Khamis"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:217
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:68
+msgid "Friday"
+msgstr "Jumaat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:69
+msgid "Saturday"
+msgstr "Sabtu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:233
+msgid "Invalid character"
+msgstr "Watak tidak sah"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:291
+msgid "Availability for Specific Days"
+msgstr "Ketersediaan untuk Hari-hari Tertentu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "This shows your monthly availability"
+msgstr "Ini menunjukkan ketersediaan bulanan anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "Select a specific date to set, change or override your hours"
+msgstr "Pilih tarikh tertentu untuk menetapkan, mengubah atau menimpa jam anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid ""
+"Enter window(s) of time\n"
+"\t\t\t\t\t\t(9:00am-1:00pm, 2:00pm-5:00pm) or exact start times: (9:00am, 10:"
+"30am, 2:00pm)"
+msgstr ""
+"Masukkan tetingkap masa\n"
+"(9:00 am-1:00pm, 2:00 petang-5 petang) atau waktu permulaan yang tepat: (9:"
+"00 pagi, 10:30 pagi, 2:00 petang)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:307
+msgid "Hour for"
+msgstr "Jam untuk"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:311
+msgid "Closed - Enter availability like: 9.00am-12.30pm, 1.30pm-6pm"
+msgstr ""
+"Tertutup - Masukkan ketersediaan seperti: 9.00am-12.30 petang, 1.30 petang-6 "
+"petang"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:44
+msgid "Back to"
+msgstr "Kembali kepada"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:5
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:17
+msgid "Add New Customer"
+msgstr "Tambah Pelanggan Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:5
+msgid "Edit Customer"
+msgstr "Edit Pelanggan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:5
+msgid "View Customer Details"
+msgstr "Lihat Butiran Pelanggan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:5
+msgid "Add New Payment"
+msgstr "Tambah Pembayaran Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:5
+msgid "Edit Payment"
+msgstr "Edit Pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:33
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:40
+msgid "Appointment Date/Time"
+msgstr "Tarikh / Masa Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:8
+msgid "View Payment Details"
+msgstr "Lihat Butiran Pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:16
+msgid "Payment Date/Time"
+msgstr "Tarikh / Masa Pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:82
+msgid "Payment ID"
+msgstr "ID pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid "Add New Service"
+msgstr "Tambah Perkhidmatan Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid "Add New Category"
+msgstr "Tambah Kategori Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Nothing left in the list"
+msgstr "Tiada apa-apa yang tersisa dalam senarai"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Add a new category or service via button above"
+msgstr "Tambah kategori atau perkhidmatan baharu melalui butang di atas"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:75
+msgid "Click"
+msgstr "Klik"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid ""
+"to create new Service or Click on Service's Item to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Service"
+msgstr ""
+"untuk membuat Perkhidmatan baru atau Klik pada Item Perkhidmatan untuk "
+"mengedit atau memadam\n"
+"Perkhidmatan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid ""
+"to create new Category or hover on Category name to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Category"
+msgstr ""
+"untuk membuat Kategori baru atau berlegar pada nama Kategori untuk mengedit "
+"atau memadam\n"
+"Kategori"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:80
+msgid "Don't forget to assign a staff after new service created"
+msgstr "Jangan lupa memberikan kakitangan selepas perkhidmatan baru dibuat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:88
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:89
+msgid "Title"
+msgstr "Tajuk"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:94
+msgid "Access"
+msgstr "Akses"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:96
+msgid "Public"
+msgstr "Awam"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:97
+msgid "Private"
+msgstr "Peribadi"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:105
+msgid "Duration"
+msgstr "Tempoh"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:131
+msgid "Color"
+msgstr "Warna"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:144
+msgid "none"
+msgstr "tiada"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:154
+msgid "Assigned Staffs"
+msgstr "Kakitangan yang ditugaskan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:201
+msgid "Edit Category"
+msgstr "Edit Kategori"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:207
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:208
+msgid "Category Name"
+msgstr "Nama kategori"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:31
+msgid "General"
+msgstr "Ketua"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:41
+msgid "Email Templates"
+msgstr "Templat E-mel"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:46
+msgid "Client's Page"
+msgstr "Halaman Pelanggan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:51
+msgid "Shortcode"
+msgstr "Kod pendek"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:63
+msgid "Business Name"
+msgstr "Nama Perniagaan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:66
+msgid "Enter your business name"
+msgstr "Masukkan nama perniagaan anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:71
+msgid "Instructions"
+msgstr "Arahan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:74
+msgid "Write any instructions here to show to clients (optional)"
+msgstr ""
+"Tulis sebarang arahan di sini untuk dipaparkan kepada pelanggan (pilihan)"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:79
+msgid "Week Start On"
+msgstr "Hari Pertama Mingguan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:94
+msgid "Time Format"
+msgstr "Format masa"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:272
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:317
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:398
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:122
+msgid "Currency"
+msgstr "Mata wang"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:198
+msgid "Accept Payment"
+msgstr "Terima Bayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:203
+msgid "None"
+msgstr "Tiada"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:216
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:249
+msgid "Sandbox"
+msgstr "Kotak pasir"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:230
+msgid "Live"
+msgstr "Hidup"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:237
+msgid "Enter your PayPal production clientID"
+msgstr "Masukkan pelanggan ID pengeluaran PayPal anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:243
+msgid "Enter your PayPal production secret"
+msgstr "Masukkan rahsia pengeluaran PayPal anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:257
+msgid "Enter your PayPal sandbox clientID"
+msgstr "Masukkan pelanggan kotak pasir PayPal anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:264
+msgid "Enter your PayPal sandbox secret"
+msgstr "Masukkan rahsia kotak pasir PayPal anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:284
+msgid "Background Color"
+msgstr "Warna latar belakang"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:295
+msgid "Font Color"
+msgstr "Warna fon"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:306
+msgid "Font Size"
+msgstr "Saiz huruf"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:331
+msgid "Select Template"
+msgstr "Pilih Templat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:336
+msgid "Choose template"
+msgstr "Pilih templat"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:345
+msgid ""
+"To send scheduled notifications please execute the following command hourly "
+"with your cron"
+msgstr ""
+"Untuk menghantar pemberitahuan yang dijadualkan sila laksanakan perintah "
+"berikut setiap jam dengan cron anda"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:353
+msgid "Send This Reminder"
+msgstr "Hantar Peringatan Ini"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:359
+msgid "hour(s) before their appointment"
+msgstr "jam sebelum pelantikan mereka"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:369
+msgid "Subject"
+msgstr "Subjek"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:372
+msgid "Enter email subject"
+msgstr "Masukkan subjek e-mel"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:377
+msgid "Message"
+msgstr "Mesej"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:408
+msgid "Some tokens you can use"
+msgstr "Sesetengah token yang boleh anda gunakan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:412
+msgid "To display the event's title"
+msgstr "Untuk memaparkan tajuk acara"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:415
+msgid "To display the person's name"
+msgstr "Untuk memaparkan nama orang itu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:418
+msgid "To display the person's email address"
+msgstr "Untuk memaparkan alamat e-mel orang itu"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:421
+msgid "To display the selected service"
+msgstr "Untuk memaparkan perkhidmatan yang dipilih"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:424
+msgid "To display the calendar name (if one is used) for this appointment"
+msgstr "Untuk memaparkan nama kalendar (jika digunakan) untuk pelantikan ini"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:427
+msgid "To display the appointment date and time"
+msgstr "Untuk memaparkan tarikh dan masa pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:430
+msgid "To display the business's name"
+msgstr "Untuk memaparkan nama perniagaan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:433
+msgid "To display the payment's method"
+msgstr "Untuk memaparkan kaedah pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:436
+msgid "To display the payment's amount"
+msgstr "Untuk memaparkan jumlah pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:439
+msgid "To display the payment's status"
+msgstr "Untuk memaparkan status pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:442
+msgid "To display the payment's id"
+msgstr "Untuk memaparkan id pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:445
+msgid "To display the appointment's price"
+msgstr "Untuk memaparkan harga temujanji"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:448
+msgid "To display link to the appointment details page"
+msgstr "Untuk memaparkan pautan ke halaman butiran pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:462
+msgid "Display the Appointment Booking Form"
+msgstr "Paparkan Borang Tempahan Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:465
+msgid ""
+"You can use this shortcode to display the front-end appointment booking form"
+msgstr ""
+"Anda boleh menggunakan shortcode ini untuk memaparkan borang tempahan janji "
+"temu hadapan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:473
+msgid "Copy"
+msgstr "Salinan"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:9
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:19
+msgid "Add New Staff"
+msgstr "Tambah Staf Baru"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:31
+msgid "This staff can provide the following service(s)"
+msgstr "Kakitangan ini boleh menyediakan perkhidmatan berikut"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:8
+msgid "Edit Staff"
+msgstr "Edit Staf"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:8
+msgid "View Staff Details"
+msgstr "Lihat Butiran Staf"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Choose"
+msgstr "Pilih"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Appointment"
+msgstr "Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:22
+msgid "Your Details"
+msgstr "Butiran anda"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:27
+msgid "Confirm"
+msgstr "Sahkan"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:68
+msgid "Choose Appointment"
+msgstr "Pilih Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:72
+msgid "I would like to schedule"
+msgstr "Saya ingin jadualkan"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:103
+msgid "Nothing left in the list. We'll let you know when it's ready."
+msgstr ""
+"Tiada apa-apa yang tersisa dalam senarai. Kami akan memberitahu anda bila "
+"sudah siap."
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:112
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:147
+msgid "Change"
+msgstr "Ubah"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:138
+msgid "Confirm Date & Time"
+msgstr "Sahkan Tarikh & Masa"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:154
+msgid "Your Info"
+msgstr "Maklumat anda"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:158
+msgid "Enter your name"
+msgstr "Masukkan nama anda"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:162
+msgid "Enter your phone number"
+msgstr "Masukkan nombor telefon anda"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:166
+msgid "Enter your email"
+msgstr "Masukkan emel anda"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:171
+msgid "Complete Appointment"
+msgstr "Pelantikan lengkap"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Checking payment"
+msgstr "Memeriksa pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Please wait"
+msgstr "Sila tunggu"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:210
+msgid "Book another appointment"
+msgstr "Tempah pelantikan lain"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:3
+msgid "Appointment Details"
+msgstr "Butiran Pelantikan"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:23
+msgid "When"
+msgstr "Bila"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:38
+msgid "Pending Payment"
+msgstr "Pending Pembayaran"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:56
+msgid "Book another apppointment"
+msgstr "Tempah tempat letak kenderaan lain"
+
+#. Name of the plugin
+msgid "AppointFox - The Best WordPress Booking Plugin"
+msgstr "AppointFox - Plugin Tempahan WordPress Terbaik"
+
+#. Description of the plugin
+msgid ""
+"An easy-to-use and user friendly appointment booking tool for your WordPress "
+"website."
+msgstr ""
+"Alat tempahan pelantikan mesra yang mudah digunakan dan mesra pengguna untuk "
+"laman web WordPress anda."
+
+#. URI of the plugin
+msgid "http://wpbooking-plugin.com"
+msgstr "http://wpbooking-plugin.com"
+
+#. Author of the plugin
+msgid "Neptune Plugins"
+msgstr "Plugin Neptunus"
+
+#. Author URI of the plugin
+msgid "http://neptuneplugins.com"
+msgstr "http://neptuneplugins.com"

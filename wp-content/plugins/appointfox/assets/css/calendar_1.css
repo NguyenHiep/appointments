@@ -1,0 +1,136 @@
+table.appointfox-calendar {
+    border-spacing: 0;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #5db0c2;
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    border-radius: 10px;
+}
+
+table.appointfox-calendar th,
+table.appointfox-calendar td { 
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    box-shadow: rgba(255,255,255, .06) 0px 1px 0px inset;
+}
+table.appointfox-calendar th {
+    font-size: 12px;
+    font-weight: normal;
+    /* border-bottom: 1px solid gray; */
+    color: white;
+    padding: 10px;
+    height: 72px;
+    /* border-bottom: 0px; */
+    background-color: #d86b1d;
+    border: 1px solid #d86b1d;
+    background-color: #1B363F;
+    /* border: 0px; */
+    color: white;
+    /* border-bottom-color: #1B363F; */
+    border: 1px solid #1B363F;
+}
+table.appointfox-calendar td {
+    height: 120px;
+}
+table.appointfox-calendar td.inactive {
+    background: #fff;
+    color: rgba(0,0,0, .2);
+}
+table.appointfox-calendar td strong {
+    color: red;
+}
+
+table.appointfox-calendar a {
+    text-decoration: none;
+}
+
+table.appointfox-calendar th a{
+    text-decoration:  none;
+    border-bottom: none;
+}
+
+table.appointfox-calendar .arrow-left {
+    margin: 5px;
+    float: left;
+    margin-top: 9px
+}
+
+table.appointfox-calendar .arrow-right {
+    margin: 5px;
+    float: right;
+    margin-top: 9px
+}
+
+@media screen and (min-width: 48em) {
+    table.appointfox-calendar a i, table.appointfox-calendar span.nav-title {
+        font-size: 20pt;
+    }  
+    table.appointfox-calendar span.nav-title {
+        line-height: 35pt;
+    }
+}
+
+table.appointfox-calendar span.nav-title {
+    text-align: center;
+}
+
+table.appointfox-calendar span.nav-back a {
+    font-size: 9pt;
+    text-decoration: underline;
+}
+
+table.appointfox-calendar span.text-available {
+    font-size: 11pt;
+    color: green;
+}
+
+table.appointfox-calendar tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table.appointfox-calendar tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.appointfox-btn {
+
+}
+
+.appointfox-btn {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12pt;
+    background: darkslateblue;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.appointfox-btn:hover, #div-appointfox-calendar a.appointfox-btn:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.appointfox-btn-success {
+    color: #ffffff;
+    background: #34d968;
+}
+
+.appointfox-btn-booknow {
+    padding: 5px 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+table.appointfox-calendar a, table.appointfox-calendar a:hover, table.appointfox-calendar a:visited {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+

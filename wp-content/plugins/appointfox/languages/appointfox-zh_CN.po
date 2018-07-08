@@ -1,0 +1,1211 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: AppointFox\n"
+"Language: zh-CN\n"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:72
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:126
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:106
+msgid "Are you sure"
+msgstr "你确定"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:73
+msgid "Record"
+msgstr "记录"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:74
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:101
+msgid "Yes, delete it"
+msgstr "是的，删除它"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:75
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:127
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:98
+msgid "You won't be able to revert this"
+msgstr "你将无法恢复这个"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:76
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:102
+msgid "Deleted"
+msgstr "删除"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:77
+msgid "Record has been deleted"
+msgstr "记录已被删除"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:78
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:148
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:200
+msgid "Create a new Category"
+msgstr "创建一个新的类别"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:79
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:125
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:104
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:49
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:143
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:30
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:32
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:17
+msgid "Service"
+msgstr "服务"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:80
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:99
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:142
+msgid "Category"
+msgstr "类别"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:81
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:137
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:111
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:117
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:123
+msgid "Success"
+msgstr "成功"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:82
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:100
+msgid "and all it's services will be deleted"
+msgstr "所有的服务都将被删除"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:83
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:96
+msgid "Service successfully saved"
+msgstr "服务已成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:84
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:103
+msgid "The category has been deleted"
+msgstr "该类别已被删除"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:85
+msgid "Oops"
+msgstr "哎呀"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:86
+msgid "Record(s) has been deleted"
+msgstr "记录已被删除"
+
+#: ../../../../../projects/appointfox/master/admin/AdminController.php:87
+msgid "No record(s) selected"
+msgstr "没有选择任何记录"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:8
+msgid "Appointments Calendar"
+msgstr "约会日历"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:4
+msgid "Appointments"
+msgstr "约会"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:121
+msgid "Choose service first"
+msgstr "首先选择服务"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:122
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:75
+msgid "Choose time"
+msgstr "选择时间"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:123
+msgid "Choose staff"
+msgstr "选择员工"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:124
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:76
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:68
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:82
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:75
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:125
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:175
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:87
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:73
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:89
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:124
+msgid "Loading"
+msgstr "载入中"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:125
+msgid "Appointment successfully saved"
+msgstr "约会成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:128
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:124
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:69
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:188
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:11
+msgid "Customer"
+msgstr "顾客"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:129
+msgid "Yes, cancel it"
+msgstr "是的，取消它"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:130
+msgid "No, keep it"
+msgstr "不，保留它"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:131
+msgid "Cancelled"
+msgstr "取消"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:132
+msgid "The appointment has been cancelled"
+msgstr "约会已被取消"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:133
+msgid "Customer successfully saved"
+msgstr "客户成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:134
+msgid "Appointment's note successfully saved"
+msgstr "约会记录已成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:135
+msgid "Appointment's payment paid"
+msgstr "预约的付款已付"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:136
+msgid "Today"
+msgstr "今天"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:137
+msgid "Month"
+msgstr "月"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:138
+msgid "Week"
+msgstr "周"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsCalendarController.php:139
+msgid "Day"
+msgstr "天"
+
+#: ../../../../../projects/appointfox/master/admin/AppointmentsController.php:138
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:112
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:118
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:124
+msgid "Record successfully saved"
+msgstr "录制成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:7
+msgid "Availability Calendars"
+msgstr "可用性日历"
+
+#: ../../../../../projects/appointfox/master/admin/CalendarsController.php:80
+msgid "Availability"
+msgstr "可用性"
+
+#: ../../../../../projects/appointfox/master/admin/CategoriesController.php:52
+msgid "Categories"
+msgstr "分类"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:90
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:114
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:6
+msgid "Customers"
+msgstr "顾客"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:113
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:119
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:125
+msgid "No record(s) found"
+msgstr "没有找到记录"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:115
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:121
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:130
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:118
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:47
+msgid "Edit"
+msgstr "编辑"
+
+#: ../../../../../projects/appointfox/master/admin/CustomersController.php:116
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:122
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:131
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:46
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:48
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:180
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:49
+msgid "Delete"
+msgstr "删除"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:94
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:120
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:6
+msgid "Payments"
+msgstr "支付"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:123
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:37
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:59
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:169
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:123
+msgid "Date"
+msgstr "日期"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:126
+msgid "Appointment Date"
+msgstr "约会日期"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:36
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:48
+msgid "Amount"
+msgstr "量"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:56
+msgid "Method"
+msgstr "方法"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:42
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:64
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:35
+msgid "Status"
+msgstr "状态"
+
+#: ../../../../../projects/appointfox/master/admin/PaymentsController.php:130
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:129
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:45
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:37
+msgid "Action"
+msgstr "行动"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:7
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:47
+msgid "Services"
+msgstr "服务"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:97
+msgid "Category successfully saved"
+msgstr "类别已成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/ServicesController.php:105
+msgid "The service has been deleted"
+msgstr "该服务已被删除"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:55
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:56
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:9
+msgid "Settings"
+msgstr "设置"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:96
+msgid "Settings successfully saved"
+msgstr "设置已成功保存"
+
+#: ../../../../../projects/appointfox/master/admin/SettingsController.php:97
+msgid "Copied"
+msgstr "复制"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:97
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:126
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:7
+msgid "Staffs"
+msgstr "员工"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:127
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:31
+msgid "Fullname"
+msgstr "全名"
+
+#: ../../../../../projects/appointfox/master/admin/StaffsController.php:128
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:57
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:58
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:74
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:245
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:246
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:14
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:21
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:34
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:31
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:165
+msgid "Email"
+msgstr "电子邮件"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:77
+msgid "Not available, please choose other date"
+msgstr "无法使用，请选择其他日期"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:78
+msgid "Please choose your date"
+msgstr "请选择你的日期"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:79
+msgid "Please choose your time"
+msgstr "请选择你的时间"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:80
+msgid "Please enter your name"
+msgstr "请输入你的名字"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:81
+msgid "Please enter your email"
+msgstr "请输入你的电子邮件"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:82
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:196
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:37
+msgid "Payment Paid"
+msgstr "付款已付"
+
+#: ../../../../../projects/appointfox/master/frontend/AppointmentsController.php:83
+msgid "Thank you"
+msgstr "谢谢"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:8
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:13
+msgid "Add New Appointment"
+msgstr "添加新的预约"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:18
+msgid "Select service"
+msgstr "选择服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:26
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:31
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:53
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:159
+msgid "Staff"
+msgstr "员工"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:28
+msgid "Select staff"
+msgstr "选择员工"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:43
+msgid "Start Time"
+msgstr "开始时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:49
+msgid "End Time"
+msgstr "时间结束"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:72
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:249
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:250
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:19
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:20
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:24
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:161
+msgid "Phone"
+msgstr "电话"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:65
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:66
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:32
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:253
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:39
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:23
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:24
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:170
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:39
+msgid "Info"
+msgstr "信息"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:70
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:42
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:284
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:49
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:92
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:182
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:62
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:61
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:66
+msgid "Close"
+msgstr "关"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/add.php:72
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:106
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:157
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:280
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:316
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:28
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:29
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:176
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:215
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:63
+msgid "Save"
+msgstr "保存"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:5
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:137
+msgid "Edit Appointment"
+msgstr "编辑约会"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:10
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:12
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:16
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:17
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:15
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:16
+msgid "Full name"
+msgstr "全名"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/index.php:22
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:24
+msgid "Date/Time"
+msgstr "约会时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:5
+msgid "View Appointment Details"
+msgstr "查看约会详情"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:11
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:15
+msgid "Id"
+msgstr "ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Appointments/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:240
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:86
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:135
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:137
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:142
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:18
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:23
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:157
+msgid "Name"
+msgstr "名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:25
+msgid "Add Appointment"
+msgstr "添加约会"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:44
+msgid "View Appointment"
+msgstr "查看预约"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:63
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:176
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:129
+msgid "Time"
+msgstr "时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:77
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:199
+msgid "Note"
+msgstr "注意"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:79
+msgid "Edit note"
+msgstr "编辑笔记"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:84
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:259
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:110
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:161
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:318
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:213
+msgid "Cancel"
+msgstr "取消"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:94
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:99
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:204
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:122
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:29
+msgid "Price"
+msgstr "价钱"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:100
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:210
+msgid "Paid"
+msgstr "付费"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:101
+msgid "Pending"
+msgstr "有待"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:112
+msgid "Cancel this appointment"
+msgstr "取消这个约会"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:115
+msgid "Mark payment paid"
+msgstr "支付标记付款"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:136
+msgid "Create a new Appointment"
+msgstr "创建一个新的约会"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:146
+msgid "Choose service"
+msgstr "选择服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:191
+msgid "Choose customer"
+msgstr "选择客户"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:195
+msgid "Create new customer"
+msgstr "创建新客户"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:209
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:36
+msgid "Payment"
+msgstr "付款"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:236
+msgid "Create a new Customer"
+msgstr "创建一个新的客户"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:242
+msgid "Full Name"
+msgstr "全名"
+
+#: ../../../../../projects/appointfox/master/view/admin/AppointmentsCalendar/index.php:261
+msgid "Create"
+msgstr "创建"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:30
+msgid "Search"
+msgstr "搜索"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:37
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:79
+msgid "Add New Availability Calendar"
+msgstr "添加新的可用性日历"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:91
+msgid "Assign to Staff(s)"
+msgstr "分配给工作人员"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:129
+msgid "Edit Availability Calendar"
+msgstr "编辑可用性日历"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:179
+msgid "Availability Calendar"
+msgstr "可用性日历"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:185
+msgid "Calendar Name"
+msgstr "日历名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:191
+msgid "Regular Weekly Hours"
+msgstr "定期每周小时"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:193
+msgid "Use this schedule if you have similar hours week-to-week"
+msgstr "如果您每周有相似的小时数，请使用此时间表"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:194
+msgid "Enter window(s) of time (9:00am-1:00pm, 2:00pm-6:00pm) or exact start times: (9:00am, 10:30am, 2:00pm)"
+msgstr "输入时间窗口（上午9点至下午1点，下午2点至6点）或确切的开始时间:(上午9点，上午10点30分，下午2点）"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:202
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:63
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:84
+msgid "Sunday"
+msgstr "星期日"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:205
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:64
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:87
+msgid "Monday"
+msgstr "星期一"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:208
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:65
+msgid "Tuesday"
+msgstr "星期二"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:211
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:66
+msgid "Wednesday"
+msgstr "星期三"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:214
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:67
+msgid "Thursday"
+msgstr "星期四"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:217
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:68
+msgid "Friday"
+msgstr "星期五"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:220
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:69
+msgid "Saturday"
+msgstr "星期六"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:233
+msgid "Invalid character"
+msgstr "无效字符"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:291
+msgid "Availability for Specific Days"
+msgstr "特定日期的可用性"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "This shows your monthly availability"
+msgstr "这显示您的每月可用性"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "Select a specific date to set, change or override your hours"
+msgstr "选择一个特定的日期来设置，更改或覆盖您的小时"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:294
+msgid "Enter window(s) of time\n"
+"\t\t\t\t\t\t(9:00am-1:00pm, 2:00pm-5:00pm) or exact start times: (9:00am, 10:30am, 2:00pm)"
+msgstr "输入时间窗口\n"
+"（上午9:00至下午1:00，下午2:00至5:00）或确切的开始时间:(上午9:00，上午10:30，下午2:00）"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:307
+msgid "Hour for"
+msgstr "小时"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/index.php:311
+msgid "Closed - Enter availability like: 9.00am-12.30pm, 1.30pm-6pm"
+msgstr "关闭 - 输入可用性：上午9点至下午12点30分，下午1点30分至6点"
+
+#: ../../../../../projects/appointfox/master/view/admin/Calendars/monthly_calendar2.php:44
+msgid "Back to"
+msgstr "回到"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/add.php:5
+#: ../../../../../projects/appointfox/master/view/admin/Customers/index.php:17
+msgid "Add New Customer"
+msgstr "添加新客户"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/edit.php:5
+msgid "Edit Customer"
+msgstr "编辑客户"
+
+#: ../../../../../projects/appointfox/master/view/admin/Customers/view.php:5
+msgid "View Customer Details"
+msgstr "查看客户详情"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/add.php:5
+msgid "Add New Payment"
+msgstr "添加新的付款"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/edit.php:5
+msgid "Edit Payment"
+msgstr "编辑付款"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/index.php:33
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:40
+msgid "Appointment Date/Time"
+msgstr "约会日期/时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:8
+msgid "View Payment Details"
+msgstr "查看付款详情"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:16
+msgid "Payment Date/Time"
+msgstr "付款日期/时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Payments/view.php:82
+msgid "Payment ID"
+msgstr "付款ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:25
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid "Add New Service"
+msgstr "添加新服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:27
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid "Add New Category"
+msgstr "添加新类别"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Nothing left in the list"
+msgstr "没有留在列表中"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:64
+msgid "Add a new category or service via button above"
+msgstr "通过上面的按钮添加一个新的类别或服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:71
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:75
+msgid "Click"
+msgstr "点击"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:72
+msgid "to create new Service or Click on Service's Item to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Service"
+msgstr "创建新服务或点击服务项目进行编辑或删除\n"
+"一项服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:76
+msgid "to create new Category or hover on Category name to edit or delete\n"
+"\t\t\t\t\t\t\t\ta Category"
+msgstr "创建新类别或悬停在类别名称上进行编辑或删除\n"
+"一个类别"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:80
+msgid "Don't forget to assign a staff after new service created"
+msgstr "不要忘记在创建新服务后分配一个工作人员"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:88
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:89
+msgid "Title"
+msgstr "标题"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:94
+msgid "Access"
+msgstr "访问"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:96
+msgid "Public"
+msgstr "上市"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:97
+msgid "Private"
+msgstr "私人的"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:105
+msgid "Duration"
+msgstr "持续时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:131
+msgid "Color"
+msgstr "颜色"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:144
+msgid "none"
+msgstr "没有"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:154
+msgid "Assigned Staffs"
+msgstr "指派的人员"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:201
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:207
+#: ../../../../../projects/appointfox/master/view/admin/Services/index.php:208
+msgid "Category Name"
+msgstr "分类名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:31
+msgid "General"
+msgstr "一般"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:41
+msgid "Email Templates"
+msgstr "电子邮件模板"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:46
+msgid "Client's Page"
+msgstr "客户的页面"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:51
+msgid "Shortcode"
+msgstr "短代码"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:63
+msgid "Business Name"
+msgstr "商家名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:66
+msgid "Enter your business name"
+msgstr "输入您的商家名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:71
+msgid "Instructions"
+msgstr "说明"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:74
+msgid "Write any instructions here to show to clients (optional)"
+msgstr "写下任何指示以向客户展示（可选）"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:79
+msgid "Week Start On"
+msgstr "每周开始"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:94
+msgid "Time Format"
+msgstr "时间格式"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:107
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:272
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:317
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:398
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:122
+msgid "Currency"
+msgstr "货币"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:198
+msgid "Accept Payment"
+msgstr "接受付款"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:203
+msgid "None"
+msgstr "没有"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:216
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:249
+msgid "Sandbox"
+msgstr "砂箱"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:230
+msgid "Live"
+msgstr "生活"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:237
+msgid "Enter your PayPal production clientID"
+msgstr "输入您的PayPal生产客户端ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:243
+msgid "Enter your PayPal production secret"
+msgstr "输入您的PayPal生产密码"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:257
+msgid "Enter your PayPal sandbox clientID"
+msgstr "输入您的PayPal沙箱客户端ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:264
+msgid "Enter your PayPal sandbox secret"
+msgstr "输入您的PayPal沙箱秘密"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:284
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:295
+msgid "Font Color"
+msgstr "字体颜色"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:306
+msgid "Font Size"
+msgstr "字体大小"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:331
+msgid "Select Template"
+msgstr "选择模板"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:336
+msgid "Choose template"
+msgstr "选择模板"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:345
+msgid "To send scheduled notifications please execute the following command hourly with your cron"
+msgstr "要发送预定通知，请使用您的cron按小时执行以下命令"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:353
+msgid "Send This Reminder"
+msgstr "发送此提醒"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:359
+msgid "hour(s) before their appointment"
+msgstr "小时之前，他们的约会"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:369
+msgid "Subject"
+msgstr "学科"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:372
+msgid "Enter email subject"
+msgstr "输入邮件主题"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:377
+msgid "Message"
+msgstr "信息"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:408
+msgid "Some tokens you can use"
+msgstr "一些令牌可以使用"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:412
+msgid "To display the event's title"
+msgstr "显示事件的标题"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:415
+msgid "To display the person's name"
+msgstr "显示该人的姓名"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:418
+msgid "To display the person's email address"
+msgstr "显示该人的电子邮件地址"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:421
+msgid "To display the selected service"
+msgstr "显示选定的服务"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:424
+msgid "To display the calendar name (if one is used) for this appointment"
+msgstr "显示该约会的日历名称（如果使用的话）"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:427
+msgid "To display the appointment date and time"
+msgstr "显示约会日期和时间"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:430
+msgid "To display the business's name"
+msgstr "显示公司的名称"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:433
+msgid "To display the payment's method"
+msgstr "显示付款的方法"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:436
+msgid "To display the payment's amount"
+msgstr "显示付款金额"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:439
+msgid "To display the payment's status"
+msgstr "显示付款的状态"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:442
+msgid "To display the payment's id"
+msgstr "显示付款的ID"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:445
+msgid "To display the appointment's price"
+msgstr "显示约会的价格"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:448
+msgid "To display link to the appointment details page"
+msgstr "显示指向预约详细信息页面的链接"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:462
+msgid "Display the Appointment Booking Form"
+msgstr "显示预约表格"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:465
+msgid "You can use this shortcode to display the front-end appointment booking form"
+msgstr "您可以使用此简码显示前端预约表格"
+
+#: ../../../../../projects/appointfox/master/view/admin/Settings/index.php:473
+msgid "Copy"
+msgstr "复制"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:9
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/index.php:19
+msgid "Add New Staff"
+msgstr "添加新员工"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/add.php:32
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:31
+msgid "This staff can provide the following service(s)"
+msgstr "这名员工可以提供以下服务："
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/edit.php:8
+msgid "Edit Staff"
+msgstr "编辑员工"
+
+#: ../../../../../projects/appointfox/master/view/admin/Staffs/view.php:8
+msgid "View Staff Details"
+msgstr "查看员工详情"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Choose"
+msgstr "选择"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:17
+msgid "Appointment"
+msgstr "约定"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:22
+msgid "Your Details"
+msgstr "你的资料"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:27
+msgid "Confirm"
+msgstr "确认"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:68
+msgid "Choose Appointment"
+msgstr "选择约会"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:72
+msgid "I would like to schedule"
+msgstr "我想安排"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:103
+msgid "Nothing left in the list. We'll let you know when it's ready."
+msgstr "没有留在列表中。准备就绪后，我们会通知您。"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:112
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:147
+msgid "Change"
+msgstr "更改"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:138
+msgid "Confirm Date & Time"
+msgstr "确认日期和时间"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:154
+msgid "Your Info"
+msgstr "您的信息"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:158
+msgid "Enter your name"
+msgstr "输入你的名字"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:162
+msgid "Enter your phone number"
+msgstr "输入你的电话号码"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:166
+msgid "Enter your email"
+msgstr "输入你的电子邮箱"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:171
+msgid "Complete Appointment"
+msgstr "完成任命"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Checking payment"
+msgstr "检查付款"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:205
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:49
+msgid "Please wait"
+msgstr "请稍候"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking.php:210
+msgid "Book another appointment"
+msgstr "另预约"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:3
+msgid "Appointment Details"
+msgstr "约会细节"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:23
+msgid "When"
+msgstr "什么时候"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:38
+msgid "Pending Payment"
+msgstr "待付款"
+
+#: ../../../../../projects/appointfox/master/view/frontend/Appointments/booking_details.php:56
+msgid "Book another apppointment"
+msgstr "预订另一个apppointment"
+
+#. Name of the plugin
+#: 
+msgid "AppointFox - The Best WordPress Booking Plugin"
+msgstr "AppointFox  - 最棒的WordPress订阅插件"
+
+#. Description of the plugin
+#: 
+msgid "An easy-to-use and user friendly appointment booking tool for your WordPress website."
+msgstr "为您的WordPress网站提供易于使用和用户友好的预约工具。"
+
+#. URI of the plugin
+#: 
+msgid "http://wpbooking-plugin.com"
+msgstr "http://wpbooking-plugin.com"
+
+#. Author of the plugin
+#: 
+msgid "Neptune Plugins"
+msgstr "海王星插件"
+
+#. Author URI of the plugin
+#: 
+msgid "http://neptuneplugins.com"
+msgstr "http://neptuneplugins.com"
+

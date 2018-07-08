@@ -1,0 +1,400 @@
+#calendar,
+.appointfox-tbs {
+    font-size: 15px;
+}
+
+.appointfox-wrap {
+    background-color: white;
+    padding: 30px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 500px;
+}
+
+.appointfox-tbs th.th-action {
+    width: 100px;
+    text-align: center;
+}
+
+.appointfox-tbs td.td-action {
+    text-align: center;
+}
+
+.appointfox-tbs .btn-icon {
+    padding: 3px 7px !important;
+    margin-right: 2px;
+}
+
+.appointfox-tbs .dt-bootstrap label {
+    font-weight: normal;
+}
+
+.appointfox-tbs .tab-pane {
+    padding: 20px 10px;
+}
+
+@media (min-width: 768px) {
+    .appointfox-tbs .dataTables_filter input[type="search"] {
+        margin-left: 10px;
+    }
+    .appointfox-tbs div.dt-buttons.btn-group {
+        display: inline;
+    }
+}
+
+/* Hide first in stacktable*/
+
+/*table.stacktable.small-only tr:nth-child(1) {
+    display: none;
+}*/
+
+/*.dataTables_filter {
+    text-align: right;
+}*/
+
+/**
+Boostrap modal center of screen
+*/
+
+/*.appointfox-tbs .modal {
+}
+.appointfox-tbs .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.appointfox-tbs .vertical-align-center {
+     To center vertically 
+    display: table-cell;
+    vertical-align: middle;
+}
+.appointfox-tbs .modal-content {
+     Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it 
+    width:inherit;
+    height:inherit;
+     To center horizontally 
+    margin: 0 auto;
+}*/
+
+.modal {
+    top: 46px !important;
+}
+
+.modal-open {
+    overflow: hidden !important;
+}
+
+.modal-open .modal,
+.appointfox-tbs .modal {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    /*    filter: alpha(opacity=50);
+        opacity: .5;*/
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-backdrop {
+        z-index: -1;
+    }
+}
+
+/*.appointfox-tbs .modal {
+    text-align: center;
+}
+*/
+
+@media screen and (min-width: 768px) {
+    /*    .appointfox-tbs .modal:before {
+            display: inline-block;
+            vertical-align: middle;
+            content: " ";
+            height: 100%;
+        }*/
+    .dt-buttons {
+        display: inline;
+    }
+}
+
+/*
+.appointfox-tbs .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}*/
+
+/* Print view */
+
+body.dt-print-view {
+    font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.dt-print-view h1 {
+    text-align: center;
+}
+
+.dt-print-view table {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.dt-print-view table thead th,
+.dt-print-view table thead td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #111;
+    text-align: left;
+}
+
+.dt-print-view table tbody tr:first-child td {
+    border-top: none;
+}
+
+.dt-print-view table tbody td {
+    border-top: 1px solid #ddd;
+}
+
+.dt-print-view table tbody th,
+.dt-print-view table tbody td {
+    padding: 8px 10px;
+}
+
+/* Details view */
+
+table.table-striped-custom>tbody>tr>td {
+    border-top: 1px solid #ddd;
+}
+
+table.table-striped-custom>tbody>tr:first-child td {
+    border-top: none;
+}
+
+/* Color picker */
+
+.appointfox-color-picker-wrapper {
+    position: relative;
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container.wp-picker-active {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container,
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container {
+    position: absolute;
+    z-index: 10;
+    padding: 6px;
+    margin-left: -6px;
+    /*background-color: #fff;*/
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container .wp-color-result {
+    height: auto;
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container .button {
+    margin-left: 6px;
+}
+
+.appointfox-tbs .appointfox-color-picker-wrapper .wp-picker-container input[type="text"].wp-color-picker {
+    padding: 3px 5px;
+    height: 21px;
+}
+
+/* Single page CRUD */
+
+.welcome-crud {
+    padding: 100px 20px;
+    /*line-height: 200px;*/
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+#PanelLoading {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.panel-category-action {
+    display: none;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.category-name {
+    display: block;
+    height: 20px;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+.category-name:hover>span.panel-category-action {
+    display: inline-block;
+}
+
+/* .notifyjs-corner {
+    top: 55px !important;
+    z-index: 999999999;
+} */
+
+.toast-top-right {
+    top: 55px;
+    right: 12px;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.loading-bar {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 100px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: auto;
+    padding-top: 23px;
+    background-color: white;
+    z-index: 9999999;
+}
+
+/* Vue Color Picker */
+
+.current-color {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.vc-sketch {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    z-index: 9;
+}
+
+.vc-sketch-presets-color {
+    float: left;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.category-name {
+    cursor: default;
+}
+
+/* .appointfox-tbs .modal:nth-of-type(even) {
+    z-index: 1042 !important;
+}
+
+.appointfox-tbs .modal-backdrop.in:nth-of-type(even) {
+    z-index: 1041 !important;
+} */
+
+.appointfox-tbs ul {
+    list-style: disc;
+}
+
+.table-weeklyhours th {
+    width: 14%;
+    font-weight: bold;
+}
+
+.table-weeklyhours th,
+.table-weeklyhours td {
+    font-size: 11pt;
+}
+
+.table-weeklyhours textarea {
+    width: 100%;
+}
+
+.text-hour {
+    height: 100px;
+    width: 100%;
+}
+
+.text-error {
+    color: red;
+}
+
+.appointfox-calendar td.day-active:hover {
+    background-color: #f1f1f1;
+}
+
+#PopupHourTime {
+    overflow: hidden;
+    width: 100%;
+}
+
+#ModalViewAppointment p.form-control-static {
+    font-size: 12pt;
+}
+
+/* .appointfox-tbs .wp-picker-container .wp-picker-active {
+    background-color: white;
+    z-index: 99999;
+} */
+
+.appointfox-tbs .wp-picker-container.wp-picker-active {
+    background-color: white;
+    z-index: 99999999;
+}
+
+#wpfooter {
+    position: relative;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    box-shadow: none;
+}
+
+.select2-selection__choice {
+    background: #eee;
+    border: 1px solid #999;
+}
