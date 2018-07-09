@@ -1,8 +1,9 @@
 <?php
 /* Template Name: Page contact */
 get_header();
+global $post;
 ?>
-
-<?php
-get_footer();
-?>
+<section id="content">
+    <?php echo apply_filters('the_content', $post->post_content); ?>
+</section>
+<?php get_footer(); ?>

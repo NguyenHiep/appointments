@@ -1,0 +1,9 @@
+
+Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
+j	php:S1142Ï"OReduce the number of returns of this function 4, down to the maximum allowed 3.(æÀýÑÿÿÿÿÿ
+o	php:S3776Ï"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(æÀýÑÿÿÿÿÿ
+º	php:S1192™"¤Define a constant instead of duplicating this literal "Conditional query tags do not work before the query is run. Before then, they always return false." 26 times.(¨¶ã!
+c	php:S1192a"IDefine a constant instead of duplicating this literal "wp_query" 3 times.(³íÊÂúÿÿÿÿ
+\	php:S1192™"GDefine a constant instead of duplicating this literal "3.1.0" 26 times.(¨¶ã!
+d	php:S1192¬"IDefine a constant instead of duplicating this literal "monthnum" 4 times.(¯åÝºýÿÿÿÿ
+q	php:S1488³"[Immediately return this expression instead of assigning it to the temporary variable "$id".(ÛñÉÙ
