@@ -23,6 +23,10 @@ a:hover {
     color:#a9cfd6;
     text-decoration: none;
 }
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+.mb40 {margin-bottom: 40px;}
+.mb50 {margin-bottom: 50px;}
 .header {
     position: absolute;
     top: 0;
@@ -123,7 +127,8 @@ a:hover {
     background: #fff7eb;
     opacity: 0;
     font-family: 'Averia Serif Libre', cursive;
-    font-size: 60px;
+    font-size: 120px;
+    font-weight: 400;
     text-align: center;
     z-index: 8;
     transition: opacity .3s ease-out;
@@ -185,10 +190,12 @@ a:hover {
     transition: opacity .6s ease-out;
 }
 .face-background {
-    background-size: cover !important;
+    background: url(../imgs/img-face-service.jpg) no-repeat center center;
+    background-size: cover;
 }
 .body-background {
-    background-size: cover !important;
+    background: url(../imgs/img-body-service.jpg) no-repeat center center;
+    background-size: cover;
 }
 .category-title {
     font-family: 'Averia Serif Libre', cursive;
@@ -200,6 +207,10 @@ a:hover {
 }
 .post-title {
     margin-top: 10px;
+}
+.post-title--size-2 {
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 .post-time, .post-cost {
     color: #a9cfd6;
