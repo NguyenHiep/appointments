@@ -1,8 +1,0 @@
-
-s	php:S1488b"^Immediately return this expression instead of assigning it to the temporary variable "$links".(Ó°çµ
-J	php:S1172<"5Remove the unused function parameter "$w3tc_setting".(Ù„½ì
-c	php:S1192"IDefine a constant instead of duplicating this literal "wp_head" 11 times.(åÁ³Æýÿÿÿÿ
-z	php:S1488I"`Immediately return this expression instead of assigning it to the temporary variable "$content".(ªÏÁšùÿÿÿÿ
-m	php:S1192"SDefine a constant instead of duplicating this literal "wp_enqueue_scripts" 3 times.(õ•÷Óûÿÿÿÿ
-Jphp:S121‰"0Add curly braces around the nested statement(s).(¢ŠÇ»ÿÿÿÿÿ
-_	php:S1192"JDefine a constant instead of duplicating this literal "wp_footer" 3 times.(Ô¥Œ„

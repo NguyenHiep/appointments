@@ -1,7 +1,7 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define('BVHCM_VERSION', '1.0.1');
+define('STYLE_VERSION', '1.0.1');
 
 if (!defined('THEME_URL')) {
     define('THEME_URL', get_bloginfo('template_url') . '/');
