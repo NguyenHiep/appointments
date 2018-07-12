@@ -111,7 +111,6 @@ if (!function_exists('get_content_export')) {
     }
 }
 
-
 if (!function_exists('limit_text')) {
     function limit_text($text, $limit)
     {
@@ -123,9 +122,5 @@ if (!function_exists('limit_text')) {
         return $text;
     }
 }
-ob_start("ob_gzhandler");
-ini_set('zlib.output_compression', '1');
-
-if (!is_admin()) ob_start('ob_gzhandler');     //because, in admin pages, it causes plugin installation freezing
 
 remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );

@@ -1,9 +1,9 @@
 <?php
 /**
- * Init theme bds
+ * Init theme appointments
  */
-if ( ! function_exists( 'bds_init' ) ) {
-    function bds_init(){
+if ( ! function_exists( 'appointments_init' ) ) {
+    function appointments_init(){
         ob_start();
         // register header nav menu location
         register_nav_menus( array(
@@ -13,13 +13,20 @@ if ( ! function_exists( 'bds_init' ) ) {
         add_theme_support("post-thumbnails");
         add_theme_support('menus');
         add_post_type_support('page', 'excerpt');
-        add_theme_support( 'post-formats', array(
+       /* add_theme_support( 'post-formats', array(
             'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
-        ) );
+        ) );*/
         add_theme_support( 'title-tag' );
+        add_theme_support( 'custom-logo', array(
+            'height'      => 50,
+            'width'       => 200,
+            'flex-height' => true,
+            'flex-width'  => true,
+            'header-text' => array( 'site-title', 'site-description' ),
+        ) );
     }
 }
-add_action('init', 'bds_init');
+add_action('init', 'appointments_init');
 
 /*===============================================Modify Menu Wordpress=============================================*/
 function remove_menus() {
