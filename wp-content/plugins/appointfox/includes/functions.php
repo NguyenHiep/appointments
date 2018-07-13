@@ -27,8 +27,13 @@ function afx_setup_plugin() {
 	}
 
 	add_action( 'plugins_loaded', 'afx_load_languages' );
+
+	add_action( 'admin_enqueue_scripts', 'upload_load_scripts_admin' );
 }
 
+function upload_load_scripts_admin(){
+    wp_enqueue_media();
+}
 /**
  * Load language files
  *

@@ -161,7 +161,6 @@ class ServicesController {
 
 		// init inputs
 		$inputs = $_POST['data']['Service'];
-
 		$inputs['title']       = sanitize_text_field( $inputs['title'] );
 		$inputs['category_id'] = intval( $inputs['category_id'] );
 		$inputs['duration']    = intval( $inputs['duration'] );
@@ -172,6 +171,11 @@ class ServicesController {
 		$inputs['color']  = sanitize_hex_color( $inputs['color'] );
 		$inputs['access'] = sanitize_text_field( $inputs['access'] );
 		$inputs['note']   = sanitize_textarea_field( $inputs['note'] );
+        if (filter_var($inputs['image'], FILTER_VALIDATE_URL)) {
+            $inputs['image'] = $inputs['image'];
+        }else{
+            $inputs['image'] = null;
+        }
 
 		if ( ! empty( $inputs['staffs'] ) ) {
 			$inputs['staffs'] = explode( ',', $inputs['staffs'] );
@@ -201,6 +205,7 @@ class ServicesController {
 						'color'       => $inputs['color'],
 						'access'      => $inputs['access'],
 						'note'        => $inputs['note'],
+						'image'       => $inputs['image'],
 					), array(
 						'%d',
 						'%s',
@@ -209,6 +214,7 @@ class ServicesController {
 						'%s',
 						'%s',
 						'%s',
+                        '%s',
 					)
 				);
 				$data['insert_id'] = $wpdb->insert_id;
@@ -222,6 +228,7 @@ class ServicesController {
 						'color'       => $inputs['color'],
 						'access'      => $inputs['access'],
 						'note'        => $inputs['note'],
+						'image'       => $inputs['image'],
 					), array( 'ID' => $inputs['id'] ), array(
 						'%d',
 						'%s',
@@ -230,6 +237,7 @@ class ServicesController {
 						'%s',
 						'%s',
 						'%s',
+                        '%s',
 					), array( '%d' )
 				);
 				$data['insert_id'] = $inputs['id'];

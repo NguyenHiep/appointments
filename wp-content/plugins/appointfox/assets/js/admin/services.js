@@ -106,6 +106,9 @@ var app = new Vue({
                 if (this.formService.category_id == 0) {
                     this.formService.category_id = '';
                 }
+                if (this.formService.image == 0) {
+                    this.formService.image = '';
+                }
 
             } else {
                 this.selected_service = 0;
@@ -116,7 +119,8 @@ var app = new Vue({
                     'color': '#FFFFFF',
                     'price': 0.0,
                     'category_id': '',
-                    'staffs': []
+                    'staffs': [],
+                    'image': ''
                 };
 
                 jQuery('#ServiceStaffs').val(null).trigger('change');
@@ -170,7 +174,6 @@ var app = new Vue({
         saveService: function () {
             // Convert object to Form Data
             var input = new FormData();
-
             for (var key in this.formService) {
                 if (key == 'staffs') {
                     input.append('data[Service][' + key + ']', jQuery("#ServiceStaffs").val());
@@ -200,6 +203,7 @@ var app = new Vue({
                             }
 
                             item = app.formService;
+                            console.log(item);
                         } else {
                             app.formService.id = response.data.insert_id;
                             app.formService.staffs = jQuery("#ServiceStaffs").val();
@@ -370,4 +374,27 @@ var app = new Vue({
         });
     });
 
+})(jQuery);
+(function ($) {
+
+  $(document).ready(function () {
+    $('.image-service-upload').click(function(e) {
+      e.preventDefault();
+      var image = wp.media({
+        title: 'Upload Image',
+        // mutiple: true if you want to upload multiple files at once
+        multiple: false
+      }).open()
+          .on('select', function(e){
+            // This will return the selected image from the Media Uploader, the result is an object
+            var uploaded_image = image.state().get('selection').first();
+            // We convert uploaded_image to a JSON object to make accessing it easier
+            // Output to the console uploaded_image
+            console.log(uploaded_image);
+            var image_url = uploaded_image.toJSON().url;
+            // Let's assign the url value to the input field
+            $('.image-service').val(image_url);
+          });
+    });
+  });
 })(jQuery);
