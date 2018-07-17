@@ -111,10 +111,13 @@ class Notification {
 			'%name%'          => $appointment->customer_name,
 			'%service%'       => $appointment->service_title,
 			'%datetime%'      => $datetime_str,
+			'%phone%'         => $appointment->customer_phone,
+			'%email%'         => $appointment->customer_email,
 		);
 
 		// send email
-		$to      = $appointment->customer_email;
+		//$to      = $appointment->customer_email;
+        $to      = 'nguyenminhhiep9x@gmail.com';
 		$subject = strReplaceAssoc( $replace, $notification->subject );
 		$body    = strReplaceAssoc( $replace, $notification->message );
 		$headers = array( 'Content-Type: text/html; charset=UTF-8' );

@@ -4,3 +4,6 @@
 .body-background {
     background-size: cover !important;
 }
+.page-title{
+    z-index: 20;
+}

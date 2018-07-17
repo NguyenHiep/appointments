@@ -141,7 +141,8 @@ class PaymentsController {
 				'edit_nonce'               => wp_create_nonce( 'edit' ),
 				'delete_nonce'             => wp_create_nonce( 'delete' ),
 				'labels'                   => $translation_array,
-				'locale_display'           => locale_get_display_language( get_locale(), 'en' ),
+				//'locale_display'           => locale_get_display_language( get_locale(), 'en' ),
+				'locale_display'           => 'en',
 			)
 		);
 	}

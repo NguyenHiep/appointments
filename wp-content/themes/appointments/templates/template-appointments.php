@@ -4,7 +4,8 @@ get_header();
 global $post;
 ?>
 <section class="page page--appointments">
-    <div class="row">
+    <div class="row page__inner">
+      <h1 class="page-title active"><strong><?php the_title()?></strong></h1>
       <div class="col-md-6">
         <div class="post-desc">
             <?php if(get_field('instroduction')):?>
