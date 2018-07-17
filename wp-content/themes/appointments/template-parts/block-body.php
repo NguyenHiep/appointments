@@ -18,7 +18,7 @@ $the_query = new WP_Query($args);
 if ($the_query->have_posts()) :
     ?>
     <div class="category-block">
-        <h2 class="category-title">body</h2>
+        <h2 class="category-title"><?php echo get_cat_name( CATEGORY_BODY_ID ) ?></h2>
         <?php while ($the_query->have_posts()): $the_query->the_post();
             $thumbnail_url = get_the_post_thumbnail_url($the_query->ID, 'full');
             if (empty($thumbnail_url)) {
