@@ -5,8 +5,7 @@ get_header();
 <div class="page page--service">
     <div class="page__inner">
         <h1 class="page-title active"><strong><?php echo get_the_title(); ?></strong></h1>
-        <?php
-        $blocks = ['face', 'body'];
+        <?php $blocks = ['face', 'body'];
         if (!empty($blocks)) {
             foreach ($blocks as $block) {
                 get_template_part('template-parts/block', $block);

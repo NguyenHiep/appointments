@@ -1,11 +1,6 @@
 <?php
-
-// Register Custom Navigation Walker
-require_once dirname( __FILE__ ) . '/wp_bootstrap_pagination.php';
-
 set_post_thumbnail_size( 250, 250 );
 
-/*==================================================Javascript==================================================*/
 add_action('init', 'modify_jquery');
 function modify_jquery() {
     if (!is_admin()) {
@@ -33,8 +28,6 @@ function disable_wp_emojicons() {
     remove_filter('the_content_feed', 'wp_staticize_emoji');
     remove_filter('comment_text_rss', 'wp_staticize_emoji');
 }
-
-/*==================================================Clean Wordpress Header==================================================*/
 
 function rmyoast_ob_start() {
     ob_start('remove_yoast');

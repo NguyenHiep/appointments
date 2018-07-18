@@ -14,7 +14,7 @@ define('APPOINTMENTS_ID', 39);
 require_once('functions/admin.php');
 require_once('functions/front-ends.php');
 // Translation
-load_theme_textdomain('bvhcm', get_stylesheet_directory() . '/languages');
+load_theme_textdomain('appointments', get_stylesheet_directory() . '/languages');
 
 function customize_wp_bootstrap_pagination($args) {
 
@@ -23,8 +23,6 @@ function customize_wp_bootstrap_pagination($args) {
 
     return $args;
 }
-add_filter('wp_bootstrap_pagination_defaults', 'customize_wp_bootstrap_pagination');
-
 add_filter('wpcf7_form_elements', function($content) {
     $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
 

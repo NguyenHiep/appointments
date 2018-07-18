@@ -164,15 +164,15 @@
 											</div>
 										</div>
 									</div>
-                                    <div class="row">
+                                    <!--<div class="row">
                                       <div class="col-md-12">
                                         <div class="form-group">
-                                          <label for="ServiceImage"><?php _e( 'Image', 'appointfox' ); ?></label>
+                                          <label for="ServiceImage"><?php /*_e( 'Image', 'appointfox' ); */?></label>
                                           <input v-model="formService.image" id="ServiceImage" type="text" name="data[Service][image]" class="form-control image-service">
                                           <button class="image-service-upload btn btn-primary " type="button" style="margin-top: 10px;">Upload image</button>
                                         </div>
                                       </div>
-                                    </div>
+                                    </div>-->
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">

@@ -1,6 +1,5 @@
 <?php
-global $theme_options;
-$posts_per_page = (!empty($theme_options['block_body'])) ? $theme_options['block_body'] : 6;
+$posts_per_page = 6;
 $args = [
     'post_type'      => 'post',
     'posts_per_page' => $posts_per_page,

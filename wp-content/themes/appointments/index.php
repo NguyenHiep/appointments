@@ -1,4 +1,3 @@
-<?php global $theme_options; ?>
 <?php $face_image = getImageCategoryById(CATEGORY_FACE_ID);
 if (empty($face_image)) {
     $face_image = THEME_URL . 'assets/' . 'imgs/img-face-service.jpg';
