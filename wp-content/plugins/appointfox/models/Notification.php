@@ -116,8 +116,10 @@ class Notification {
 		);
 
 		// send email
-		//$to      = $appointment->customer_email;
-        $to      = 'nguyenminhhiep9x@gmail.com';
+        $to = $appointment->customer_email;
+        if (defined('APPOINTMENT_MAIL_TO')) {
+            $to  = APPOINTMENT_MAIL_TO;
+        }
 		$subject = strReplaceAssoc( $replace, $notification->subject );
 		$body    = strReplaceAssoc( $replace, $notification->message );
 		$headers = array( 'Content-Type: text/html; charset=UTF-8' );

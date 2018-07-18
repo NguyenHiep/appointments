@@ -64,3 +64,5 @@ function my_enqueue($hook) {
 }
 
 add_action('admin_enqueue_scripts', 'my_enqueue');
+// Disable update plugin
+add_filter('site_transient_update_plugins', '__return_false');
